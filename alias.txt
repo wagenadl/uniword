@@ -1,0 +1,533 @@
+000021 ! bang; factorial
+000022 " neutral quotation mark; quotation mark, neutral
+000023 # crosshatch; hash; octothorpe; pound sign
+000024 $ escudo; milreis
+000027 ' apl quote; apostrophe-quote; neutral single quotation mark; quotation mark, neutral single; quote, apl; single quotation mark, neutral
+000028 ( opening parenthesis; parenthesis, opening
+000029 ) closing parenthesis; parenthesis, closing
+00002a * star
+00002c , decimal separator; separator, decimal
+00002d - hyphen or minus sign; hyphus; minus sign, hyphen or
+00002e . decimal point; dot; period; point, decimal
+00002f / slash; virgule
+00003b ; greek question mark; question mark, greek
+000040 @ at sign
+00005b [ bracket, opening square; opening square bracket; square bracket, opening
+00005c \ backslash
+00005d ] bracket, closing square; closing square bracket; square bracket, closing
+00005e ^ accent, spacing circumflex; circumflex accent, spacing; spacing circumflex accent
+00005f _ spacing underscore; underscore, spacing
+000060 ` accent, spacing grave; grave accent, spacing; spacing grave accent
+00007b { brace, opening; bracket, opening curly; curly bracket, opening; opening brace; opening curly bracket
+00007c | absolute value; bar, vertical; vertical bar
+00007d } brace, closing; bracket, closing curly; closing brace; closing curly bracket; curly bracket, closing
+00007e ~ spacing tilde; tilde, spacing
+0000a0   nbsp; non-breaking space; space, non-breaking
+0000a3 £ irish punt; italian lira; lira, italian; lira, turkish; pound sterling; punt, irish; sterling, pound; turkish lira
+0000a5 ¥ yuan sign
+0000a6 ¦ broken vertical bar; parted rule; rule, parted; vertical bar, broken
+0000a7 § european paragraph sign; paragraph sign, european
+0000a8 ¨ diaeresis, spacing; spacing diaeresis
+0000ab « chevrons; guillemet, left pointing; left pointing guillemet
+0000ac ¬ angled dash; dash, angled
+0000ad ­ discretionary hyphen; hyphen, discretionary; shy
+0000ae ® registered trade mark sign; trade mark sign, registered
+0000af ¯ apl overbar; macron, spacing; overbar, apl; overline; spacing macron
+0000b2 ² squared
+0000b3 ³ cubed
+0000b4 ´ accent, spacing acute; acute accent, spacing; spacing acute accent
+0000b6 ¶ european section sign; paragraph sign; section sign, european
+0000b7 · ano teleia, greek; comma, georgian; dot, greek middle; georgian comma; greek ano teleia; greek middle dot; middle dot, greek; midpoint
+0000b8 ¸ cedilla, spacing; spacing cedilla
+0000bb » guillemet, right pointing; right pointing guillemet
+0000bf ¿ question mark, turned; turned question mark
+0000c6 Æ ae, latin capital ligature; ligature ae, latin capital
+0000d7 × cartesian product; product, cartesian
+0000d8 Ø o slash, latin capital letter; slash, latin capital letter o
+0000df ß eszett
+0000e6 æ ae, latin small ligature; ash; latin small ligature ae; ligature ae, latin small; small ligature ae, latin
+0000f8 ø o slash, latin small letter; slash, latin small letter o
+000130 İ dot, latin capital letter i; i dot, latin capital letter
+000153 œ e, latin small letter o; ethel; o e, latin small letter
+00018e Ǝ e, latin capital letter turned; turned e, latin capital letter
+000190 Ɛ epsilon, latin capital letter
+000192 ƒ currency symbol, florin; f, latin small letter script; florin currency symbol; folder; function symbol; script f, latin small letter
+000197 Ɨ i bar, latin capital letter
+00019b ƛ lambda bar, latin letter; latin letter lambda bar
+00019f Ɵ barred o, latin capital letter; o bar, latin capital letter; o, latin capital letter barred
+0001b2 Ʋ script v, latin capital letter; v, latin capital letter script
+0001b6 ƶ z bar, latin small letter
+0001c0 ǀ pipe
+0001c1 ǁ double pipe; pipe, double
+0001c2 ǂ double-barred pipe; pipe, double-barred
+0001c3 ǃ exclamation mark, latin letter; latin letter exclamation mark
+000251 ɑ a, latin small letter script; script a, latin small letter
+000256 ɖ d retroflex hook, latin small letter; retroflex hook, latin small letter d
+00025b ɛ epsilon, latin small letter; latin small letter epsilon
+00025e ɞ closed reversed epsilon, latin small letter; epsilon, latin small letter closed reversed; latin small letter closed reversed epsilon; reversed epsilon, latin small letter closed
+000264 ɤ baby gamma, latin small letter; gamma, latin small letter baby; latin small letter baby gamma
+000275 ɵ o bar, latin small letter
+00028b ʋ script v, latin small letter; v, latin small letter script
+00028c ʌ caret; wedge
+000292 ʒ dram
+000295 ʕ glottal stop, latin letter reversed; latin letter reversed glottal stop; reversed glottal stop, latin letter
+000298 ʘ bullseye, latin letter; latin letter bullseye
+00029a ʚ closed epsilon, latin small letter; epsilon, latin small letter closed; latin small letter closed epsilon
+0002bc ʼ apostrophe, neutral; glottal stop
+0002c7 ˇ chinese third tone, mandarin; hacek, modifier letter; mandarin chinese third tone; third tone, mandarin chinese; tone, mandarin chinese third
+0002c9 ˉ chinese first tone, mandarin; mandarin chinese first tone; tone, mandarin chinese first
+0002ca ˊ chinese second tone, mandarin; mandarin chinese second tone; second tone, mandarin chinese; tone, mandarin chinese second
+0002cb ˋ chinese fourth tone, mandarin; fourth tone, mandarin chinese; mandarin chinese fourth tone; tone, mandarin chinese fourth
+0002d9 ˙ chinese fifth or neutral tone, mandarin; mandarin chinese fifth or neutral tone; neutral tone, mandarin chinese fifth or; tone, mandarin chinese fifth or neutral
+0002df ˟ accent, swedish grave; grave accent, swedish; swedish grave accent
+000300 ̀ greek varia; varia, greek
+000301 ́ greek oxia; greek tonos; oxia, greek; stress mark; tonos, greek
+000302 ̂ hat
+000304 ̄ long
+000305 ̅ overscore; vinculum
+000306 ̆ greek vrachy; short; vrachy, greek
+000307 ̇ derivative
+000308 ̈ above, double dot; derivative, double; dialytika, greek; dot above, double; double derivative; double dot above; greek dialytika; umlaut
+00030c ̌ above, v; combining hacek; hacek, combining; v above
+000312 ̒ above, cedilla; cedilla above
+000313 ̓ breathing mark, greek smooth; greek psili; greek smooth breathing mark; psili, greek; smooth breathing mark, greek
+000314 ̔ breathing mark, greek rough; dasia, greek; greek dasia; greek rough breathing mark; rough breathing mark, greek
+000328 ̨ hook, nasal; nasal hook
+000332 ̲ underline; underscore
+000333 ̳ double underline; double underscore; underline, double; underscore, double
+000337 ̷ overlay, short slash; short slash overlay; slash overlay, short
+000338 ̸ long slash overlay; overlay, long slash; slash overlay, long
+000345 ͅ greek iota subscript; greek non-spacing iota below; iota below, greek non-spacing; iota subscript, greek; non-spacing iota below, greek; subscript, greek iota
+00034f ͏ cgj
+00035c ͜ hyphen, papyrological; ligature tie below; papyrological hyphen; tie below, ligature
+000361 ͡ ligature tie; tie, ligature
+000393 Γ function, gamma; gamma function
+0003c0 π constant pi, mathematical; mathematical constant 3.141592... pi; pi, mathematical constant 3.141592...
+0003d0 ϐ beta, curled; curled beta
+0003d1 ϑ script theta; theta, script
+0003d6 ϖ omega pi
+0003f2 ϲ greek small letter lunate sigma; sigma, greek small letter lunate
+0003f5 ϵ epsilon, straight; straight epsilon
+0003f6 ϶ epsilon, reversed straight; reversed straight epsilon; straight epsilon, reversed
+00055a ՚ half ring, armenian modifier letter right; right half ring, armenian modifier letter; ring, armenian modifier letter right half
+00055b ՛ armenian shesht; shesht, armenian
+00055c ՜ armenian batsaganchakan nshan; batsaganchakan nshan, armenian
+00055d ՝ armenian bowt; bowt, armenian
+00055e ՞ armenian hartsakan nshan; hartsakan nshan, armenian
+00055f ՟ armenian patiw; patiw, armenian
+000589 ։ armenian vertsaket; full stop, georgian; georgian full stop; vertsaket, armenian
+00058a ֊ armenian yentamna; yentamna, armenian
+000640 ـ arabic kashida; kashida, arabic
+00066c ٬ arabic phrase separator; separator, arabic phrase
+0006c0 ۀ arabic letter hamzah on ha; hamzah on ha, arabic letter; izafet
+00070f ܏ sam, syriac; syriac sam
+000901 ँ anunasika, devanagari
+000902 ं bindu, devanagari; devanagari bindu
+00094d ् halant
+000964 । devanagari purna viram; purna viram, devanagari; separator, devanagari phrase; viram, devanagari purna
+000965 ॥ deergh viram, devanagari; devanagari deergh viram; viram, devanagari deergh
+0009cd ্ bengali hasant; hasant, bengali
+000b83 ஃ aytham, tamil; tamil aytham
+000bf3 ௳ naal, tamil; tamil naal
+000bf4 ௴ maatham, tamil; tamil maatham
+000bf5 ௵ tamil varudam; varudam, tamil
+000bf6 ௶ patru, tamil; tamil patru
+000bf7 ௷ tamil varavu; varavu, tamil
+000bf8 ௸ merpadi, tamil; tamil merpadi
+000bf9 ௹ rupai, tamil; tamil rupai
+000bfa ௺ enn, tamil; tamil enn
+000c02 ం sunna, telugu; telugu sunna
+000d4d ് chandrakkala, malayalam; malayalam chandrakkala; malayalam vowel half-u
+000dca ් sinhala virama; virama, sinhala
+000f7e ཾ anusvara, tibetan; tibetan anusvara
+000f7f ཿ tibetan visarga; visarga, tibetan
+000f84 ྄ srog med, tibetan; tibetan srog med
+001039 ္ killer, myanmar; myanmar killer
+0017c6 ំ anusvara, khmer; khmer anusvara; khmer srak am; srak am, khmer
+0017c7 ះ khmer srak ah; khmer visarga; srak ah, khmer; visarga, khmer
+00180b ᠋ fvs1
+002001   mutton quad; quad, mutton
+002002   nut
+002003   mutton
+002004   space, thick; thick space
+002005   mid space; space, mid
+00200b ​ zwsp
+00200c ‌ zwnj
+00200d ‍ zwj
+00200e ‎ lrm
+00200f ‏ rlm
+002015 ― dash, quotation; quotation dash
+002017 ‗ double underscore, spacing; spacing double underscore; underscore, spacing double
+002018 ‘ comma quotation mark, single turned; quotation mark, single turned comma; single turned comma quotation mark; turned comma quotation mark, single
+002019 ’ apostrophe; comma quotation mark, single; quotation mark, single comma; single comma quotation mark
+00201a ‚ comma quotation mark, low single; low single comma quotation mark; quotation mark, low single comma; single comma quotation mark, low
+00201b ‛ comma quotation mark, single reversed; quotation mark, single reversed comma; reversed comma quotation mark, single; single reversed comma quotation mark
+00201c “ comma quotation mark, double turned; double turned comma quotation mark; quotation mark, double turned comma; turned comma quotation mark, double
+00201d ” comma quotation mark, double; double comma quotation mark; quotation mark, double comma
+00201e „ comma quotation mark, low double; double comma quotation mark, low; low double comma quotation mark; quotation mark, low double comma
+00201f ‟ comma quotation mark, double reversed; double reversed comma quotation mark; quotation mark, double reversed comma; reversed comma quotation mark, double
+002020 † cross, long
+002021 ‡ diesis
+002022 • black small circle; circle, black small; small circle, black
+002026 … dot leader, three; leader, three dot; three dot leader
+00202a ‪ lre
+00202b ‫ rle
+00202c ‬ pdf
+00202d ‭ lro
+00202e ‮ rlo
+00202f   nnbsp
+002030 ‰ per thousand
+002032 ′ feet; minutes
+002033 ″ inches; seconds
+002039 ‹ guillemet, left pointing single; left pointing single guillemet; single guillemet, left pointing
+00203a › guillemet, right pointing single; right pointing single guillemet; single guillemet, right pointing
+00203b ※ japanese kome; kome, japanese; paragraph separator, urdu; separator, urdu paragraph; urdu paragraph separator
+00203e ‾ overscore, spacing; spacing overscore
+00203f ‿ enotikon, greek; greek enotikon
+002040 ⁀ concatenation, sequence; sequence concatenation
+002044 ⁄ solidus
+002052 ⁒ med avdrag av; piska
+002055 ⁕ phul; puspika
+002059 ⁙ greek pentonkion; pentonkion, greek
+00205d ⁝ acrophonic symbol three, epidaurean; epidaurean acrophonic symbol three
+00205f   mmsp
+002060 ⁠ wj
+002063 ⁣ comma, invisible; invisible comma
+0020a1 ₡ costa rican currency; currency, costa rican; currency, el salvadorian; el salvadorian currency
+0020a2 ₢ brazilian currency; currency, brazilian
+0020a3 ₣ currency, french
+0020a4 ₤ currency, italian; currency, turkish; italian currency; turkish currency
+0020a6 ₦ currency, nigerian; nigerian currency
+0020a7 ₧ currency, spanish; spanish currency
+0020a8 ₨ currency, indian; indian currency
+0020a9 ₩ currency, korean; korean currency
+0020aa ₪ currency, israeli; israeli currency
+0020ab ₫ currency, vietnamese; vietnamese currency
+0020ac € currency, euro european; euro european currency
+0020ad ₭ currency, laotian; laotian currency
+0020ae ₮ currency, mongolian; mongolian currency
+0020af ₯ currency, greek; greek currency
+0020b1 ₱ currency, phillipine; phillipine currency
+0020b2 ₲ currency, paraguayan; paraguayan currency
+0020b3 ₳ argentinian former currency; currency, argentinian former
+0020b4 ₴ currency, ukrainian; ukrainian currency
+0020b5 ₵ currency, ghana; ghana currency
+0020d1 ⃑ vector
+0020d4 ⃔ above, combining counterclockwise arrow; arrow above, combining counterclockwise; combining counterclockwise arrow above; counterclockwise arrow above, combining
+0020d7 ⃗ vector
+0020da ⃚ combining counterclockwise ring overlay; counterclockwise ring overlay, combining; overlay, combining counterclockwise ring; ring overlay, combining counterclockwise
+0020db ⃛ derivative, third; third derivative
+0020dc ⃜ derivative, fourth; fourth derivative
+0020dd ⃝ circle, jis composition; composition circle, jis; jis composition circle
+0020e0 ⃠ no; prohibition
+0020e6 ⃦ diacritic, finite function; finite function diacritic
+0020e7 ⃧ actuarial bend; bend, actuarial
+0020e9 ⃩ contraction operator
+0020eb ⃫ double slash overlay, long; long double slash overlay; overlay, long double slash; slash overlay, long double
+002102 ℂ complex numbers; numbers, complex; set of complex numbers, the
+002103 ℃ centigrade, degrees; degrees centigrade
+002104 ℄ clone
+00210a ℊ number symbol, real; real number symbol
+00210c ℌ hilbert space; space, hilbert
+002111 ℑ imaginary part
+002112 ℒ laplace transform
+002113 ℓ liter
+002114 ℔ pounds
+002115 ℕ natural number; number, natural
+002117 ℗ phonorecord sign; published
+002118 ℘ elliptic function, weierstrass; function, weierstrass elliptic; weierstrass elliptic function
+00211a ℚ numbers, rational; rational numbers; set of rational numbers, the
+00211b ℛ integral, riemann; riemann integral
+00211c ℜ real part
+00211d ℝ numbers, real; real numbers; set of real numbers, the
+00211e ℞ cross ratio; ratio, cross; recipe
+002124 ℤ integers; set of integers, the
+002127 ℧ mho
+002129 ℩ element, unique; unique element
+00212c ℬ bernoulli function; function, bernoulli
+00212f ℯ error; exponent, natural; natural exponent
+002130 ℰ electromotive force; emf
+002131 ℱ fourier transform; transform, fourier
+002132 Ⅎ claudian digamma inversum; digamma inversum, claudian
+002133 ℳ german mark pre-wwii; m-matrix; mark pre-wwii, german
+002134 ℴ order
+002135 ℵ cardinal, first transfinite; countable, first transfinite cardinal; transfinite cardinal, first
+002136 ℶ cardinal, second transfinite; continuum, second transfinite cardinal; transfinite cardinal, second
+002137 ℷ cardinal, third transfinite; transfinite cardinal, third
+002138 ℸ cardinal, fourth transfinite; transfinite cardinal, fourth
+002141 ⅁ game
+002183 Ↄ antisigma, claudian; apostrophic c; c, apostrophic; claudian antisigma
+002191 ↑ egressive airflow
+002192 → function, total; total function
+002193 ↓ ingressive airflow
+002194 ↔ relation
+00219e ↞ cursor left, fast; fast cursor left; left, fast cursor
+00219f ↟ cursor up, fast; fast cursor up; up, fast cursor
+0021a0 ↠ cursor right, fast; fast cursor right; right, fast cursor; surjection, total; total surjection
+0021a1 ↡ cursor down, fast; fast cursor down; form feed
+0021a3 ↣ injection, total; total injection
+0021a6 ↦ maplet
+0021a7 ↧ depth symbol
+0021af ↯ electrolysis
+0021b4 ↴ line feed
+0021b8 ↸ home
+0021b9 ↹ tab with shift tab
+0021de ⇞ page up; up, page
+0021df ⇟ down, page; page down
+0021e4 ⇤ leftward tab; tab, leftward
+0021e5 ⇥ rightward tab; tab, rightward
+0021e7 ⇧ shift
+0021ea ⇪ caps lock; lock, caps
+0021eb ⇫ level 2 lock
+0021ec ⇬ caps lock; lock, caps
+0021ed ⇭ lock, numerics; numerics lock
+0021ee ⇮ level 3 select
+0021ef ⇯ level 3 lock
+0021f0 ⇰ group lock
+0021f1 ⇱ home
+0021f2 ⇲ end
+0021f3 ⇳ scrolling
+0021f8 ⇸ function, partial; partial function
+0021f9 ⇹ partial relation; relation, partial
+0021fb ⇻ finite function; function, finite
+0021fc ⇼ finite relation; relation, finite
+002200 ∀ quantifier, universal; universal quantifier
+002203 ∃ existential quantifier; quantifier, existential
+002205 ∅ null set; set, null
+002206 ∆ difference, forward; difference, symmetric; forward difference; laplace operator; symmetric difference
+002207 ∇ backward difference; del; difference, backward
+00220b ∋ such that
+00220d ∍ epsilon, reversed straight
+00220e ∎ q.e.d.
+00220f ∏ product sign
+002210 ∐ coproduct sign
+002211 ∑ summation sign
+002218 ∘ apl jot; composite function; function, composite; jot, apl
+00221a √ radical sign
+002222 ∢ angle arc; arc, angle
+002223 ∣ apl stile; stile, apl; such that
+002227 ∧ conjunction; wedge
+002228 ∨ disjunction; vee
+002229 ∩ cap; hat
+00222a ∪ cup
+002233 ∳ contour integral, counterclockwise; counterclockwise contour integral; integral, counterclockwise contour
+002238 ∸ difference, symmetric; saturating subtraction; subtraction, saturating; symmetric difference
+00223c ∼ apl tilde; cycle; difference between; not; proportional to; similar to; tilde, apl; varies with
+00223d ∽ lazy s; s, lazy
+00223e ∾ most positive; positive, most
+00223f ∿ alternating current; current, alternating
+002248 ≈ asymptotic to
+002252 ≒ equals, nearly; nearly equals
+002257 ≗ approximately equal to; equal to, approximately
+002259 ≙ corresponds to
+00225c ≜ by definition, equal to; equal to by definition; equiangular
+00226c ≬ plaintiff; quantic
+00227a ≺ lower rank than
+00227b ≻ higher rank than
+002282 ⊂ included in set; set, included in
+002283 ⊃ includes in set; set, includes in
+00228e ⊎ bag addition
+002295 ⊕ direct sum; sum, direct; vector pointing into page
+002296 ⊖ difference, symmetric; symmetric difference
+002297 ⊗ product, tensor; tensor product; vector pointing into page
+002299 ⊙ direct product; product, direct; vector pointing out of page
+0022a2 ⊢ implies; proves; reducible; turnstile; yields
+0022a3 ⊣ does not yield; non-theorem; not yield, does; reverse turnstile; turnstile, reverse; yield, does not
+0022a4 ⊤ top
+0022a5 ⊥ base; bottom; orthogonal to; perpendicular
+0022a6 ⊦ reduces to
+0022a8 ⊨ results in; satisfies; statement is true; tautology; valid
+0022c2 ⋂ generalized intersection; intersection, generalized
+0022c3 ⋃ generalized union; union, generalized
+0022d4 ⋔ intersection, proper; proper intersection
+002301 ⌁ end of transmission symbol; transmission symbol, end of
+002308 ⌈ apl upstile; upstile, apl
+00230a ⌊ apl downstile; downstile, apl
+002310 ⌐ line, beginning of
+002311 ⌑ kissen; pillow
+002318 ⌘ command key; key, command
+002319 ⌙ line marker; marker, line
+002324 ⌤ enter key; key, enter
+002326 ⌦ delete to the right key; key, delete to the right; right key, delete to the
+002327 ⌧ clear key; key, clear
+00232b ⌫ delete to the left key; key, delete to the left; left key, delete to the
+002364 ⍤ hoot
+002365 ⍥ holler
+002368 ⍨ smirk
+00237d ⍽ keyboard symbol for no break space; no break space, keyboard symbol for; space, keyboard symbol for no break
+00237f ⍿ end of medium, symbol for
+002385 ⎅ center
+002388 ⎈ control
+002389 ⎉ pause
+00238a ⎊ interrupt
+00238b ⎋ escape
+0023b0 ⎰ left moustache; moustache, left
+0023b1 ⎱ moustache, right; right moustache
+0023cf ⏏ eject media
+0023e9 ⏩ fast forward; forward, fast
+0023ea ⏪ fast rewind; rewind, fast
+002423 ␣ space, graphic for
+002588 █ solid
+0025a1 □ quadrature
+0025ae ▮ histogram marker; marker, histogram
+0025b3 △ trine
+0025b7 ▷ range restriction; restriction, range
+0025bb ▻ arrow indicator, forward; forward arrow indicator; indicator, forward arrow
+0025bd ▽ hamilton operator
+0025c1 ◁ domain restriction; restriction, domain
+0025c5 ◅ arrow indicator, backward; backward arrow indicator; indicator, backward arrow
+0025c9 ◉ bullet, tainome japanese; japanese bullet, tainome; tainome japanese bullet
+0025fb ◻ always
+002600 ☀ clear weather; weather, clear
+002601 ☁ cloudy weather; weather, cloudy
+002602 ☂ rainy weather; weather, rainy
+002603 ☃ snowy weather; weather, snowy
+002613 ☓ cross, st. andrew's; st. andrew's cross
+002614 ☔ showery weather; weather, showery
+002615 ☕ coffee, cup of; cup of coffee; cup of tea; tea, cup of
+00261e ☞ fist
+002620 ☠ jolly roger; poison
+002627 ☧ christogram; constantine's cross; cross, constantine's
+00262c ☬ gurmukhi khanda; khanda, gurmukhi
+00263a ☺ have a nice day!
+00263c ☼ compass
+002640 ♀ venus
+002642 ♂ mars
+00264d ♍ minim alternate glyph
+00264f ♏ drop; minim
+002663 ♣ shamrock
+002665 ♥ valentine
+002669 ♩ crotchet
+00266a ♪ quaver
+00266b ♫ beamed quavers; quavers, beamed
+00266c ♬ beamed semiquavers; semiquavers, beamed
+00266f ♯ bag count, infix; infix bag count
+002692 ⚒ mining symbol; working day symbol
+002693 ⚓ harbor symbol
+002694 ⚔ battleground symbol
+002696 ⚖ jurisprudence symbol
+0026a1 ⚡ lightning; thunder
+0026b0 ⚰ buried symbol
+0026b1 ⚱ cremated symbol
+0026bf ⚿ lock, parental; parental lock
+0026c4 ⛄ snow, light
+0026c5 ⛅ cloudy, partly; partly cloudy
+0026c7 ⛇ snow, heavy
+0026c8 ⛈ thunderstorm
+0026cc ⛌ accident
+0026cf ⛏ construction
+0026d0 ⛐ icy road
+0026d2 ⛒ road closed
+0026d4 ⛔ do not enter
+0026db ⛛ yield
+0026df ⛟ lorry, black
+0026e2 ⛢ uranus
+0026e4 ⛤ pentalpha, pentangle
+0026e8 ⛨ hospital
+0026e9 ⛩ torii
+0026ed ⛭ factory
+0026ee ⛮ power plant
+0026f1 ⛱ beach, bathing
+0026f2 ⛲ park
+0026f3 ⛳ golf course
+0026f4 ⛴ boat terminal; marina or yacht harbour
+0026fa ⛺ camping site
+0026fc ⛼ cemetery; graveyard
+0026fd ⛽ gas station; petrol station
+0026fe ⛾ drive-in restaurant
+00270a ✊ rock in rock, paper, scissors game
+00270b ✋ paper in rock, paper, scissors game
+00270c ✌ scissors in rock, paper, scissors game
+002736 ✶ sextile
+00273a ✺ starburst
+002749 ❉ jack
+00274b ❋ turbofan
+002766 ❦ aldus leaf; leaf, aldus
+002767 ❧ hedera; ivy leaf; leaf, ivy
+0027d3 ⟓ pullback
+0027d4 ⟔ pushout
+0027df ⟟ component, radial; radial component
+0027e6 ⟦ bag bracket, left; bracket, left bag; left bag bracket
+0027e7 ⟧ bag bracket, right; bracket, right bag; right bag bracket
+0027e8 ⟨ bra; bracket, left sequence; left sequence bracket; sequence bracket, left
+0027e9 ⟩ bracket, right sequence; ket; right sequence bracket; sequence bracket, right
+0027ea ⟪ bracket, left chevron; chevron bracket, left; left chevron bracket
+0027eb ⟫ bracket, right chevron; chevron bracket, right; right chevron bracket
+0027ee ⟮ lgroup
+0027ef ⟯ rgroup
+0027fb ⟻ maps from
+0027fc ⟼ maps to
+002900 ⤀ partial surjection; surjection, partial
+002901 ⤁ finite surjection; surjection, finite
+002905 ⤅ maps to
+002906 ⤆ maps from
+002907 ⤇ maps to
+002914 ⤔ injection, partial; partial injection
+002915 ⤕ finite injection; injection, finite
+002916 ⤖ bijection
+002917 ⤗ injection, surjective; surjective injection
+002918 ⤘ finite surjective injection; injection, finite surjective; surjective injection, finite
+0029d6 ⧖ bowtie, vertical; framus, white; vertical bowtie; white framus
+0029dc ⧜ entity &amp;iinfin;, isotech; isotech entity &amp;iinfin;
+0029e0 ⧠ d'alembertian
+0029e6 ⧦ equivalent, tautological; tautological equivalent
+0029f4 ⧴ colon right arrow; right arrow, colon
+0029f9 ⧹ schema hiding
+002a07 ⨇ merge
+002a11 ⨑ counterclockwise integration; integration, counterclockwise
+002a1b ⨛ integral, upper; upper integral
+002a1c ⨜ integral, lower; lower integral
+002a1d ⨝ bowtie, large; large bowtie
+002a24 ⨤ difference or sum, positive; positive difference or sum; sum, positive difference or
+002a26 ⨦ difference, sum or positive; positive difference, sum or; sum or positive difference
+002a27 ⨧ nim-addition
+002a41 ⩁ bag subtraction; subtraction, bag
+002aa1 ⪡ absolute continuity; continuity, absolute
+002adc ⫝̸ independent, not; not independent
+002add ⫝ independent
+002ae2 ⫢ ordinarily satisfies; satisfies, ordinarily
+002aeb ⫫ independence
+002af1 ⫱ necessarily satisfies; satisfies, necessarily
+002af4 ⫴ interleave
+002afe ⫾ choice, dijkstra; dijkstra choice
+002aff ⫿ choice, n-ary dijkstra; dijkstra choice, n-ary; n-ary dijkstra choice
+002e18 ⸘ gnaborretni
+002e3a ⸺ dash, omission; omission dash
+00301a 〚 abstract syntax bracket, left; bracket, left abstract syntax; left abstract syntax bracket
+00301b 〛 abstract syntax bracket, right; bracket, right abstract syntax; right abstract syntax bracket
+003099 ゙ combining japanese daku-on; daku-on, combining japanese
+00309a ゚ combining japanese han-daku-on; han-daku-on, combining japanese
+00309b ゛ daku-on, japanese
+00309c ゜ han-daku-on, japanese
+00337f ㍿ incorporated, japanese; japanese incorporated; kabusiki-gaisya
+00fdfc ﷼ currency, iranian; iranian currency
+00fe00 ︀ vs1
+00feff ﻿ bom; byte order mark; zwnbsp
+01d15d 𝅝 semibreve
+01d15e 𝅗𝅥 minim
+01d15f 𝅘𝅥 crotchet
+01d160 𝅘𝅥𝅮 quaver
+01d161 𝅘𝅥𝅯 semiquaver
+01d4ab 𝒫 power set; set, power
+01d510 𝔐 new testament majority text
+01d516 𝔖 greek old testament; old testament, greek; septuagint
+01f16a 🅪 marque de commerce
+01f16b 🅫 marque deposee
+01f374 🍴 restaurant, meal (glyph may vary)
+01f385 🎅 santa claus
+01f3ad 🎭 comedy and tragedy, masks of; masks of comedy and tragedy
+01f404 🐄 beef (on menus)
+01f414 🐔 poultry (on menus)
+01f416 🐖 pork (on menus)
+01f41a 🐚 seashell
+01f44a 👊 punch
+01f464 👤 account, guest
+01f465 👥 accounts
+01f477 👷 hardhat
+01f4a1 💡 idea
+01f4a6 💦 plewds
+01f4a8 💨 briffits
+01f4ab 💫 squeans
+01f4bf 💿 cd; compact disc
+01f50a 🔊 sound
+0e0100 󠄀 vs17
