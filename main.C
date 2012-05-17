@@ -73,8 +73,8 @@ void addblocks(Universe &uverse) {
 int main(int argc, char **argv) {
   QApplication app(argc, argv);
   Universe uverse;
-  addchars(uverse);
   addmorechars(uverse);
+  addchars(uverse);
   addalias(uverse);
   addblocks(uverse);
   MainWindow mw(uverse, 0);

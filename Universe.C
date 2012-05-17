@@ -12,6 +12,7 @@ void Universe::add(int c, QString desc) {
   foreach (QString s, bits) {
     words[c].insert(s.toLower());
   }
+  addDescription(c, desc);
 }
 
 void Universe::addperhaps(int c, QString desc) {
@@ -22,6 +23,37 @@ void Universe::addperhaps(int c, QString desc) {
   foreach (QString s, bits) {
     words[c].insert("." + s.toLower());
   }
+  addDescription(c, desc);
+}
+
+void Universe::addDescription(int c, QString desc) {
+  if (descs.contains(c))
+    return;
+  
+  QStringList bits = desc.split(QRegExp(" "));
+  QString d;
+  QLocale l;
+  bool atfirst = true;
+  foreach (QString b, bits) {
+    if (b.isEmpty())
+      continue;
+    d += " ";
+    if (b.length()==1)
+      d += l.toUpper(b);
+    else if (atfirst) 
+      d += l.toUpper(b.left(1)) + l.toLower(b.mid(1));
+    else
+      d += l.toLower(b);
+    atfirst = false;
+  }
+  descs[c] = d.mid(1);
+}
+
+QString Universe::describe(int c) const {
+  if (descs.contains(c))
+    return descs[c];
+  else
+    return "";
 }
 
 QSet<int> Universe::all() const {

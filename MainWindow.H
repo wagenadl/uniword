@@ -14,10 +14,14 @@ public:
   virtual ~MainWindow();
 private slots:
   void edited(QString const &s);
+  void copyAvailable(bool s);
+  void selected();
 private:
-  class QLabel *output;
+  class QTextEdit *output;
   class QLineEdit *input;
+  class QTextEdit *comment;
   Universe const &uverse;
+  bool copyAv;
 };
 
 #endif

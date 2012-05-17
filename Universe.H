@@ -20,8 +20,12 @@ public:
   QSet<int> find(QString const &selector) const;
   QSet<int> all() const;
   QSet<int> refine(QSet<int> const &uverse, QString selector) const;
+  QString describe(int) const;
+private:
+  void addDescription(int, QString);
 private:
   QMap<int, QSet<QString> > words;
+  QMap<int, QString> descs;
 };
 
 #endif
