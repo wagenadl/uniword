@@ -7,7 +7,11 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 
+OBJECTS_DIR = .obj
+MOC_DIR = .moc
+RCC_DIR = .rcc
+
 # Input
 HEADERS += MainWindow.H Universe.H
 SOURCES += main.C MainWindow.C Universe.C
-RESOURCES += bigexpl.qrc
+RESOURCES += unicode.qrc

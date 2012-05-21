@@ -15,7 +15,7 @@ void Universe::add(int c, QString desc) {
   addDescription(c, desc);
 }
 
-void Universe::addperhaps(int c, QString desc) {
+void Universe::addgroup(int c, QString desc) {
   if (!words.contains(c))
     return;
 
@@ -23,7 +23,14 @@ void Universe::addperhaps(int c, QString desc) {
   foreach (QString s, bits) {
     words[c].insert("." + s.toLower());
   }
-  addDescription(c, desc);
+  addGroup(c, desc);
+}
+
+void Universe::addGroup(int c, QString desc) {
+  if (groups.contains(c)) 
+    if (groups[c].contains(desc))
+      return;
+  groups[c].append(desc);
 }
 
 void Universe::addDescription(int c, QString desc) {
@@ -50,10 +57,11 @@ void Universe::addDescription(int c, QString desc) {
 }
 
 QString Universe::describe(int c) const {
-  if (descs.contains(c))
-    return descs[c];
-  else
-    return "";
+  return descs.contains(c) ? descs[c] : "";
+}
+
+QString Universe::getgroups(int c) const {
+  return groups.contains(c) ? groups[c].join("; ") : "";
 }
 
 QSet<int> Universe::all() const {

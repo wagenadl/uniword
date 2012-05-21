@@ -1,0 +1,536 @@
+000020-00002f ASCII Punctuation and Symbols
+000030-000040 ASCII Digits
+000041-000060 Latin Uppercase Alphabet
+000061-00009f Latin Small Letters
+0000a0-0000bb Latin-1 Punctuation and Symbols
+0000bc-0000ff Fractions Quarters
+000180-0001bf Latin Extended-B
+0001c0-0001c3 African Letters for Clicks
+0001c4-00024f Croatian Digraphs Matching Serbian Cyrillic Letters
+000250-0002a2 IPA Extensions
+0002a3-0002af Phonetic Digraphs
+0002b0-0002b8 Latin Superscript Modifier Letters
+0002b9-0002c1 Phonetic Modifiers
+0002c2-0002d7 Modifier Letter Arrowheads
+0002d8-0002e4 Spacing Clones of Diacritics
+0002e5-0002ee Tone Letters
+0002ef-0002ff UPA Modifiers
+000300-000333 Ordinary Diacritics
+000334-000341 Overstruck Diacritics
+000342-000345 Diacritics for Greek
+000346-00034f Diacritics for IPA
+000350-00035b Diacritics for Uralic Phonetic Alphabet
+00035c-000362 Double Diacritics
+000363-00036f Medieval Superscript Letter Diacritics
+000370-000373 Greek
+000374-000390 Greek Punctuation and Signs
+000391-0003b0 Greek Capital Letters
+0003b1-0003cf Greek Small Letters
+0003d0-0003d7 Greek Variant Letterforms
+0003d8-0003e1 Greek Archaic Letters
+0003e2-0003ff Coptic Letters Derived from Demotic
+000400-00040f Cyrillic Capital Letters
+000410-00042f Russian Alphabet
+000430-00044f Cyrillic Small Letters
+000450-00045f Cyrillic Extensions
+000460-000482 Cyrillic Historic Letters
+000483-000489 Cyrillic Combining Characters
+00048a-0004ff Cyrillic Extensions
+000530-000530 Armenian Alphabet
+000531-000560 Armenian Capital Letters
+000561-00058f Armenian Small Letters
+000590-000590 Hebrew
+000591-0005af Hebrew Cantillation Marks
+0005b0-0005cf Hebrew Points and Punctuation
+0005d0-0005ef Hebrew Alphabet
+0005f0-0005ff Yiddish Digraphs
+000600-00060b Arabic Subtending Marks
+00060c-00060f Arabic Punctuation
+000610-000620 Arabic Honorifics
+000621-00064a Arabic Alphabet
+00064b-000652 Arabic Harakat
+000653-00065f Arabic Combining Marks
+000660-000670 Arabic-Indic Digits
+000671-0006d5 Extended Arabic Letters
+0006d6-0006ef Arabic Qur'anic Annotation Signs
+0006f0-0006ff Eastern Arabic-Indic Digits
+000700-00070f Syriac Punctuation and Signs
+000710-00072f Syriac Letters
+000730-00074f Syriac Points
+000840-00085f Mandaic
+000900-000903 Devanagari
+000904-000914 Devanagari Independent Vowels
+000915-00093d Devanagari Consonants
+00093e-000950 Devanagari Dependent Vowel Signs
+000951-000965 Vedic Tone Marks
+000966-00097f Devanagari Digits
+000980-000984 Bengali
+000985-000994 Bengali Independent Vowels
+000995-0009bd Bengali Consonants
+0009be-0009e5 Bengali Dependent Vowel Signs
+0009e6-0009f1 Bengali Digits
+0009f2-0009ff Bengali Currency Signs
+000a00-000a04 Gurmukhi
+000a05-000a14 Gurmukhi Independent Vowels
+000a15-000a3d Gurmukhi Consonants
+000a3e-000a65 Gurmukhi Dependent Vowel Signs
+000a66-000a7f Gurmukhi Digits
+000a80-000a84 Gujarati
+000a85-000a94 Gujarati Independent Vowels
+000a95-000abd Gujarati Consonants
+000abe-000ae5 Gujarati Dependent Vowel Signs
+000ae6-000aff Gujarati Digits
+000b00-000b04 Oriya
+000b05-000b14 Oriya Independent Vowels
+000b15-000b3d Oriya Consonants
+000b3e-000b65 Oriya Dependent Vowel Signs
+000b66-000b7f Oriya Digits
+000b80-000b84 Tamil
+000b85-000b94 Tamil Independent Vowels
+000b95-000bbd Tamil Consonants
+000bbe-000be6 Tamil Dependent Vowel Signs
+000be7-000bf2 Tamil Numbers
+000bf3-000bff Tamil Symbols
+000c00-000c04 Telugu
+000c05-000c14 Telugu Independent Vowels
+000c15-000c3d Telugu Consonants
+000c3e-000c65 Telugu Dependent Vowel Signs
+000c66-000c7f Telugu Digits
+000c80-000c84 Kannada
+000c85-000c94 Kannada Independent Vowels
+000c95-000cbd Kannada Consonants
+000cbe-000ce5 Kannada Dependent Vowel Signs
+000ce6-000cf0 Kannada Digits
+000cf1-000cff Vedic Signs
+000d00-000d04 Malayalam
+000d05-000d14 Malayalam Independent Vowels
+000d15-000d3d Malayalam Consonants
+000d3e-000d65 Malayalam Dependent Vowel Signs
+000d66-000d79 Malayalam Digits
+000d7a-000d7f Malayalam Chillu Letters
+000d80-000d84 Sinhala
+000d85-000d99 Sinhala Independent Vowels
+000d9a-000dce Sinhala Consonants
+000dcf-000dff Sinhala Dependent Vowel Signs
+000e00-000e00 Thai
+000e01-000e2f Thai Consonants
+000e30-000e47 Thai Vowels
+000e48-000e4f Thai Marks and Signs
+000e50-000e7f Thai Digits
+000e80-000e80 Lao
+000e81-000eaf Lao Consonants
+000eb0-000ec7 Lao Vowels
+000ec8-000ecf Lao Marks and Signs
+000ed0-000eff Lao Digits
+000f00-000f00 Tibetan
+000f01-000f07 Tibetan Head Marks
+000f08-000f14 Tibetan Marks and Signs
+000f15-000f1f Tibetan Astrological Signs
+000f20-000f29 Tibetan Digits
+000f2a-000f33 Tibetan Digits Minus Half
+000f34-000f3f Tibetan Marks and Signs
+000f40-000f70 Tibetan Consonants
+000f71-000f7d Tibetan Dependent Vowel Signs
+000f7e-000f81 Tibetan Vocalic Modification
+000f82-000f8f Tibetan Marks and Signs
+000f90-000fbd Tibetan Subjoined Consonants
+000fbe-000fbf Tibetan Marks and Signs
+000fc0-000fc3 Tibetan Cantillation Signs
+000fc4-000fd4 Tibetan Symbols
+000fd5-000fff Svasti Signs
+001000-001020 Myanmar Consonants
+001021-00102b Myanmar Independent Vowels
+00102c-001035 Myanmar Dependent Vowel Signs
+001036-00103f Myanmar Signs
+001040-001049 Myanmar Digits
+00104a-00109f Myanmar Punctuation and Signs
+0010a0-0010cf Georgian Khutsuri
+0010d0-0010f0 Georgian Small Letters
+0010f1-0010ff Georgian Extensions
+001200-00135c Ethiopic Syllables
+00135d-001360 Ethiopic Combining Marks
+001361-001368 Ethiopic Punctuation
+001369-00137f Ethiopic Numbers
+001400-00166c Unified Canadian Aboriginal Syllabics
+00166d-00167f Canadian Syllabics Punctuation
+001680-001680 Ogham
+001681-001694 Ogham Traditional Letters
+001695-00169a Ogham Forfeda Supplement
+00169b-00169f Ogham Punctuation
+0016a0-0016ea Runic
+0016eb-0016ed Runic Punctuation
+0016ee-0016ff Runic Golden Numbers
+001780-0017a4 Khmer Consonants
+0017a5-0017b5 Khmer Independent Vowels
+0017b6-0017c5 Khmer Dependent Vowel Signs
+0017c6-0017df Khmer Signs
+0017e0-0017ef Khmer Digits
+0017f0-0017ff Khmer Numeric Symbols for Divination
+001800-00180a Mongolian Punctuation
+00180b-00180f Mongolian Format Controls
+001810-00181f Mongolian Digits
+001820-001842 Mongolian Basic Letters
+001843-0018af Mongolian Extensions
+001900-001938 Limbu
+001939-001945 Limbu Signs
+001946-00194f Limbu Digits
+001980-0019cf New Tai Lue
+0019d0-0019df New Tai Lue Digits
+001a20-001aaf Tai Tham
+001b00-001b4f Balinese
+001b50-001b60 Balinese Digits
+001b61-001b7f Balinese Musical Symbols
+001c50-001c7f Ol Chiki
+001d00-001d2b Phonetic Extensions
+001d2c-001dca Modifier Letter Extensions
+001dcb-001dd2 Contour Tone Marks
+001dd3-001dff Latin Medieval Superscript Letter Diacritics
+002000-00200b Symbols Area
+00200c-00200f Format Characters
+002010-002017 Dashes
+002018-002029 Quotation Marks
+00202a-002046 Directional Format Characters
+002047-002060 Double Punctuation for Vertical Text
+002061-00206f Invisible Operators
+002070-00207f Superscripts
+002080-00209f Subscripts
+0020d0-0020dc Diacritical Marks for Symbols
+0020dd-0020ff Enclosing Diacritics
+002100-002134 Letterlike Symbols
+002135-00213b Hebrew Letterlike Mathematical Symbols
+00213c-00213c Double-struck Greek Letters
+00213d-002144 Double-struck Greek Letters
+002145-00214f Double-struck Italic Mathematical Symbols
+002150-002152 Number Forms
+002153-002154 Vulgar Fractions
+002155-002158 Fractions Fifths
+002159-00215a Fractions Sixths
+00215b-00215f Fractions Eighths
+002160-002184 Roman Numerals
+002185-00218f Archaic Roman Numerals
+002190-0021bb Arrows
+0021bc-0021cc Harpoons
+0021cd-0021e5 Double Arrows
+0021e6-0021e6 Keyboard Symbols
+0021e7-0021e7 level 2 select (ISO 9995-7)
+0021e8-0021ff group select (ISO 9995-7)
+002200-002207 Mathematical Operators
+002208-00221e Set Membership Signs
+00221f-002222 Angles
+002223-00222a Vertical Lines
+00222b-002233 Integral Signs
+002234-00223a Dotted Mathematical Operators
+00223b-002242 Tilde Mathematical Operators
+002243-002279 Equality and Inequality Signs
+00227a-002281 Order Relation Precedence Signs
+002282-002294 Superset and Subset Signs
+002295-0022a1 Enclosed Mathematical Operators
+0022a2-0022bf Tacks and Turnstiles
+0022c0-0022cf N-ary Operators
+0022d0-0022d4 Double Operators
+0022d5-0022dd Equality and Inequality Signs
+0022de-0022e9 Order Relation Precedence Signs
+0022ea-0022ff Normal Subgroup Signs
+002300-002307 Miscellaneous Technical
+002308-00230b Corner Brackets
+00230c-002317 Crops
+002318-00231b operating system key (ISO 9995-7)
+00231c-002323 Quine Corners
+002324-00232c Keyboard Symbols
+00232d-002335 Drafting Symbols
+002336-00237c APL Functional Symbols
+00237d-00237f Graphics for Control Codes
+002380-00238c Keyboard Symbols
+00238d-002395 Electrotechnical Symbols
+002396-00239a Keyboard Symbols
+00239b-0023af Bracket Pieces
+0023b0-0023b1 Bracket Pieces
+0023b2-0023b3 Summation Sign Parts
+0023b4-0023b6 Vertical Brackets
+0023b7-0023b9 Terminal Graphic Characters
+0023ba-0023bd Horizontal Scan Lines
+0023be-0023d0 Dentistry Notation Symbols
+0023d1-0023db Metrical Symbols
+0023dc-0023e8 Bracket Variants for Vertical Text
+0023e9-0023ff Double Triangles
+002400-002410 Graphic Pictures for Control Codes
+002411-00243f Symbols for Device Controls
+002440-002445 OCR Optical Character Recognition
+002446-00245f Magnetic Ink Character Recognition MICR
+002460-002473 Circled Numbers
+002474-002487 Parenthesized Numbers
+002488-00249b Numbers Followed by Period
+00249c-0024b5 Parenthesized Latin Letters
+0024b6-0024ea Circled Latin Letters
+0024eb-0024f4 White on Black Circled Numbers
+0024f5-0024ff Double Circled Numbers
+002580-002590 Block Elements
+002591-002595 Shade Characters
+002596-00259f Terminal Graphic Characters
+0025a0-0025ab Squares
+0025ac-0025b1 Rectangles
+0025b2-0025b9 Triangles
+0025ba-0025c5 Pointers
+0025c6-0025ca Diamonds
+0025cb-0025db Circles
+0025dc-0025ef Arcs
+0025f0-0025ff Quadrant Control Code Graphics
+002600-002615 Weather and Astrological Symbols
+002616-002619 Japanese Chess Symbols
+00261a-00261f Pointing Hand Symbols
+002620-002624 Warning Signs
+002625-002625 Religious and Political Symbols
+002626-00262f Religious and Political Symbols
+002630-00263c Yijing / I Ching Trigram Symbols
+00263d-00263e Astrological Symbols
+00263f-002647 Planet Symbols
+002648-002653 Zodiacal Symbols
+002654-00265f Chess Symbols
+002660-002668 Playing Card Symbols
+002669-002671 Basic Musical Symbols
+002672-002672 Recycling Symbols
+002673-00267f Plastics Recycling Symbols
+002680-002685 Dice
+002686-002689 Go Markers
+00268a-00268f Yijing / I Ching Monogram and Digram Symbols
+002690-00269f Dictionary and Map Symbols
+0026a0-0026a1 Warning Signs
+0026a2-0026ac Gender Symbols
+0026ad-0026b2 Genealogical Symbols
+0026b3-0026bf Astrological Signs
+0026c0-0026ff Symbols for Draughts and Checkers
+002700-002700 ITC Zapf Dingbats Series 100
+002701-00270d Scissors Dingbats
+00270e-002718 Pencil Dingbats
+002719-002720 Cross Dingbats
+002721-002721 Stars
+002722-002725 Asterisk Dingbats
+002726-002743 Star Dingbats
+002744-00274c Snowflake Dingbats
+00274d-002757 Drop-shadowed Dingbats
+002758-00275a Vertical Bar Dingbats
+00275b-002762 Quotation Mark Ornaments
+002763-002767 Heart Ornaments
+002768-00276d Ornamental Brackets
+00276e-002775 Ornamental Angle Quotation Marks
+002776-002793 Circled Inverse Numbers
+002794-0027bf Arrow Dingbats
+0027c0-0027d4 Miscellaneous Mathematical Symbols-A
+0027d5-0027d7 Database Theory Operators
+0027d8-0027df Tacks and Turnstiles
+0027e0-0027e5 Modal Logic Operators
+0027e6-0027ef Mathematical Brackets
+0027f0-0027f4 Arrows-A Supplement
+0027f5-0027ff Long Arrows
+002900-002949 Supplemental Arrows-B
+00294a-00297b Miscellaneous Harpoons
+00297c-00297f Fish Tails
+002980-002982 Miscellaneous Mathematical Symbols-B
+002983-002998 Brackets
+002999-00299a Fences
+00299b-0029af Angles and Measured Angles
+0029b0-0029b4 Empty Sets
+0029b5-0029c3 Circle Symbols
+0029c4-0029c9 Square Symbols
+0029ca-0029d0 Triangle Symbols
+0029d1-0029d7 Bowtie Symbols
+0029d8-0029e2 Wiggly Fences
+0029e3-0029ed Relational Operators
+0029ee-0029f7 Error Bar Symbols
+0029f8-0029f9 Large Operators
+0029fa-0029ff Specialized Plus Sign Operators
+002a00-002a09 Supplemental Mathematical Operators
+002a0a-002a21 Summations and Integrals
+002a22-002a2e Plus and Minus Sign Operators
+002a2f-002a3f Multiplication and Division Sign Operators
+002a40-002a50 Intersections and Unions
+002a51-002abc Logical Ands and Ors
+002abd-002ad8 Subset and Superset Relations
+002ad9-002add Forks
+002ade-002aed Tacks and Turnstiles
+002aee-002aff Vertical Line Operators
+002b00-002b11 Miscellaneous Arrows
+002b12-002b19 Polygonal Symbols
+002b1a-002b24 Squares
+002b25-002b2b Diamonds and Lozenges
+002b2c-002b2f Ellipses
+002b30-002b54 Mathematical Arrows
+002b55-002bff Heavy Circle Signs
+002c80-002cb1 Bohairic Coptic
+002cb2-002cea Extended Coptic
+002ceb-002cff Cryptogrammic Letters
+002e00-002e0d New Testament Editorial Symbols
+002e0e-002e19 Ancient Greek Textual Symbols
+002e1a-002e29 Dictionary Punctuation
+002e2a-002e31 Medievalist Punctuation
+002e32-002e7f Palaeotype Transliteration Symbols
+002f00-002fdf CJK Kangxi Radicals
+003000-003007 CJK Symbols and Punctuation
+003008-00300b CJK Angle Brackets
+00300c-003020 CJK Quotation Marks
+003021-003029 Suzhou Numerals
+00302a-003030 Ideographic Tone Marks
+003031-00303f Kana Repeat Marks
+003040-003094 Japanese Hiragana
+003095-00309f Hiragana Supplement
+003130-003164 Korean Hangul Compatibility Jamo
+003165-00318f Korean Hangul Archaic Letters
+003200-00320d Parenthesized Korean Hangul Letters
+00320e-00321f Parenthesized Korean Hangul Syllables
+003220-003250 Parenthesized CJK Ideographs
+003251-00325f Circled Numbers
+003260-00326d Circled Korean Hangul Letters
+00326e-00327f Circled Korean Hangul Syllables
+003280-0032b0 Circled Ideographs
+0032b1-0032bf Circled Numbers
+0032c0-0032cf Ideographic Telegraph Symbols for Months
+0032d0-0032ff Circled Katakana
+003300-003357 Squared Katakana Words
+003358-003370 Ideographic Telegraph Symbols for Hours
+003371-00337a Squared Latin Abbreviations
+00337b-00337f Japanese Era Names
+003380-0033df Squared Latin Abbreviations
+0033e0-0033ff Ideographic Telegraph Symbols for Days
+00a980-00a9df Javanese
+00ab00-00ab2f Ethiopic Extended-A
+00d800-00db7f High Surrogates
+00f900-00fa0b Compatibility and Specials Area
+00fa0c-00fa2f Duplicate Characters from Big 5
+00fa30-00fa6f JIS X 0213 Compatibility Ideographs
+00fa70-00faff DPRK Compatibility Ideographs
+00fb00-00fb12 Alphabetic Presentation Forms
+00fb13-00fb1c Armenian Ligatures
+00fb1d-00fb4f Hebrew Presentation Forms
+00fb50-00fbb1 Arabic Presentation Forms-A
+00fbb2-00fbe9 Arabic Spacing Diacritics
+00fbea-00fdff Arabic Ligatures
+00fe20-00fe23 Combining Half Marks
+00fe24-00fe2f Continuous Macrons for Coptic
+00fe30-00fe44 Glyphs for Vertical Variants
+00fe45-00fe48 Sidelining Emphasis Marks
+00fe49-00fe4f Overscores and Underscores
+00fe70-00fe7f Arabic Presentation Forms-B
+00fe80-00feff Arabic Contextual Form Glyphs
+00ff00-00ff00 Halfwidth and Fullwidth Forms
+00ff01-00ff60 Fullwidth ASCII Variants
+00ff61-00ff9f Halfwidth CJK Punctuation
+00ffa0-00ffdf Halfwidth Korean Hangul Variants
+00ffe0-00ffe7 Fullwidth Symbol Variants
+00ffe8-00ffef Halfwidth Symbol Variants
+00fff0-00fff8 Specials
+00fff9-00ffff Interlinear Annotation
+0101d0-0101ff Phaistos Disc
+0102a0-0102df Carian
+010300-01031f Old Italic
+010320-01032f Old Italic Numerals
+010330-01034f Gothic
+0103a0-0103df Old Persian
+010480-01049f Osmanya
+0104a0-0107ff Osmanya Digits
+010840-01085f Imperial Aramaic
+010920-01093f Lydian
+010a00-010a3f Kharoshthi
+010a40-010a5f Kharoshthi Digits
+010a60-010a7f Old South Arabian
+010b60-010b7f Pahlavi
+010c00-010c4f Old Turkic
+010e60-010e7f Rumi Numeral Symbols
+011100-01114f Chakma
+011180-0111df Sharada
+011680-0116cf Takri
+012400-01247f Cuneiform Numbers and Punctuation
+013000-01342f Egyptian Hieroglyphs
+016800-016a3f Bamum Supplement
+016f00-016f9f Miao
+01b000-01b0ff Kana Supplement
+01d200-01d24f Ancient Greek Musical Notation
+01d300-01d35f Tai Xuan Jing Symbols
+01d400-01d433 Mathematical Alphanumeric Symbols
+01d434-01d467 Italic Mathematical Symbols
+01d468-01d49b Bold Italic Mathematical Symbols
+01d49c-01d4cf Script Mathematical Symbols
+01d4d0-01d503 Bold Script Mathematical Symbols
+01d504-01d537 Fraktur Mathematical Symbols
+01d538-01d56b Double-struck Mathematical Symbols
+01d56c-01d59f Bold Fraktur Mathematical Symbols
+01d5a0-01d5d3 Sans-serif Mathematical Symbols
+01d5d4-01d607 Sans-serif Bold Mathematical Symbols
+01d608-01d63b Sans-serif Italic Mathematical Symbols
+01d63c-01d66f Sans-serif Bold Italic Mathematical Symbols
+01d670-01d6a3 Monospace Mathematical Symbols
+01d6a4-01d6a7 Dotless Mathematical Symbols
+01d6a8-01d6e1 Greek Mathematical Symbols
+01d6e2-01d71b Italic Greek Mathematical Symbols
+01d71c-01d755 Bold Italic Greek Mathematical Symbols
+01d756-01d78f Sans-serif Bold Greek Mathematical Symbols
+01d790-01d7cd Sans-serif Bold Italic Greek Mathematical Symbols
+01d7ce-01d7d7 Mathematical Digits Symbols
+01d7d8-01d7e1 Double-struck Digits
+01d7e2-01d7eb Sans-serif Digits
+01d7ec-01d7f5 Sans-serif Bold Digits
+01d7f6-01edff Monospace Digits
+01ee00-01eeff Arabic Mathematical Alphabetic Symbols
+01f100-01f10f Enclosed Alphanumeric Supplement
+01f110-01f12a Parenthesized Latin Letters
+01f12b-01f130 Circled Latin Letters
+01f131-01f1ff Squared Latin Letters
+01f300-01f30c Weather, Landscape, and Sky Symbols
+01f30d-01f310 Globe Symbols
+01f311-01f32f Moon, Sun, and Star Symbols
+01f330-01f344 Plant Symbols
+01f345-01f353 Fruit and Vegetable Symbols
+01f354-01f374 Food Symbols
+01f375-01f37f Beverage Symbols
+01f380-01f39f Celebration Symbols
+01f3a0-01f3ad Entertainment Symbols
+01f3ae-01f3b4 Game Symbols
+01f3b5-01f3bc Music Symbols
+01f3bd-01f3df Sport Symbols
+01f3e0-01f3ff Building and Map Symbols
+01f400-01f42c Signs of the Asian Zodiac
+01f42d-01f43f Animal Faces
+01f440-01f445 Facial Parts Symbols
+01f446-01f450 Index Finger Pointing Hand
+01f451-01f463 Clothing and Accessories
+01f464-01f477 Portrait and Role Symbols
+01f478-01f480 Fairy Tale Symbols
+01f481-01f483 Role Symbols
+01f484-01f48a Personal Care Symbols
+01f48b-01f492 Romance Symbols
+01f493-01f49f Heart Symbols
+01f4a0-01f4ad Comic Style Symbols
+01f4ae-01f4af Japanese School Grade Symbols
+01f4b0-01f4b9 Money Symbols
+01f4ba-01f4d4 Office Symbols
+01f4d5-01f4dc Books
+01f4dd-01f4e3 Communication Symbols
+01f4e4-01f4f6 Mail Symbols
+01f4f7-01f4ff Audio and Video Symbols
+01f500-01f506 User Interface Symbols
+01f507-01f50e Speaker Symbols
+01f50f-01f518 Lock Symbols
+01f519-01f51f Words with Arrows
+01f520-01f524 User Interface Input Status Symbols
+01f525-01f531 Tool Symbols
+01f532-01f539 Geometric Shapes
+01f53a-01f54f User Interface Symbols
+01f550-01f5fa Clock Face Symbols
+01f5fb-01f5ff Cultural Symbols
+01f600-01f637 Faces
+01f638-01f644 Cat Faces
+01f645-01f67f Gesture Symbols
+01f680-01f6a4 Vehicles
+01f6a5-01f6a8 Traffic Signs
+01f6a9-01f6ab Signage and Other Symbols
+01f6ac-01f6b8 Permission and Prohibition Signs
+01f6b9-01f6ff Restroom Symbols
+01f700-01f77f Alchemical Symbols
+020000-02a6df CJK Unified Ideographs Extension B
+02b740-02b81f CJK Unified Ideographs Extension D
+02f800-02fa1f CJK Compatibility Ideographs Supplement
+0e0000-0e007f Tags
+0e0100-0e01ef Variation Selectors Supplement
+0f0000-0fff7f Supplementary Private Use Area-A
+0fff80-0fffff Supplementary Private Use Area-A
+100000-10ff7f Supplementary Private Use Area-B
+10ff80-0e007f Supplementary Private Use Area-B

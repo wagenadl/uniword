@@ -1,0 +1,8 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>tables/chars.txt</file>
+     <file>tables/alias.txt</file>
+     <file>tables/blocks.txt</file>
+     <file>tables/groups.txt</file>
+ </qresource>
+ </RCC>

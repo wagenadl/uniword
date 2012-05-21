@@ -1,8 +1,0 @@
- <!DOCTYPE RCC><RCC version="1.0">
- <qresource>
-     <file>chars.txt</file>
-     <file>morechars.txt</file>
-     <file>blocks.txt</file>
-     <file>alias.txt</file>
- </qresource>
- </RCC>
