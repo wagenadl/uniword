@@ -15,7 +15,7 @@
 ##    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 TEMPLATE = app
-TARGET = 
+TARGET = ../uniword
 DEPENDPATH += .
 INCLUDEPATH += .
 
