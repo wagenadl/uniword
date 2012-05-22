@@ -1,9 +1,9 @@
 Source: uniword
-Section: unknown
+Section: X11
 Priority: optional
 Maintainer: Daniel Wagenaar <daw@caltech.edu>
 Build-Depends: debhelper (>= 8.0.0), libqt4-dev (>= 4.8.0), perl (>= 5.14), qt4-qmake (>= 4.8.0)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.danielwagenaar.net
 
 Package: uniword
