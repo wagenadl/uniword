@@ -2,11 +2,12 @@ Source: uniword
 Section: X11
 Priority: optional
 Maintainer: Daniel Wagenaar <daw@caltech.edu>
+Build-Depends: debhelper (>= 8.0.0), libqt4-dev (>= 4.8.0), build-essential (>= 11.5), perl (>= 5.14), qt4-qmake (>= 4.8.0)
 Homepage: http://www.danielwagenaar.net
 
 Package: uniword
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqtcore4 (>= 4.8), libqtgui4 (>= 4.8)
 Description: Keyword-based unicode character selector
  Entering unicode characters that do not visually appear on your
  keyboard can be tricky. With Uniword, you can find unicode characters
@@ -14,4 +15,3 @@ Description: Keyword-based unicode character selector
  will offer "° ℃ ℉ 𝆩" for your further selection. Uniword recognizes
  all keywords that occur in the Unicode Consortium's "UnicodeData.txt"
  and "Index.txt" files.
- 
