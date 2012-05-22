@@ -8,7 +8,7 @@ Homepage: http://www.danielwagenaar.net
 
 Package: uniword
 Architecture: any
-Depends: ${misc:Depends}, libqtcore4 (>= 4.8), libqtgui4 (>= 4.8)
+Depends: ${shlibs:Depends},${misc:Depends}, libqtcore4 (>= 4.8), libqtgui4 (>= 4.8)
 Description: Keyword-based unicode character selector
  Entering unicode characters that do not visually appear on your
  keyboard can be tricky. With Uniword, you can find unicode characters
