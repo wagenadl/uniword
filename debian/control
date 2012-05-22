@@ -1,0 +1,17 @@
+Source: uniword
+Section: X11
+Priority: optional
+Maintainer: Daniel Wagenaar <daw@caltech.edu>
+Homepage: http://www.danielwagenaar.net
+
+Package: uniword
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Keyword-based unicode character selector
+ Entering unicode characters that do not visually appear on your
+ keyboard can be tricky. With Uniword, you can find unicode characters
+ by typing a few keywords. For instance, if you type "degree", Uniword
+ will offer "° ℃ ℉ 𝆩" for your further selection. Uniword recognizes
+ all keywords that occur in the Unicode Consortium's "UnicodeData.txt"
+ and "Index.txt" files.
+ 
