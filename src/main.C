@@ -1,5 +1,23 @@
 // main.C
 
+/*
+    Uniword: keyword-based unicode character selector
+    Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include <QApplication>
 #include <QFile>
 #include <QTextStream>
@@ -10,7 +28,7 @@
 #include "Universe.H"
 
 void addchars(Universe &uverse) {
-  QFile chars(":/tables/chars.txt");
+  QFile chars(":/chars.txt");
   chars.open(QFile::ReadOnly);
   QTextStream ts(&chars);
   while (!ts.atEnd()) {
@@ -23,7 +41,7 @@ void addchars(Universe &uverse) {
 }
 
 void addalias(Universe &uverse) {
-  QFile alias(":/tables/alias.txt");
+  QFile alias(":/alias.txt");
   alias.open(QFile::ReadOnly);
   QTextStream ts(&alias);
   while (!ts.atEnd()) {
@@ -36,7 +54,7 @@ void addalias(Universe &uverse) {
 }
 
 void addblocks(Universe &uverse) {
-  QFile blocks(":/tables/blocks.txt");
+  QFile blocks(":/blocks.txt");
   blocks.open(QFile::ReadOnly);
   QTextStream ts(&blocks);
   while (!ts.atEnd()) {
@@ -58,7 +76,7 @@ void addblocks(Universe &uverse) {
 }
  
 void addgroups(Universe &uverse) {
-  QFile blocks(":/tables/groups.txt");
+  QFile blocks(":/groups.txt");
   blocks.open(QFile::ReadOnly);
   QTextStream ts(&blocks);
   while (!ts.atEnd()) {
