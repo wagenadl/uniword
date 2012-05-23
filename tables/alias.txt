@@ -1,533 +1,1554 @@
-000021 bang; factorial
-000022 neutral quotation mark; neutral quotation mark
-000023 crosshatch; hash; octothorpe; pound sign
-000024 escudo; milreis
-000027 apl quote; apostrophe-quote; neutral single quotation mark; neutral single quotation mark; apl quote; neutral single quotation mark
-000028 opening parenthesis; opening parenthesis
-000029 closing parenthesis; closing parenthesis
+000021 factorial; bang
+000023 pound sign, hash, crosshatch, octothorpe
+000024 milreis, escudo
+000027 apostrophe-quote; APL quote
+000028 opening parenthesis
+000029 closing parenthesis
 00002a star
-00002c decimal separator; decimal separator
-00002d hyphen or minus sign; hyphus; hyphen or minus sign
-00002e decimal point; dot; period; decimal point
-00002f slash; virgule
-00003b greek question mark; greek question mark
+00002c decimal separator
+00002d hyphen or minus sign
+00002e period, dot, decimal point
+00002f slash, virgule
 000040 at sign
-00005b opening square bracket; opening square bracket; opening square bracket
+00005b opening square bracket
 00005c backslash
-00005d closing square bracket; closing square bracket; closing square bracket
-00005e spacing circumflex accent; spacing circumflex accent; spacing circumflex accent
-00005f spacing underscore; spacing underscore
-000060 spacing grave accent; spacing grave accent; spacing grave accent
-00007b opening brace; opening curly bracket; opening curly bracket; opening brace; opening curly bracket
-00007c absolute value; vertical bar; vertical bar
-00007d closing brace; closing curly bracket; closing brace; closing curly bracket; closing curly bracket
-00007e spacing tilde; spacing tilde
-0000a0 nbsp; non-breaking space; non-breaking space
-0000a3 irish punt; italian lira; italian lira; turkish lira; pound sterling; irish punt; pound sterling; turkish lira
+00005d closing square bracket
+00005f spacing underscore
+00007b opening curly bracket; left brace
+00007c vertical bar
+00007d closing curly bracket; right brace
+0000a3 pound sterling, Irish punt, Italian lira, Turkish lira, etc.
 0000a5 yuan sign
-0000a6 broken vertical bar; parted rule; parted rule; broken vertical bar
-0000a7 european paragraph sign; european paragraph sign
-0000a8 spacing diaeresis; spacing diaeresis
-0000ab chevrons; left pointing guillemet; left pointing guillemet
-0000ac angled dash; angled dash
-0000ad discretionary hyphen; discretionary hyphen; shy
-0000ae registered trade mark sign; registered trade mark sign
-0000af apl overbar; spacing macron; apl overbar; overline; spacing macron
+0000a6 broken vertical bar; parted rule
+0000ab left guillemet; chevrons
+0000ac angled dash
+0000ad discretionary hyphen
+0000ae registered trade mark sign
+0000af overline, APL overbar
 0000b2 squared
 0000b3 cubed
-0000b4 spacing acute accent; spacing acute accent; spacing acute accent
-0000b6 european section sign; paragraph sign; european section sign
-0000b7 greek ano teleia; georgian comma; greek middle dot; georgian comma; greek ano teleia; greek middle dot; greek middle dot; midpoint
-0000b8 spacing cedilla; spacing cedilla
-0000bb right pointing guillemet; right pointing guillemet
-0000bf turned question mark; turned question mark
-0000c6 latin capital ligature ae; latin capital ligature ae
-0000d7 cartesian product; cartesian product
-0000d8 latin capital letter o slash; latin capital letter o slash
-0000df eszett
-0000e6 latin small ligature ae; ash; latin small ligature ae; latin small ligature ae; latin small ligature ae
-0000f8 latin small letter o slash; latin small letter o slash
-000130 latin capital letter i dot; latin capital letter i dot
-000153 latin small letter o e; ethel; latin small letter o e
-00018e latin capital letter turned e; latin capital letter turned e
-000190 latin capital letter epsilon
-000192 florin currency symbol; latin small letter script f; florin currency symbol; folder; function symbol; latin small letter script f
-000197 latin capital letter i bar
-00019b latin letter lambda bar; latin letter lambda bar
-00019f latin capital letter barred o; latin capital letter o bar; latin capital letter barred o
-0001b2 latin capital letter script v; latin capital letter script v
-0001b6 latin small letter z bar
+0000b6 paragraph sign
+0000b7 midpoint; Georgian comma; Greek middle dot
+0000bb right guillemet
+0000bf turned question mark
+0000c6 latin capital ligature ae
+0000d7 z notation Cartesian product
+0000d8 o slash
+0000df Eszett
+0000e6 latin small ligature ae; ash
+0000f8 o slash
+000130 i dot
+000149 latin small letter apostrophe n
+00014b engma, angma
+000153 ethel
+00018d reversed Polish-hook o
+00018e turned e
+000190 epsilon
+000192 script f; Florin currency symbol; function symbol
+000197 barred i, i bar
+00019a barred l
+00019b barred lambda, lambda bar
+00019f barred o, o bar
+0001b2 script v
+0001b6 barred z, z bar
+0001bf wen
 0001c0 pipe
-0001c1 double pipe; double pipe
-0001c2 double-barred pipe; double-barred pipe
-0001c3 latin letter exclamation mark; latin letter exclamation mark
-000251 latin small letter script a; latin small letter script a
-000256 latin small letter d retroflex hook; latin small letter d retroflex hook
-00025b latin small letter epsilon; latin small letter epsilon
-00025e latin small letter closed reversed epsilon; latin small letter closed reversed epsilon; latin small letter closed reversed epsilon; latin small letter closed reversed epsilon
-000264 latin small letter baby gamma; latin small letter baby gamma; latin small letter baby gamma
-000275 latin small letter o bar
-00028b latin small letter script v; latin small letter script v
-00028c caret; wedge
+0001c1 double pipe
+0001c2 double-barred pipe; palatoalveolar click
+0001c3 latin letter exclamation mark; 
+0001f7 wen
+000251 latin small letter script a
+000256 d retroflex hook
+00025b epsilon
+00025e closed reversed epsilon
+000264 latin small letter baby gamma
+000268 barred i, i bar
+000275 o bar
+00027f long leg turned iota
+00028b latin small letter script v
+00028c caret, wedge
 000292 dram
-000295 latin letter reversed glottal stop; latin letter reversed glottal stop; latin letter reversed glottal stop
-000298 latin letter bullseye; latin letter bullseye
-00029a latin small letter closed epsilon; latin small letter closed epsilon; latin small letter closed epsilon
-0002bc neutral apostrophe; glottal stop
-0002c7 mandarin chinese third tone; modifier letter hacek; mandarin chinese third tone; mandarin chinese third tone; mandarin chinese third tone
-0002c9 mandarin chinese first tone; mandarin chinese first tone; mandarin chinese first tone
-0002ca mandarin chinese second tone; mandarin chinese second tone; mandarin chinese second tone; mandarin chinese second tone
-0002cb mandarin chinese fourth tone; mandarin chinese fourth tone; mandarin chinese fourth tone; mandarin chinese fourth tone
-0002d9 mandarin chinese fifth or neutral tone; mandarin chinese fifth or neutral tone; mandarin chinese fifth or neutral tone; mandarin chinese fifth or neutral tone
-0002df swedish grave accent; swedish grave accent; swedish grave accent
-000300 greek varia; greek varia
-000301 greek oxia; greek tonos; greek oxia; stress mark; greek tonos
+000295 reversed glottal stop
+000298 bullseye
+00029a closed epsilon
+0002bc apostrophe
+0002c7 hacek
+000300 Greek varia
+000301 stress mark; Greek oxia, tonos
 000302 hat
 000304 long
-000305 overscore; vinculum
-000306 greek vrachy; short; greek vrachy
+000305 overscore, vinculum
+000306 short; Greek vrachy
 000307 derivative
-000308 double dot above; double derivative; greek dialytika; double dot above; double derivative; double dot above; greek dialytika; umlaut
-00030c v above; combining hacek; combining hacek; v above
-000312 cedilla above; cedilla above
-000313 greek smooth breathing mark; greek psili; greek smooth breathing mark; greek psili; greek smooth breathing mark
-000314 greek rough breathing mark; greek dasia; greek dasia; greek rough breathing mark; greek rough breathing mark
-000328 nasal hook; nasal hook
-000332 underline; underscore
-000333 double underline; double underscore; double underline; double underscore
-000337 short slash overlay; short slash overlay; short slash overlay
-000338 long slash overlay; long slash overlay; long slash overlay
-000345 greek iota subscript; greek non-spacing iota below; greek non-spacing iota below; greek iota subscript; greek non-spacing iota below; greek iota subscript
-00034f cgj
-00035c papyrological hyphen; ligature tie below; papyrological hyphen; ligature tie below
-000361 ligature tie; ligature tie
-000393 gamma function; gamma function
-0003c0 mathematical constant pi; mathematical constant 3.141592... pi; mathematical constant 3.141592... pi
-0003d0 curled beta; curled beta
-0003d1 script theta; script theta
+000308 double dot above, umlaut; Greek dialytika; double derivative
+000309 hoi
+00030c hacek, V above
+000312 cedilla above
+000313 Greek psili, smooth breathing mark
+000314 Greek dasia, rough breathing mark
+000323 nang
+000328 nasal hook
+000332 underline, underscore
+000333 double underline, double underscore
+000337 short slash overlay
+000338 long slash overlay
+00033e yerik
+000345 greek non-spacing iota below; iota subscript
+00035c ligature tie below, papyrological hyphen
+000361 ligature tie
+000374 dexia keraia
+000375 aristeri keraia
+00037a iota subscript
+00037e erotimatiko
+000393 gamma function
+000399 iota adscript
+0003bb lambda
+0003c2 stigma
+0003d0 curled beta
+0003d1 script theta
 0003d6 omega pi
-0003f2 greek small letter lunate sigma; greek small letter lunate sigma
-0003f5 straight epsilon; straight epsilon
-0003f6 reversed straight epsilon; reversed straight epsilon; reversed straight epsilon
-00055a armenian modifier letter right half ring; armenian modifier letter right half ring; armenian modifier letter right half ring
-00055b armenian shesht; armenian shesht
-00055c armenian batsaganchakan nshan; armenian batsaganchakan nshan
-00055d armenian bowt; armenian bowt
-00055e armenian hartsakan nshan; armenian hartsakan nshan
-00055f armenian patiw; armenian patiw
-000589 armenian vertsaket; georgian full stop; georgian full stop; armenian vertsaket
-00058a armenian yentamna; armenian yentamna
-000640 arabic kashida; arabic kashida
-00066c arabic phrase separator; arabic phrase separator
-0006c0 arabic letter hamzah on ha; arabic letter hamzah on ha; izafet
-00070f syriac sam; syriac sam
-000901 devanagari anunasika
-000902 devanagari bindu; devanagari bindu
+0003f0 script kappa
+0003f1 tailed rho
+0003f2 greek small letter lunate sigma
+0003f5 straight epsilon
+0003f6 reversed straight epsilon
+0003fd antisigma
+0003fe sigma periestigmenon
+0003ff antisigma periestigmenon
+000454 Old Cyrillic yest
+000456 Old Cyrillic i
+00047c Cyrillic "beautiful omega"
+000515 voiceless l
+000517 voiceless r
+000521 palatalized l
+000523 palatalized n
+00055a armenian modifier letter right half ring
+00055b shesht
+00055c batsaganchakan nshan
+00055d bowt
+00055e hartsakan nshan
+00055f patiw
+000589 vertsaket
+00058a yentamna
+000591 atnah
+000592 segolta
+000596 tarha, me'ayla ~ mayla
+000598 tsinorit, zinorit; tsinor, zinor
+00059c teres
+00059f pazer gadol
+0005a1 pazer qatan
+0005a5 yored
+0005a8 azla
+0005aa galgal
+0005ae tsinor; zarqa
+0005bc shuruq
+0005bd siluq
+0005c0 legarmeh
+0005d0 aleph
+0005e6 zade
+0005f0 tsvey vovn
+0005f2 tsvey yudn
+000640 kashida
+000657 ulta pesh
+0006c0 arabic letter hamzah on ha; izafet
+0006e1 Arabic jazm
+00070f SAM
+00081c fatha al-nida
+00081e fatha al-ima
+000821 fatha al-iha
+000825 fatha
+000826 damma
+000829 kasra
+000830 word separator
+000831 interruption
+000832 restraint
+000833 prayer
+000834 surprise
+000835 question
+000838 shouting
+000839 end of section
+00083a outburst
+00083b teaching
+00083c submissiveness
+00083d full stop
+00083e rest
+000840 a
+000845 u
+000849 i
+000856 di
+0008aa bottya-reh
+0008ab nota-wa
+0008ac bottya-yeh
+0008f0 successive fathatan
+0008f1 successive dammatan
+0008f2 successive kasratan
+000900 vaidika adhomukha candrabindu
+000901 anunasika
+000902 bindu
+000945 candra
 00094d halant
-000964 devanagari purna viram; devanagari purna viram; devanagari phrase separator; devanagari purna viram
-000965 devanagari deergh viram; devanagari deergh viram; devanagari deergh viram
-0009cd bengali hasant; bengali hasant
-000b83 tamil aytham; tamil aytham
-000bf3 tamil naal; tamil naal
-000bf4 tamil maatham; tamil maatham
-000bf5 tamil varudam; tamil varudam
-000bf6 tamil patru; tamil patru
-000bf7 tamil varavu; tamil varavu
-000bf8 tamil merpadi; tamil merpadi
-000bf9 tamil rupai; tamil rupai
-000bfa tamil enn; tamil enn
-000c02 telugu sunna; telugu sunna
-000d4d malayalam chandrakkala; malayalam chandrakkala; malayalam vowel half-u
-000dca sinhala virama; sinhala virama
-000f7e tibetan anusvara; tibetan anusvara
-000f7f tibetan visarga; tibetan visarga
-000f84 tibetan srog med; tibetan srog med
-001039 myanmar killer; myanmar killer
-0017c6 khmer anusvara; khmer anusvara; khmer srak am; khmer srak am
-0017c7 khmer srak ah; khmer visarga; khmer srak ah; khmer visarga
-00180b fvs1
-002001 mutton quad; mutton quad
+000951 Vedic tone svarita
+000952 Vedic tone anudatta
+000964 purna viram
+000965 deergh viram
+0009ac Bengali va, wa
+0009cd hasant
+0009f1 bengali letter va with lower diagonal
+000a05 aira
+000a3c pairin bindi
+000a3e kanna
+000a3f sihari
+000a40 bihari
+000a41 aunkar
+000a42 dulainkar
+000a47 lanvan
+000a48 dulanvan
+000a4b hora
+000a4c kanaura
+000b2f ja
+000b5c dda
+000b5d ddha
+000b5f ya
+000b83 aytham
+000bf3 naal
+000bf4 maatham
+000bf5 varudam
+000bf6 patru
+000bf7 varavu
+000bf8 merpadi
+000bf9 rupai
+000bfa enn
+000c01 arasunna
+000c02 sunna
+000c4d halant
+000d1a cha
+000d1b chha
+000d1e nha
+000d1f ta
+000d20 tta
+000d21 hard da
+000d22 hard dda
+000d23 hard na
+000d24 tha
+000d25 ttha
+000d26 soft da
+000d27 soft dda
+000d34 zha
+000d36 soft sha
+000d37 sha
+000d3d praslesham
+000d4d chandrakkala; vowel half-u
+000d82 anusvara
+000d83 visarga
+000d85 sinhala letter a
+000d86 sinhala letter aa
+000d87 sinhala letter ae
+000d88 sinhala letter aae
+000d89 sinhala letter i
+000d8a sinhala letter ii
+000d8b sinhala letter u
+000d8c sinhala letter uu
+000d8d sinhala letter vocalic r
+000d8e sinhala letter vocalic rr
+000d8f sinhala letter vocalic l
+000d90 sinhala letter vocalic ll
+000d91 sinhala letter e
+000d92 sinhala letter ee
+000d93 sinhala letter ai
+000d94 sinhala letter o
+000d95 sinhala letter oo
+000d96 sinhala letter au
+000d9a sinhala letter ka
+000d9b sinhala letter kha
+000d9c sinhala letter ga
+000d9d sinhala letter gha
+000d9e sinhala letter nga
+000d9f sinhala letter nnga
+000da0 sinhala letter ca
+000da1 sinhala letter cha
+000da2 sinhala letter ja
+000da3 sinhala letter jha
+000da4 sinhala letter nya
+000da5 sinhala letter jnya
+000da6 sinhala letter nyja
+000da7 sinhala letter tta
+000da8 sinhala letter ttha
+000da9 sinhala letter dda
+000daa sinhala letter ddha
+000dab sinhala letter nna
+000dac sinhala letter nndda
+000dad sinhala letter ta
+000dae sinhala letter tha
+000daf sinhala letter da
+000db0 sinhala letter dha
+000db1 sinhala letter na
+000db3 sinhala letter nda
+000db4 sinhala letter pa
+000db5 sinhala letter pha
+000db6 sinhala letter ba
+000db7 sinhala letter bha
+000db8 sinhala letter ma
+000db9 sinhala letter mba
+000dba sinhala letter ya
+000dbb sinhala letter ra
+000dbd sinhala letter la
+000dc0 sinhala letter va
+000dc1 sinhala letter sha
+000dc2 sinhala letter ssa
+000dc3 sinhala letter sa
+000dc4 sinhala letter ha
+000dc5 sinhala letter lla
+000dc6 sinhala letter fa
+000dca virama
+000dcf sinhala vowel sign aa
+000dd0 sinhala vowel sign ae
+000dd1 sinhala vowel sign aae
+000dd2 sinhala vowel sign i
+000dd3 sinhala vowel sign ii
+000dd4 sinhala vowel sign u
+000dd6 sinhala vowel sign uu
+000dd8 sinhala vowel sign vocalic r
+000dd9 sinhala vowel sign e
+000dda sinhala vowel sign ee
+000ddb sinhala vowel sign ai
+000ddc sinhala vowel sign o
+000ddd sinhala vowel sign oo
+000dde sinhala vowel sign au
+000ddf sinhala vowel sign vocalic l
+000df2 sinhala vowel sign vocalic rr
+000df3 sinhala vowel sign vocalic ll
+000e2e ho nok huk
+000e2f paiyan noi
+000e37 sara uue
+000e43 sara ai mai muan
+000e44 sara ai mai malai
+000e45 lakkhang yao
+000e46 mai yamok
+000e47 mai taikhu
+000e4d nikkhahit
+000e81 ko kay
+000e82 kho khay
+000e84 kho khuay
+000e87 ngo ngu, ngo ngua
+000e88 co cok, co cua
+000e8a so sang
+000e8d nyo nyung
+000e94 do dek
+000e95 to ta
+000e96 tho thong
+000e97 tho thung
+000e99 no nok
+000e9a bo be, bo bet
+000e9b po pa
+000e9c pho pheng
+000e9d fo fa
+000e9e pho phu
+000ea1 mo mew, mo ma
+000ea2 yo ya
+000ea3 ro rot
+000ea5 lo ling
+000ea7 wo wi
+000eaa so sya
+000eab ho hay, ho han
+000ead o o
+000eae ho hya, ho hyan
+000ebb mai kong
+000ebd nyo fyang
+000ec3 mai muan
+000ec4 mai may
+000f0b tsek
+000f0d shey
+000f65 reversed sha
+000f71 a-chung
+000f7e anusvara
+000f7f visarga
+000f84 srog med
+000fad wa-zur, wa-btags
+000fb0 a-chung
+000fb1 ya-btags
+000fb2 ra-btags
+000fb5 reversed subjoined sha
+000fce dena deka
+000fd2 nyi tsek
+000fd3 da nying yik go dun ma
+000fd4 da nying yik go kab ma
+000fd5 gyung drung nang -khor
+000fd6 gyung drung phyi -khor
+000fd7 gyung drung nang -khor bzhi mig can
+000fd8 gyung drung phyi -khor bzhi mig can
+001037 aukmyit
+001039 killer
+00103a killer
+001100 G
+001101 GG
+001102 N
+001103 D
+001104 DD
+001105 R
+001106 M
+001107 B
+001108 BB
+001109 S
+00110a SS
+00110c J
+00110d JJ
+00110e C
+00110f K
+001110 T
+001111 P
+001112 H
+001161 A
+001162 AE
+001163 YA
+001164 YAE
+001165 EO
+001166 E
+001167 YEO
+001168 YE
+001169 O
+00116a WA
+00116b WAE
+00116c OE
+00116d YO
+00116e U
+00116f WEO
+001170 WE
+001171 WI
+001172 YU
+001173 EU
+001174 YI
+001175 I
+0011a8 G
+0011a9 GG
+0011aa GS
+0011ab N
+0011ac NJ
+0011ad NH
+0011ae D
+0011af L
+0011b0 LG
+0011b1 LM
+0011b2 LB
+0011b3 LS
+0011b4 LT
+0011b5 LP
+0011b6 LH
+0011b7 M
+0011b8 B
+0011b9 BS
+0011ba S
+0011bb SS
+0011bc NG
+0011bd J
+0011be C
+0011bf K
+0011c0 T
+0011c1 P
+0011c2 H
+0011ec yesieung-kiyeok
+0011ed yesieung-ssangkiyeok
+0011ee ssangyesieung
+0011ef yesieung-khieukh
+0017c6 srak am; anusvara
+0017c7 srak ah; visarga
+001aa3 courtyard
+001aa4 oyster
+001aa5 flower
+001b00 ardhacandra
+001b01 candrabindu
+001b02 anusvara
+001b03 repha
+001b04 visarga
+001b05 a
+001b06 aa
+001b07 i
+001b08 ii
+001b09 u
+001b0a uu
+001b0b vocalic r
+001b0c vocalic rr
+001b0d vocalic l
+001b0e vocalic ll
+001b0f e
+001b10 ai
+001b11 o
+001b12 au
+001b14 kha
+001b16 gha
+001b19 cha
+001b1b jha
+001b1d tta
+001b1e ttha
+001b1f dda
+001b20 ddha
+001b21 nna
+001b23 tha
+001b25 dha
+001b28 pha
+001b2a bha
+001b30 sha
+001b31 ssa
+001b34 nukta
+001b35 aa
+001b36 i
+001b37 ii
+001b38 u
+001b39 uu
+001b3a vocalic r
+001b3b vocalic rr
+001b3c vocalic l
+001b3d vocalic ll
+001b3e e
+001b3f ai
+001b40 o
+001b41 au
+001b42 ae
+001b43 oe
+001b44 virama
+001b5a section
+001b5b honorific section
+001b5c punctuation ring
+001b5d colon
+001b5e danda
+001b5f double danda
+001b60 line-breaking hyphen
+001b80 anusvara
+001b81 repha
+001b82 visarga
+001ba1 subjoined ya
+001ba2 subjoined ra
+001ba3 subjoined la
+001ba4 i
+001ba5 u
+001ba6 ae
+001ba7 o
+001ba8 e
+001ba9 eu
+001baa virama
+001bac subjoined ma
+001bad subjoined wa
+001be7 kebereten
+001be8 ketolongen
+001be9 talinga
+001bea ulua
+001beb haluan
+001bec siala ulu
+001bed hatulungan
+001bee boruta
+001bef haboritan for simalungun sa
+001bf0 amisara
+001bf1 hajoringan
+001bf2 virama
+001bf3 virama
+001cd0 vaidika saamasvara karshanna
+001cd1 vaidika svarita uurdhva shara
+001cd2 vaidika saamasvara prenkha
+001cd3 vaidika saamagaana yogakaala
+001cd5 vaidika svarita adho nyubja
+001cd6 vaidika svarita adhah konna
+001cd7 vaidika svarita adho vakra rekhaa
+001cd8 vaidika svarita adho'rdha vakra
+001cd9 vaidika svarita adhah samyukta rekhaa
+001cda vaidika svarita uurdhva dvi rekhaa
+001cdb vaidika svarita uurdhva tri rekhaa
+001cdc vaidika svarita adho rekhaa
+001cdd vaidika svarita adho bindu
+001cde vaidika svarita adho dvi bindu
+001cdf vaidika svarita adhas tri bindu
+001ce0 vaidika uurdhva vakra rekhaa
+001ce1 vaidika svarita dvi vakra khannda
+001ce2 vaidika madhyarekhaa
+001ce3 vaidika visarga dakshinnatah uurdhvaga
+001ce4 vaidika visarga vaamatah uurdhvaga
+001ce5 vaidika visarga vaamatah adhoga
+001ce6 vaidika visarga dakshinnatah adhoga
+001ce7 vaidika visarga dakshinnatah uurdhva vakra
+001ce8 vaidika visarga vaamatah adho vakra
+001ce9 vaidika anusvaara antarmukha
+001cea vaidika anusvaara naagaphanna
+001ceb vaidika anusvaara vaamagomukha
+001cec vaidika anusvaara vaamagomukha sa-vakra
+001ced vaidika tiryak
+001cee vaidika anusvaara anugaamii
+001cef vaidika anusvaara dakshinnamukha
+001cf0 vaidika anusvaara ttha-sadrisha
+001cf1 vaidika anusvaara ubhayato mukha
+001cf2 vaidika jihvaamuuliiya upadhmaaniiya
+002001 mutton quad
 002002 nut
 002003 mutton
-002004 thick space; thick space
-002005 mid space; mid space
-00200b zwsp
-00200c zwnj
-00200d zwj
-00200e lrm
-00200f rlm
-002015 quotation dash; quotation dash
-002017 spacing double underscore; spacing double underscore; spacing double underscore
-002018 single turned comma quotation mark; single turned comma quotation mark; single turned comma quotation mark; single turned comma quotation mark
-002019 apostrophe; single comma quotation mark; single comma quotation mark; single comma quotation mark
-00201a low single comma quotation mark; low single comma quotation mark; low single comma quotation mark; low single comma quotation mark
-00201b single reversed comma quotation mark; single reversed comma quotation mark; single reversed comma quotation mark; single reversed comma quotation mark
-00201c double turned comma quotation mark; double turned comma quotation mark; double turned comma quotation mark; double turned comma quotation mark
-00201d double comma quotation mark; double comma quotation mark; double comma quotation mark
-00201e low double comma quotation mark; low double comma quotation mark; low double comma quotation mark; low double comma quotation mark
-00201f double reversed comma quotation mark; double reversed comma quotation mark; double reversed comma quotation mark; double reversed comma quotation mark
-002020 long cross
-002021 diesis
-002022 black small circle; black small circle; black small circle
-002026 three dot leader; three dot leader; three dot leader
-00202a lre
-00202b rle
-00202c pdf
-00202d lro
-00202e rlo
-00202f nnbsp
-002030 per thousand
-002032 feet; minutes
-002033 inches; seconds
-002039 left pointing single guillemet; left pointing single guillemet; left pointing single guillemet
-00203a right pointing single guillemet; right pointing single guillemet; right pointing single guillemet
-00203b japanese kome; japanese kome; urdu paragraph separator; urdu paragraph separator; urdu paragraph separator
-00203e spacing overscore; spacing overscore
-00203f greek enotikon; greek enotikon
-002040 sequence concatenation; sequence concatenation
+002004 thick space
+002005 mid space
+002015 quotation dash
+002018 single turned comma quotation mark
+002019 single comma quotation mark
+00201a low single comma quotation mark
+00201b single reversed comma quotation mark
+00201c double turned comma quotation mark
+00201d double comma quotation mark
+00201e low double comma quotation mark
+00201f double reversed comma quotation mark
+002020 obelisk, obelus, long cross
+002021 diesis, double obelisk
+002022 black small circle
+002026 three dot leader
+002030 permille, per thousand
+002031 permyriad
+002032 minutes, feet
+002033 seconds, inches
+002034 lines
+002039 left pointing single guillemet
+00203a right pointing single guillemet
+00203b Japanese kome; Urdu paragraph separator
+00203e spacing overscore
+00203f Greek enotikon
+002040 z notation sequence concatenation
 002044 solidus
-002052 med avdrag av; piska
-002055 phul; puspika
-002059 greek pentonkion; greek pentonkion
-00205d epidaurean acrophonic symbol three; epidaurean acrophonic symbol three
-00205f mmsp
-002060 wj
-002063 invisible comma; invisible comma
-0020a1 costa rican currency; costa rican currency; el salvadorian currency; el salvadorian currency
-0020a2 brazilian currency; brazilian currency
-0020a3 french currency
-0020a4 italian currency; turkish currency; italian currency; turkish currency
-0020a6 nigerian currency; nigerian currency
-0020a7 spanish currency; spanish currency
-0020a8 indian currency; indian currency
-0020a9 korean currency; korean currency
-0020aa israeli currency; israeli currency
-0020ab vietnamese currency; vietnamese currency
-0020ac euro european currency; euro european currency
-0020ad laotian currency; laotian currency
-0020ae mongolian currency; mongolian currency
-0020af greek currency; greek currency
-0020b1 phillipine currency; phillipine currency
-0020b2 paraguayan currency; paraguayan currency
-0020b3 argentinian former currency; argentinian former currency
-0020b4 ukrainian currency; ukrainian currency
-0020b5 ghana currency; ghana currency
-0020d1 vector
-0020d4 combining counterclockwise arrow above; combining counterclockwise arrow above; combining counterclockwise arrow above; combining counterclockwise arrow above
-0020d7 vector
-0020da combining counterclockwise ring overlay; combining counterclockwise ring overlay; combining counterclockwise ring overlay; combining counterclockwise ring overlay
-0020db third derivative; third derivative
-0020dc fourth derivative; fourth derivative
-0020dd jis composition circle; jis composition circle; jis composition circle
-0020e0 no; prohibition
-0020e6 finite function diacritic; finite function diacritic
-0020e7 actuarial bend; actuarial bend
+002052 abzüglich
+002055 phul, puspika
+002059 Greek pentonkion; quincunx
+00205d Epidaurean acrophonic symbol three
+002063 invisible comma
+0020db third derivative
+0020dc fourth derivative
+0020dd JIS composition circle; Cyrillic combining ten thousands sign
+0020e6 z notation finite function diacritic
+0020e7 actuarial bend
 0020e9 contraction operator
-0020eb long double slash overlay; long double slash overlay; long double slash overlay; long double slash overlay
-002102 complex numbers; complex numbers; the set of complex numbers
-002103 degrees centigrade; degrees centigrade
+0020eb long double slash overlay
+002102 the set of complex numbers
+002103 degrees Centigrade
 002104 clone
-00210a real number symbol; real number symbol
-00210c hilbert space; hilbert space
+00210a real number symbol
+00210b Hamiltonian operator
+00210c Hilbert space
+00210e height, specific enthalpy, ...
 002111 imaginary part
-002112 laplace transform
-002113 liter
+002112 Laplace transform
+002113 mathematical symbol 'ell'; liter
 002114 pounds
-002115 natural number; natural number
-002117 phonorecord sign; published
-002118 weierstrass elliptic function; weierstrass elliptic function; weierstrass elliptic function
-00211a rational numbers; rational numbers; the set of rational numbers
-00211b riemann integral; riemann integral
+002115 natural number
+002117 published; phonorecord sign
+00211a the set of rational numbers
+00211b Riemann Integral
 00211c real part
-00211d real numbers; real numbers; the set of real numbers
-00211e cross ratio; cross ratio; recipe
-002124 integers; the set of integers
+00211d the set of real numbers
+00211e recipe; cross ratio
+002124 the set of integers
 002127 mho
-002129 unique element; unique element
-00212c bernoulli function; bernoulli function
-00212f error; natural exponent; natural exponent
-002130 electromotive force; emf
-002131 fourier transform; fourier transform
-002132 claudian digamma inversum; claudian digamma inversum
-002133 german mark pre-wwii; m-matrix; german mark pre-wwii
-002134 order
-002135 first transfinite cardinal; first transfinite cardinal countable; first transfinite cardinal
-002136 second transfinite cardinal; second transfinite cardinal continuum; second transfinite cardinal
-002137 third transfinite cardinal; third transfinite cardinal
-002138 fourth transfinite cardinal; fourth transfinite cardinal
+00212c Bernoulli function
+00212f error; natural exponent
+002130 emf
+002131 Fourier transform
+002132 Claudian digamma inversum
+002133 M-matrix; German Mark currency symbol, before WWII
+002134 order, of inferior order to
+002135 first transfinite cardinal
+002136 second transfinite cardinal
+002137 third transfinite cardinal
+002138 fourth transfinite cardinal
 002141 game
-002183 claudian antisigma; apostrophic c; apostrophic c; claudian antisigma
-002191 egressive airflow
-002192 total function; total function
-002193 ingressive airflow
-002194 relation
-00219e fast cursor left; fast cursor left; fast cursor left
-00219f fast cursor up; fast cursor up; fast cursor up
-0021a0 fast cursor right; fast cursor right; fast cursor right; total surjection; total surjection
-0021a1 fast cursor down; fast cursor down; form feed
-0021a3 total injection; total injection
-0021a6 maplet
+002183 apostrophic C; Claudian antisigma
+002192 z notation total function
+002194 z notation relation
+00219e fast cursor left
+00219f fast cursor up
+0021a0 z notation total surjection; fast cursor right
+0021a1 form feed; fast cursor down
+0021a3 z notation total injection
+0021a6 z notation maplet
 0021a7 depth symbol
 0021af electrolysis
 0021b4 line feed
 0021b8 home
 0021b9 tab with shift tab
-0021de page up; page up
-0021df page down; page down
-0021e4 leftward tab; leftward tab
-0021e5 rightward tab; rightward tab
-0021e7 shift
-0021ea caps lock; caps lock
+0021de page up
+0021df page down
+0021e4 leftward tab
+0021e5 rightward tab
+0021e7 shift; level 2 select
+0021e8 group select
+0021ea caps lock
 0021eb level 2 lock
-0021ec caps lock; caps lock
-0021ed numerics lock; numerics lock
+0021ec capitals  lock
+0021ed numeric lock
 0021ee level 3 select
 0021ef level 3 lock
 0021f0 group lock
 0021f1 home
 0021f2 end
 0021f3 scrolling
-0021f8 partial function; partial function
-0021f9 partial relation; partial relation
-0021fb finite function; finite function
-0021fc finite relation; finite relation
-002200 universal quantifier; universal quantifier
-002203 existential quantifier; existential quantifier
-002205 null set; null set
-002206 forward difference; symmetric difference; forward difference; laplace operator; symmetric difference
-002207 backward difference; del; backward difference
+0021f8 z notation partial function
+0021f9 z notation partial relation
+0021fb z notation finite function
+0021fc z notation finite relation
+002200 universal quantifier
+002203 existential quantifier
+002205 null set
+002206 Laplace operator; forward difference; symmetric difference
+002207 backward difference; gradient, del
 00220b such that
-00220d reversed straight epsilon
 00220e q.e.d.
 00220f product sign
 002210 coproduct sign
 002211 summation sign
-002218 apl jot; composite function; composite function; apl jot
+002218 composite function; APL jot
 00221a radical sign
-002222 angle arc; angle arc
-002223 apl stile; apl stile; such that
-002227 conjunction; wedge
-002228 disjunction; vee
-002229 cap; hat
+002222 angle arc
+002223 such that; APL stile
+002227 wedge, conjunction
+002228 vee, disjunction
+002229 cap, hat
 00222a cup
-002233 counterclockwise contour integral; counterclockwise contour integral; counterclockwise contour integral
-002238 symmetric difference; saturating subtraction; saturating subtraction; symmetric difference
-00223c apl tilde; cycle; difference between; not; proportional to; similar to; apl tilde; varies with
-00223d lazy s; lazy s
-00223e most positive; most positive
-00223f alternating current; alternating current
+002238 saturating subtraction
+00223c varies with; difference between; similar to; not; cycle; APL tilde
+00223d lazy S
+00223e most positive
+00223f alternating current
 002248 asymptotic to
-002252 nearly equals; nearly equals
-002257 approximately equal to; approximately equal to
+002252 nearly equals
+002257 approximately equal to
 002259 corresponds to
-00225c equal to by definition; equal to by definition; equiangular
-00226c plaintiff; quantic
+00225c equiangular; equal to by definition
+00226c plaintiff, quantic
 00227a lower rank than
 00227b higher rank than
-002282 included in set; included in set
-002283 includes in set; includes in set
-00228e bag addition
-002295 direct sum; direct sum; vector pointing into page
-002296 symmetric difference; symmetric difference
-002297 tensor product; tensor product; vector pointing into page
-002299 direct product; direct product; vector pointing out of page
-0022a2 implies; proves; reducible; turnstile; yields
-0022a3 does not yield; non-theorem; does not yield; reverse turnstile; reverse turnstile; does not yield
+002282 included in set
+002283 includes in set
+00228e z notation bag addition
+002295 direct sum; vector pointing into page
+002296 symmetric difference
+002297 tensor product; vector pointing into page
+002299 direct product; vector pointing out of page
+0022a2 turnstile; proves, implies, yields; reducible
+0022a3 reverse turnstile; non-theorem, does not yield
 0022a4 top
-0022a5 base; bottom; orthogonal to; perpendicular
+0022a5 base, bottom
 0022a6 reduces to
-0022a8 results in; satisfies; statement is true; tautology; valid
-0022c2 generalized intersection; generalized intersection
-0022c3 generalized union; generalized union
-0022d4 proper intersection; proper intersection
-002301 end of transmission symbol; end of transmission symbol
-002308 apl upstile; apl upstile
-00230a apl downstile; apl downstile
+0022a8 statement is true, valid; is a tautology; satisfies; results in
+0022c2 z notation generalised intersection
+0022c3 z notation generalised union
+0022d4 proper intersection
+002308 APL upstile
+00230a APL downstile
 002310 beginning of line
-002311 kissen; pillow
-002318 command key; command key
-002319 line marker; line marker
-002324 enter key; enter key
-002326 delete to the right key; delete to the right key; delete to the right key
-002327 clear key; clear key
-00232b delete to the left key; delete to the left key; delete to the left key
+002311 Kissen
+002312 position of any line
+002313 position of a surface
+002316 true position
+002318 command key; operating system key
+002319 line marker
+00231b alchemical symbol for hour
+002324 enter key
+002326 delete to the right key
+002327 clear key
+00232b delete to the left key
+00234a up tack underbar
+00234e up tack jot
+002351 down tack overbar
+002355 down tack jot
+002361 down tack diaeresis
 002364 hoot
 002365 holler
 002368 smirk
-00237d keyboard symbol for no break space; keyboard symbol for no break space; keyboard symbol for no break space
-00237f symbol for end of medium
 002385 center
 002388 control
 002389 pause
-00238a interrupt
+00238a interrupt, break
 00238b escape
-0023b0 left moustache; left moustache
-0023b1 right moustache; right moustache
-0023cf eject media
-0023e9 fast forward; fast forward
-0023ea fast rewind; fast rewind
-002423 graphic for space
+0023b0 left moustache
+0023b1 right moustache
+0023e9 fast forward
+0023ea fast rewind
+002445 unique asterisk
+002446 transit
+002447 amount
+002448 on us
+002449 dash
+002500 Videotex Mosaic DG 15
+002502 Videotex Mosaic DG 14
+00250c Videotex Mosaic DG 16
+002510 Videotex Mosaic DG 17
+002514 Videotex Mosaic DG 18
+002518 Videotex Mosaic DG 19
+00251c Videotex Mosaic DG 20
+00251d Videotex Mosaic DG 03
+002524 Videotex Mosaic DG 21
+002525 Videotex Mosaic DG 04
+00252c Videotex Mosaic DG 22
+00252f Videotex Mosaic DG 02
+002534 Videotex Mosaic DG 23
+002537 Videotex Mosaic DG 01
+00253c Videotex Mosaic DG 24
+00253f Videotex Mosaic DG 13
 002588 solid
-0025a1 quadrature
-0025ae histogram marker; histogram marker
+0025a0 moding mark
+0025a1 quadrature; alchemical symbol for salt
+0025aa square bullet
+0025ae histogram marker
 0025b3 trine
-0025b7 range restriction; range restriction
-0025bb forward arrow indicator; forward arrow indicator; forward arrow indicator
-0025bd hamilton operator
-0025c1 domain restriction; domain restriction
-0025c5 backward arrow indicator; backward arrow indicator; backward arrow indicator
-0025c9 tainome japanese bullet; tainome japanese bullet; tainome japanese bullet
+0025b7 z notation range restriction
+0025bb forward arrow indicator
+0025bd Hamilton operator
+0025c1 z notation domain restriction
+0025c5 backward arrow indicator
+0025c9 tainome
 0025fb always
-002600 clear weather; clear weather
-002601 cloudy weather; cloudy weather
-002602 rainy weather; rainy weather
-002603 snowy weather; snowy weather
-002613 st. andrew's cross; st. andrew's cross
-002614 showery weather; showery weather
-002615 cup of coffee; cup of coffee; cup of tea; cup of tea
+002600 clear weather
+002601 cloudy weather
+002602 rainy weather
+002603 snowy weather
+002609 alchemical symbol for gold
+00260a alchemical symbol for sublimate
+00260b alchemical symbol for purify
+00260c alchemical symbol for day
+002613 St. Andrew's Cross
+002614 showery weather
+002615 tea or coffee, depending on locale
 00261e fist
-002620 jolly roger; poison
-002627 christogram; constantine's cross; constantine's cross
-00262c gurmukhi khanda; gurmukhi khanda
+002620 poison
+002627 Constantine's cross, Christogram
+00262b symbol of iran
+00262c Gurmukhi khanda
+002630 qian2
+002631 dui4
+002632 li2
+002633 zhen4
+002634 xun4
+002635 kan3
+002636 gen4
+002637 kun1
 00263a have a nice day!
 00263c compass
-002640 venus
-002642 mars
-00264d minim alternate glyph
-00264f drop; minim
-002663 shamrock
+00263d alchemical symbol for silver
+00263e alchemical symbol for silver
+00263f alchemical symbol for quicksilver
+002640 Venus; alchemical symbol for copper
+002641 alchemical symbol for antimony
+002642 Mars; alchemical symbol for iron
+002643 alchemical symbol for tin
+002644 alchemical symbol for lead
+002646 alchemical symbol for bismuth/tinglass
+00264d minim
+00264f scorpio; minim, drop
 002665 valentine
 002669 crotchet
 00266a quaver
-00266b beamed quavers; beamed quavers
-00266c beamed semiquavers; beamed semiquavers
-00266f infix bag count; infix bag count
-002692 mining symbol; working day symbol
-002693 harbor symbol
-002694 battleground symbol
-002696 jurisprudence symbol
-0026a1 lightning; thunder
-0026b0 buried symbol
-0026b1 cremated symbol
-0026bf parental lock; parental lock
+00266b beamed quavers
+00266c beamed semiquavers
+00266f z notation infix bag count
+002692 mining, working day
+002693 nautical term, harbor
+002694 military term, battleground , killed in action
+002695 medical term
+002696 legal term, jurisprudence
+002697 chemical term, chemistry
+002698 botanical term
+002699 technology, tools
+00269b nuclear installation
+00269e someone speaking
+00269f background speaking
+0026a1 thunder; lightning symbol
+0026a2 lesbianism
+0026a3 male homosexuality
+0026a4 bisexuality
+0026a5 transgendered sexuality; hermaphrodite
+0026a6 transgendered sexuality; alchemical symbol for iron or crocus of iron
+0026a7 transgendered sexuality
+0026a8 alchemical symbol for iron
+0026a9 alchemical symbol for iron
+0026aa asexuality, sexless, genderless; engaged, betrothed
+0026ac engaged, betrothed
+0026b0 buried
+0026b1 cremated
+0026bf parental lock
 0026c4 light snow
-0026c5 partly cloudy; partly cloudy
+0026c5 partly cloudy
+0026c6 rainy weather
 0026c7 heavy snow
 0026c8 thunderstorm
 0026cc accident
-0026cf construction
+0026cf under construction
 0026d0 icy road
+0026d1 maintenance
 0026d2 road closed
-0026d4 do not enter
-0026db yield
-0026df black lorry
-0026e2 uranus
-0026e4 pentangle pentalpha
+0026d3 tyre chains required
+0026db drive slow
+0026dd closed entry
+0026de closed to large vehicles
+0026df black lorry; closed to large vehicles, alternate
+0026e3 public office
+0026e4 pentalpha, pentangle
 0026e8 hospital
 0026e9 torii
 0026ed factory
-0026ee power plant
+0026ee power plant, power substation
 0026f1 bathing beach
 0026f2 park
 0026f3 golf course
-0026f4 boat terminal; marina or yacht harbour
+0026f4 ferry boat terminal
+0026f5 marina or yacht harbour
+0026f6 intersection
+0026f7 ski resort
+0026f8 ice skating rink
+0026f9 track and field, gymnasium
 0026fa camping site
-0026fc cemetery; graveyard
-0026fd gas station; petrol station
+0026fc graveyard, memorial park, cemetery
+0026fd petrol station, gas station
 0026fe drive-in restaurant
-00270a rock in rock, paper, scissors game
-00270b paper in rock, paper, scissors game
-00270c scissors in rock, paper, scissors game
+0026ff Japanese self-defence force site
+00270a rock in Rock, Paper, Scissors game
+00270b paper in Rock, Paper, Scissors game
+00270c scissors in Rock, Paper, Scissors game
 002736 sextile
 00273a starburst
 002749 jack
 00274b turbofan
-002766 aldus leaf; aldus leaf
-002767 hedera; ivy leaf; ivy leaf
+002757 obstacles on the road, ARIB STD B24
+002766 Aldus leaf
+002767 hedera, ivy leaf
+0027b0 kururi
+0027c2 orthogonal to
+0027cb \diagup
+0027cd \diagdown
+0027ce box min
+0027cf box max
 0027d3 pullback
 0027d4 pushout
-0027df radial component; radial component
-0027e6 left bag bracket; left bag bracket; left bag bracket
-0027e7 right bag bracket; right bag bracket; right bag bracket
-0027e8 bra; left sequence bracket; left sequence bracket; left sequence bracket
-0027e9 right sequence bracket; ket; right sequence bracket; right sequence bracket
-0027ea left chevron bracket; left chevron bracket; left chevron bracket
-0027eb right chevron bracket; right chevron bracket; right chevron bracket
+0027df radial component
+0027e1 never
+0027e2 was never
+0027e3 will never be
+0027e4 was always
+0027e5 will always be
+0027e6 z notation left bag bracket
+0027e7 z notation right bag bracket
+0027e8 bra; z notation left sequence bracket
+0027e9 ket; z notation right sequence bracket
+0027ea z notation left chevron bracket
+0027eb z notation right chevron bracket
 0027ee lgroup
 0027ef rgroup
 0027fb maps from
 0027fc maps to
-002900 partial surjection; partial surjection
-002901 finite surjection; finite surjection
+002900 z notation partial surjection
+002901 z notation finite surjection
 002905 maps to
 002906 maps from
 002907 maps to
-002914 partial injection; partial injection
-002915 finite injection; finite injection
-002916 bijection
-002917 surjective injection; surjective injection
-002918 finite surjective injection; finite surjective injection; finite surjective injection
-0029d6 vertical bowtie; white framus; vertical bowtie; white framus
-0029dc isotech entity &iinfin;; isotech entity &iinfin;
-0029e0 d'alembertian
-0029e6 tautological equivalent; tautological equivalent
-0029f4 colon right arrow; colon right arrow
-0029f9 schema hiding
+002914 z notation partial injection
+002915 z notation finite injection
+002916 bijective mapping; z notation bijection
+002917 z notation surjective injection
+002918 z notation finite surjective injection
+0029d6 vertical bowtie; white framus
+0029dc ISOtech entity &iinfin;
+0029e0 D'Alembertian
+0029e6 tautological equivalent
+0029f4 colon right arrow
+0029f9 z notation schema hiding
 002a07 merge
-002a11 counterclockwise integration; counterclockwise integration
-002a1b upper integral; upper integral
-002a1c lower integral; lower integral
-002a1d large bowtie; large bowtie
-002a24 positive difference or sum; positive difference or sum; positive difference or sum
-002a26 sum or positive difference; sum or positive difference; sum or positive difference
+002a1b upper integral
+002a1c lower integral
+002a1d large bowtie
+002a24 positive difference or sum
+002a26 sum or positive difference
 002a27 nim-addition
-002a41 bag subtraction; bag subtraction
-002aa1 absolute continuity; absolute continuity
-002adc not independent; not independent
+002a41 z notation bag subtraction
+002a68 identical and parallel to
+002aa1 absolute continuity
+002adc not independent
 002add independent
-002ae2 ordinarily satisfies; ordinarily satisfies
+002ae2 ordinarily satisfies
 002aeb independence
-002af1 necessarily satisfies; necessarily satisfies
+002af1 necessarily satisfies
 002af4 interleave
-002afe dijkstra choice; dijkstra choice
-002aff n-ary dijkstra choice; n-ary dijkstra choice; n-ary dijkstra choice
+002afe Dijkstra choice
+002aff n-ary Dijkstra choice
+002b55 basic symbol for speed limit
+002b56 prefectural office
+002b57 municipal office
+002b58 town or village office
+002b59 police station
+002d40 Tuareg yab
+002d53 Tuareg yaw
+002d58 Adrar yaj
+002d64 harpoon yaz
+002d6f tamatart
+002d70 tazarast
+002e12 ypodiastoli
+002e16 diple periestigmene
 002e18 gnaborretni
-002e3a omission dash; omission dash
-00301a left abstract syntax bracket; left abstract syntax bracket; left abstract syntax bracket
-00301b right abstract syntax bracket; right abstract syntax bracket; right abstract syntax bracket
-003099 combining japanese daku-on; combining japanese daku-on
-00309a combining japanese han-daku-on; combining japanese han-daku-on
-00309b japanese daku-on
-00309c japanese han-daku-on
-00337f japanese incorporated; japanese incorporated; kabusiki-gaisya
-00fdfc iranian currency; iranian currency
-00fe00 vs1
-00feff bom; byte order mark; zwnbsp
+002e2e punctus percontativus
+002e3a omission dash
+00301a left abstract syntax bracket
+00301b right abstract syntax bracket
+00302e single dot Bangjeom
+00302f double dot Bangjeom
+003057 SHI
+003058 JI
+003061 CHI
+003062 JI
+003063 SMALL TSU
+003064 TSU
+003065 ZU
+003075 FU
+0030b7 SHI
+0030b8 JI
+0030c1 CHI
+0030c2 JI
+0030c3 SMALL TSU
+0030c4 TSU
+0030c5 ZU
+0030d5 FU
+003164 chaeum
+003180 ssangyesieung
+003190 tateten
+003191 kaeriten re
+003248 speed limit 10 km/h
+003249 speed limit 20 km/h
+00324a speed limit 30 km/h
+00324b speed limit 40 km/h
+00324c speed limit 50 km/h
+00324d speed limit 60 km/h
+00324e speed limit 70 km/h
+00324f speed limit 80 km/h
+003280 maru-iti, symbol of unification
+00337f kabusiki-gaisya
+00a792 Cambrian symbol
+00a806 halant, virama
+00a8e0 vaidika saamasvara anka shuunya
+00a8e1 vaidika saamasvara anka eka udaatta
+00a8e2 vaidika saamasvara anka dvi svarita
+00a8e3 vaidika saamasvara anka tri anudaatta
+00a8e4 vaidika saamasvara anka chatur
+00a8e5 vaidika saamasvara anka pancha
+00a8e6 vaidika saamasvara anka shatt
+00a8e7 vaidika saamasvara anka sapta
+00a8e8 vaidika saamasvara anka ashta
+00a8e9 vaidika saamasvara anka nava
+00a8ea vaidika saamasvara abhinihita
+00a8eb vaidika saamasvara u
+00a8ec vaidika saamasvara ka
+00a8ed vaidika saamasvara namana
+00a8ee vaidika saamasvara prannatam
+00a8ef vaidika saamasvara ra
+00a8f0 vaidika saamasvara vinata
+00a8f1 vaidika saamasvara diirghiibhaava
+00a8f2 vaidika candrabindu
+00a8f3 vaidika anusvaara candrabindu tiryak
+00a8f4 vaidika anusvaara dvi candrabindu tiryak
+00a8f5 vaidika anusvaara candrabindu sa-dvi
+00a8f6 vaidika anusvaara candrabindu sa-tri
+00a8f7 vaidika anusvaara candrabindu sa-avagraha
+00a8f8 vaidika pushpikaa
+00a8fa vaidika trutikaa
+00a8fb shirorekhaa
+00a947 kaluan
+00a948 kamitan
+00a949 kamica
+00a94a katiling
+00a94c katulung
+00a94e kajina
+00a94f katulang
+00a950 duo deatas
+00a951 kajunjung
+00a980 ardhacandra
+00a981 anusvara
+00a982 repha
+00a983 visarga
+00a989 vocalic r
+00a98a vocalic l
+00a98b vocalic ll
+00a990 qa
+00a991 kha
+00a993 gha
+00a996 cha
+00a998 jnya
+00a999 jha
+00a99c ttha
+00a99e ddha
+00a99f nna
+00a9a1 tha
+00a9a3 dha
+00a9a6 pha
+00a9a8 bha
+00a9af sha
+00a9b0 ssa
+00a9b3 nukta
+00a9b4 aa
+00a9b5 o
+00a9b6 i
+00a9b7 ii
+00a9b8 u
+00a9b9 uu
+00a9ba e
+00a9bb ai
+00a9bc ae
+00a9bd vocalic r
+00a9be medial ya
+00a9bf medial ra
+00a9c0 virama
+00a9c8 danda
+00a9c9 double danda
+00aadb person
+00aadc one
+00aaf0 danda
+00aaf1 question mark
+00abc0 ka
+00abc1 sa
+00abc2 la
+00abc3 ma
+00abc6 ca
+00abc7 ta
+00abc8 kha
+00abc9 nga
+00abca tha
+00abcb wa
+00abcc ya
+00abcd ha
+00abce u
+00abd0 pha
+00abd1 a
+00abd2 ga
+00abd3 jha
+00abd4 ra
+00abd6 ja
+00abd7 da
+00abd8 gha
+00abd9 dha
+00abda bha
+00abdb k
+00abdc l
+00abdd m
+00abde p
+00abdf n
+00abe0 t
+00abe1 ng
+00abe2 i
+00abe3 o
+00abe4 i
+00abe5 aa
+00abe6 e
+00abe7 ou
+00abe8 u
+00abe9 ei
+00abea anusvara
+00abeb double danda
+00abec heavy tone
+00abed killer
+00abf0 phun
+00abf1 ama
+00abf2 ani
+00abf3 ahum
+00abf4 mari
+00abf5 manga
+00abf6 taruk
+00abf7 taret
+00abf8 nipal
+00abf9 mapal
+00feff BYTE ORDER MARK , ZWNBSP
+01000e ideogram B129 flour
+010018 ideogram B109 ox
+01001b ideogram B030 figs
+010025 ideogram B106 sheep
+01002d ideogram B031 flax
+010042 ideogram B108 pig
+010049 ideogram B144 saffron
+010052 ideogram B107 goat
+010093 fruit
+010094 saffron
+010098 ointment
+010099 honey
+0100a4 cheese
+0100c9 pugio
+0100cb "gupio", inverted sword
+010a3f halant
+010a60 heh
+010a61 lam
+010a62 hah
+010a63 meem
+010a64 qaf
+010a65 waw
+010a66 sheen
+010a67 reh
+010a68 beh
+010a69 teh
+010a6b kaf
+010a6c noon
+010a6d khah
+010a6e sad
+010a70 feh
+010a71 alef
+010a72 ain
+010a73 dad
+010a74 jeem
+010a75 dal
+010a76 ghain
+010a77 tah
+010a78 zain
+010a79 thal
+010a7a yeh
+010a7b theh
+010a7c zah
+011100 caanaphupudaa
+011101 ekaphudaa
+011102 dviphudaa
+011103 pichapujhaa aa
+011104 delabhaangagaa i
+011105 bacacu u
+011106 lejaubaa e
+011107 cucyaangyaa kaa
+011108 grajaangyaa khaa
+011109 caandyaa gaa
+01110a tinaddaalyaa ghaa
+01110b cilaama ngaa
+01110c dvibhalyaa caa
+01110d majaraa chaa
+01110e dvipadalaa haa
+01110f uraauraa jhaa
+011110 silaacyaa nyaa
+011111 dviyaadaat ttaa
+011112 phudaadviyaat tthaa
+011113 aadudaangaat ddaa
+011114 lejabharaat ddhaa
+011115 pettttuyaa nnaa
+011116 ghangadaat taa
+011117 jagadaat thaa
+011118 dolaniit daa
+011119 talamuyaat dhaa
+01111a phaarabaanyaa naa
+01111b paalyaa paa
+01111c ubaraphudaa phaa
+01111d ubaramuyaa baa
+01111e ciraddaalyaa bhaa
+01111f bugatpadalaa maa
+011120 cimayyaa yyaa
+011121 jilyaa yaa
+011122 dvidaayyaa raa
+011123 talamuyaa laa
+011124 bajhonyaa waa
+011125 bhudibukyaa saa
+011126 ubaramuyaa haa
+011127 ubaratulyaa a
+011128 bahryaa i
+011129 baaniiphadaa ii
+01112a ekattaana u
+01112b dvittaana uu
+01112c ekaara e
+01112d delabhaanga ai
+01112e okaara o
+01112f aukaara au
+011130 oikaara oi
+011140 phulacihna
+011141 ekacilyaa
+011142 dvicilyaa
+011143 pujhaar
+01d13a double whole-rest, breve rest
+01d13b semibreve rest
+01d13c minim rest
+01d13d crochet rest
+01d13e quaver rest
+01d13f semiquaver rest
+01d140 demisemiquaver rest
+01d141 hemidemisemiquaver rest, semidemisemiquaver rest
+01d142 semihemidemisemiquaver rest, quasihemidemisemiquaver rest
 01d15d semibreve
 01d15e minim
 01d15f crotchet
 01d160 quaver
 01d161 semiquaver
-01d4ab power set; power set
-01d510 new testament majority text
-01d516 greek old testament; greek old testament; septuagint
+01d162 demisemiquaver
+01d163 hemidemisemiquaver, semidemisemiquaver
+01d164 semihemidemisemiquaver, quasihemidemisemiquaver
+01d202 Greek instrumental notation symbol-3
+01d205 Greek instrumental notation symbol-21
+01d206 Greek instrumental notation symbol-9
+01d208 Greek instrumental notation symbol-44
+01d20d Greek instrumental notation symbol-41
+01d20e Greek instrumental notation symbol-35
+01d211 Greek instrumental notation symbol-15
+01d213 Greek instrumental notation symbol-28
+01d21c Greek instrumental notation symbol-20
+01d300 ren
+01d301 tian ren
+01d302 di ren
+01d303 ren tian
+01d304 ren di
+01d305 ren ren
+01d4ab power set
+01d510 New Testament majority text
+01d516 Septuagint, Greek Old Testament
+01d6a4 \imath
+01d6a5 \jmath
+01f004 hongzhong
+01f005 qingfa
+01f006 baiban
+01f007 wan
+01f010 tiao
+01f019 bing
+01f022 mei
+01f023 lan
+01f024 zhu
+01f025 ju
+01f02a baida
+01f0ab valet, Bube, Unter, Page, fante; page of swords
+01f0ac chevalier, Ober, Ritter, cavall, cavaliere; knight of swords
+01f0ad dame, Dame, Königin, regina; queen of swords
+01f0ae roi, König, re; king of swords
+01f12b compact disc, single disc record
+01f12c disc record
+01f130 Anreisetag
+01f131 bank; b-mode stereo compression broadcasting service
+01f13d news
+01f13f progressive broadcasting
+01f142 stereo broadcasting service
+01f143 tobacconist
+01f146 wide-format 16:9 broadcasting service
+01f14a hdtv
+01f14b multi-view television
+01f14c sdtv
+01f14d surround stereo broadcasting service
+01f14e pay-per-view
+01f14f water closet, public toilet
+01f150 airport
+01f155 ferry
+01f157 hotel
+01f15a Kurort
+01f15b light rail
+01f15c metro
+01f15f parking space
+01f161 Raststätte
+01f162 Stadtbahn
+01f163 Tankstelle
+01f164 underground rail
 01f16a marque de commerce
-01f16b marque deposee
-01f374 meal (glyph may vary) restaurant
-01f385 santa claus
-01f3ad masks of comedy and tragedy; masks of comedy and tragedy
-01f404 beef (on menus)
-01f414 poultry (on menus)
-01f416 pork (on menus)
-01f41a seashell
+01f16b marque déposée
+01f170 blood type A
+01f171 blood type B
+01f172 centre, city centre
+01f175 Feuerwache
+01f177 Haltestelle
+01f179 junction
+01f17b leisure center
+01f17c museum, cultural center
+01f17e blood type O
+01f17f parking space empty-full
+01f18a parking space closed
+01f18b interchange, ramp
+01f18c parking area
+01f18d service area
+01f18e blood type AB
+01f18f water closet, public toilet
+01f190 disc jockey
+01f191 clear
+01f193 free postage
+01f194 identification, ID
+01f196 no good
+01f198 search, hunt for missing person
+01f199 new information, update
+01f19a versus
+01f200 and others
+01f201 here sign
+01f202 service sign
+01f210 broadcasting service with sign language interpretation
+01f211 close-captioned broadcasting
+01f212 two-way broadcasting service
+01f213 data broadcasting service linked with a main program
+01f214 bilingual broadcasting service; second base
+01f215 sound-multiplex broadcasting service
+01f216 commentary broadcasting
+01f217 weather forecast
+01f218 traffic information
+01f219 drama film
+01f21a free broadcasting service; non-existence sign
+01f21b pay broadcasting service
+01f21c the first part
+01f21d the latter part
+01f21e rebroadcast
+01f21f new series of programs
+01f220 first released program
+01f221 the last episode
+01f222 live broadcast
+01f223 mail-order
+01f224 voice actors
+01f225 dubbed version
+01f226 performed by
+01f227 pitcher
+01f228 catcher
+01f229 first base
+01f22a third base
+01f22b short stop
+01f22c left field
+01f22d center field
+01f22e right field
+01f22f designated hitter; reserved sign
+01f230 runner
+01f231 batter
+01f232 prohibited sign
+01f233 empty sign
+01f234 passed sign
+01f235 full sign
+01f236 existence sign
+01f237 monthly sign
+01f238 application sign
+01f239 discount sign
+01f23a in business sign
+01f240 home run
+01f241 triple
+01f242 double
+01f243 safe
+01f244 run
+01f245 hit
+01f246 steal
+01f247 win
+01f248 loss
+01f250 advantage sign
+01f251 accept sign
+01f300 typhoon, hurricane
+01f313 half moon
+01f314 waxing moon
+01f33c daisy
+01f346 eggplant
+01f354 fast food place
+01f35a bowl of rice
+01f35b Japanese style curry
+01f35c ramen noodles
+01f361 mochi balls on skewer
+01f362 seafood on skewer
+01f36a biscuit
+01f373 frying pan, cooking utensil
+01f374 restaurant, meal
+01f37b cheers
+01f383 Hallowe'en
+01f385 Santa Claus
+01f38a congratulations
+01f38b tanabata tree with wishing papers
+01f3a0 amusement park
+01f3a1 amusement park
+01f3a3 fishing
+01f3a4 karaoke
+01f3a5 film, movies
+01f3a6 movie theater, movie projector
+01f3a7 music
+01f3a8 art
+01f3a9 drama, performing arts, theater
+01f3aa event
+01f3ae video game controller
+01f3af archery target, hitting the target
+01f3b4 flower cards
+01f3b5 music, being in good mood
+01f3b6 dancing notes, mood, melody
+01f3be tennis
+01f3bf skiing
+01f3c0 basketball
+01f3c1 motor sports
+01f3c3 running, marathon, track and fields
+01f3c4 surfing
+01f3e1 home, house with yard
+01f3e7 ATM
+01f3ed industrial production site; date of production
+01f3ee japanese izakaya restaurant
+01f404 beef
+01f413 cock
+01f414 hen; poultry
+01f416 pork
+01f41e ladybird, ladybug, coccinellids
 01f44a punch
+01f45f runner, sneaker, tennis shoe
 01f464 guest account
 01f465 accounts
-01f477 hardhat
+01f485 manicure, nail care
+01f48b lips
+01f48d jewelry
+01f48f two people kissing
+01f492 wedding chapel
+01f4a0 kawaii, cute
 01f4a1 idea
 01f4a6 plewds
-01f4a8 briffits
-01f4ab squeans
-01f4bf cd; compact disc
+01f4a8 running dash, briffits
+01f4a9 dog dirt
+01f4aa strong, muscled
+01f4ab circling stars, squeans
+01f4ac comic book conversation bubble
+01f4ae brilliant homework
+01f4af perfect score
+01f4be flexible disk cartridge, floppy disc, floppy, diskette
+01f4c0 digital video/versatile disc
+01f4d6 read operator's manual
+01f4e1 position indicator, news
+01f4ea letter box, mail reception; empty mailbox
+01f4eb mailbox containing mail
+01f4ee mailbox for sending mail
+01f4f6 cellular reception
+01f500 shuffle
+01f501 repeat
+01f502 repeat one item over
+01f503 reload
+01f504 reload
 01f50a sound
-0e0100 vs17
+01f50d search
+01f50e get more details
+01f50f privacy
+01f510 secure
+01f512 padlock in locked position
+01f51d top of page
+01f524 English input
+01f526 flashlight
+01f52a Japanese kitchen knife
+01f53c play arrow up
+01f53d play arrow down
+01f64c banzai!
+01f686 intercity train
+01f687 subway, underground train
+01f689 train, subway station
+01f6a8 rotating beacon
+01f6a9 location information
+01f6b6 walking
+01f6b9 man symbol; men's restroom
+01f6ba woman symbol; women's restroom
+01f6bb man and woman symbol with divider; unisex restroom
+01f6bc baby on board, baby changing station
+01f707 balneum arenae
+01f708 spiritus vini
+01f70a crucible; acid; distill; atrament; vitriol; red sulfur; borax; wine; alkali salt; mercurius vivus, quick silver
+01f70b distilled vinegar
+01f70d brimstone
+01f70f sulfur nigra, dye
+01f718 sal gemmae
+01f71e crocus martis, red or yellow calcined powder of iron
+01f71f regulus martis, scoria from refining stibnite/antimony with iron
+01f723 crocus veneris, aes ustum
+01f725 crocus of copper, crocus veneris, lapis haematites
+01f728 aes viride, copper subacetate; early astronomical symbol for earth
+01f72b stibnite
+01f72d cinnabar
+01f730 antimony metal
+01f736 sal alkali
+01f738 iron pyrite, iron sulfide
+01f739 ammonium chloride
+01f73b arsenic sulfide
+01f73c arsenic sulfide
+01f73d orpiment; arsenic trisulfide
+01f73e tinglass
+01f73f impure potassium tartrate
+01f740 impure potassium tartrate
+01f741 calx viva; calcium oxide
+01f74a cera
+01f74b pulvis
+01f74c calcinare; oxide residue, calcium oxide
+01f74d tutia, crude zinc oxide sublimate; aes viride
+01f74e worthless residue of sublimation or distillation
+01f753 magnes
+01f756 fimus equinus
+01f757 cineres
+01f758 cineres clavellati, alumen
+01f75a later cibratus, farina laterum
+01f760 sublimate
+01f762 water, aqua
+01f765 tigellum
+01f76b balneum mariae
+01f76c balneum vaporis
+01f771 mensis
+01f772 drachma semis
+01f773 uncia semis

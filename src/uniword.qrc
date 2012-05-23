@@ -1,8 +1,6 @@
-// MainWindow.H
+<!DOCTYPE RCC><RCC version="1.0">
 
-#include <QMainWindow>
-
-/*
+<!--
     Uniword: keyword-based unicode character selector
     Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
 
@@ -18,26 +16,14 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
+-->
 
-#ifndef MAINWINDOW_H
-
-#define MAINWINDOW_H
-
-class MainWindow: public QMainWindow {
-  Q_OBJECT;
-public:
-  MainWindow(class Universe &uverse);
-  virtual ~MainWindow();
-public slots:
-  void sAbout();
-  void sHelp();
-  void sFont();
-  void sQuit();
-private:
-  class CenterWindow *cw;
-  QString helpText;
-  QString aboutText;
-};
-
-#endif
+   <qresource>
+     <file alias="chars.txt">../tables/chars.txt</file>
+     <file alias="alias.txt">../tables/alias.txt</file>
+     <file alias="blocks.txt">../tables/blocks.txt</file>
+     <file alias="groups.txt">../tables/groups.txt</file>
+     <file>about.html</file>
+     <file>help.html</file>
+   </qresource>
+</RCC>

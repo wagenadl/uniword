@@ -22,16 +22,7 @@ uniword: $(TABLES)
 	( cd src; qmake )
 	make -C src
 
-tables/alias.txt: tools/getIndex.pl tables/blocks.txt UCD/Index.txt
-	tools/getIndex.pl
-
-tables/blocks.txt: tools/getBlocks.pl UCD/Blocks.txt
-	tools/getBlocks.pl
-
-tables/chars.txt: tools/getData.pl UCD/UnicodeData.txt
-	tools/getData.pl
-
-tables/groups.txt: tools/getIndex.pl tables/blocks.txt UCD/Index.txt
-	tools/getIndex.pl
+tables/%.txt: UCD/NamesList.txt tools/parseNamesList.pl
+	tools/parseNamesList.pl
 
 .PHONY: all

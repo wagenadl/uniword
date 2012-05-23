@@ -22,7 +22,6 @@
 #include <QFile>
 #include <QTextStream>
 #include <QDebug>
-#include <QtGlobal>
 
 #include "MainWindow.H"
 #include "Universe.H"
@@ -99,17 +98,19 @@ void addgroups(Universe &uverse) {
  
 int main(int argc, char **argv) {
   QApplication app(argc, argv);
-
-  QByteArray fontname = qgetenv("UNIWORDFONT");
-
+  app.setOrganizationName("www.danielwagenaar.net");
+  app.setOrganizationDomain("www.danielwagenaar.net");
+  app.setApplicationName("Uniword");
+  
   Universe uverse;
   addchars(uverse);
   addalias(uverse);
   addblocks(uverse);
   addgroups(uverse);
 
-  MainWindow mw(uverse, fontname);
+  MainWindow mw(uverse);
   mw.show();
+
   return app.exec();
 }
 

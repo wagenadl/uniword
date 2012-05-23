@@ -14,6 +14,7 @@
 ##    You should have received a copy of the GNU General Public License
 ##    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+CONFIG += resources
 TEMPLATE = app
 TARGET = ../uniword
 DEPENDPATH += .
@@ -24,6 +25,6 @@ MOC_DIR = .moc
 RCC_DIR = .rcc
 
 # Input
-HEADERS += MainWindow.H Universe.H
-SOURCES += main.C MainWindow.C Universe.C
-RESOURCES += unicode.qrc
+HEADERS += CenterWindow.H MainWindow.H Universe.H
+SOURCES += main.C CenterWindow.C MainWindow.C Universe.C
+RESOURCES += uniword.qrc

@@ -1,6 +1,6 @@
-<!DOCTYPE RCC><RCC version="1.0">
+// CenterWindow.H
 
-<!--
+/*
     Uniword: keyword-based unicode character selector
     Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
 
@@ -16,12 +16,40 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
+*/
 
-   <qresource>
-     <file alias="chars.txt">../tables/chars.txt</file>
-     <file alias="alias.txt">../tables/alias.txt</file>
-     <file alias="blocks.txt">../tables/blocks.txt</file>
-     <file alias="groups.txt">../tables/groups.txt</file>
-   </qresource>
-</RCC>
+#ifndef CENTERWINDOW_H
+
+#define CENTERWINDOW_H
+
+#include <QString>
+#include <QWidget>
+
+class CenterWindow: public QWidget {
+  Q_OBJECT;
+public:
+  CenterWindow(class Universe const &uverse,
+	       QWidget *parent=0);
+  virtual ~CenterWindow();
+  QFont const &displayFont() const;
+public slots:
+  void setDisplayFont(QFont f);
+private slots:
+  void edited(QString const &s);
+  void copyAvailable(bool s);
+  void selected();
+  void clipinfo();
+private:
+  void setComment(int c);
+  void setEmptyComment();
+  void setMultiComment();
+private:
+  class QTextEdit *output;
+  class QLineEdit *input;
+  class QTextEdit *comment;
+  Universe const &uverse;
+  bool copyAv;
+  QString itsmine;
+};
+
+#endif

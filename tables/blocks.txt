@@ -111,9 +111,9 @@
 0031f0-0031ff Katakana Phonetic Extensions
 003200-0032ff Enclosed CJK Letters and Months
 003300-0033ff CJK Compatibility
-003400-004dbf CJK Unified Ideographs Extension A
+003400-004db5 CJK Unified Ideographs Extension A
 004dc0-004dff Yijing Hexagram Symbols
-004e00-009fff CJK Unified Ideographs
+004e00-009fcc CJK Unified Ideographs
 00a000-00a48f Yi Syllables
 00a490-00a4cf Yi Radicals
 00a4d0-00a4ff Lisu
@@ -137,12 +137,10 @@
 00aae0-00aaff Meetei Mayek Extensions
 00ab00-00ab2f Ethiopic Extended-A
 00abc0-00abff Meetei Mayek
-00ac00-00d7af Hangul Syllables
+00ac00-00d7a3 Hangul Syllables
 00d7b0-00d7ff Hangul Jamo Extended-B
 00d800-00db7f High Surrogates
-00db80-00dbff High Private Use Surrogates
 00dc00-00dfff Low Surrogates
-00e000-00f8ff Private Use Area
 00f900-00faff CJK Compatibility Ideographs
 00fb00-00fb4f Alphabetic Presentation Forms
 00fb50-00fdff Arabic Presentation Forms-A
@@ -206,15 +204,13 @@
 01f0a0-01f0ff Playing Cards
 01f100-01f1ff Enclosed Alphanumeric Supplement
 01f200-01f2ff Enclosed Ideographic Supplement
-01f300-01f5ff Miscellaneous Symbols And Pictographs
+01f300-01f5ff Miscellaneous Symbols and Pictographs
 01f600-01f64f Emoticons
-01f680-01f6ff Transport And Map Symbols
+01f680-01f6ff Transport and Map Symbols
 01f700-01f77f Alchemical Symbols
-020000-02a6df CJK Unified Ideographs Extension B
-02a700-02b73f CJK Unified Ideographs Extension C
-02b740-02b81f CJK Unified Ideographs Extension D
+020000-02a6d6 CJK Unified Ideographs Extension B
+02a700-02b734 CJK Unified Ideographs Extension C
+02b740-02b81d CJK Unified Ideographs Extension D
 02f800-02fa1f CJK Compatibility Ideographs Supplement
 0e0000-0e007f Tags
 0e0100-0e01ef Variation Selectors Supplement
-0f0000-0fffff Supplementary Private Use Area-A
-100000-10ffff Supplementary Private Use Area-B
