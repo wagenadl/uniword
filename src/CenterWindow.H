@@ -49,7 +49,7 @@ private:
   class QTextEdit *comment;
   Universe const &uverse;
   bool copyAv;
-  QString itsmine;
+  QString origclipt, newclipt;
 };
 
 #endif

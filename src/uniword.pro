@@ -14,7 +14,7 @@
 ##    You should have received a copy of the GNU General Public License
 ##    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-CONFIG += resources
+CONFIG += resources debug warn_on
 TEMPLATE = app
 TARGET = ../uniword
 DEPENDPATH += .

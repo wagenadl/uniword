@@ -40,6 +40,8 @@ public:
   QSet<int> refine(QSet<int> const &uverse, QString selector) const;
   QString describe(int) const;
   QString getgroups(int) const;
+  bool isCombiner(int) const;
+  bool isModifier(int) const;
 private:
   void addDescription(int, QString);
   void addGroup(int, QString);
@@ -47,6 +49,8 @@ private:
   QMap<int, QSet<QString> > words;
   QMap<int, QString> descs;
   QMap<int, QStringList> groups;
+  QSet<int> combiners;
+  QSet<int> modifiers;
 };
 
 #endif

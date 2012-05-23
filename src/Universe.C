@@ -29,6 +29,10 @@ void Universe::add(int c, QString desc) {
   QStringList bits = desc.split(QRegExp("[ ,;]+"));
   foreach (QString s, bits) {
     words[c].insert(s.toLower());
+    if (s=="COMBINING")
+      combiners.insert(c);
+    if (s=="MODIFIER")
+      modifiers.insert(c);
   }
   addDescription(c, desc);
 }
@@ -140,4 +144,12 @@ QSet<int> Universe::find(QStringList const &selectors) const {
   }
   
   return res;
+}
+
+bool Universe::isCombiner(int c) const {
+  return combiners.contains(c);
+}
+
+bool Universe::isModifier(int c) const {
+  return modifiers.contains(c);
 }

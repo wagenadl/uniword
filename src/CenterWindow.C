@@ -28,6 +28,8 @@
 #include <QClipboard>
 #include <QVBoxLayout>
 #include <QMimeData>
+#include <QTextBlock>
+#include <QTextBlockFormat>
 
 #include "CenterWindow.H"
 #include "Universe.H"
@@ -45,11 +47,9 @@ CenterWindow::CenterWindow(Universe const &uverse,
   input->setFixedHeight(40);
 
   output = new QTextEdit;
-  // output->setWordWrap(true);
-  //  output->setTextInteractionFlags(Qt::TextSelectableByMouse);
   output->setReadOnly(true);
-  //  output->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   output->setText("");
+  output->setAlignment(Qt::AlignLeft | Qt::AlignAbsolute);
   copyAv = false;
   connect(output, SIGNAL(copyAvailable(bool)), this, SLOT(copyAvailable(bool)));
   connect(output, SIGNAL(selectionChanged()), this, SLOT(selected()));
@@ -97,23 +97,48 @@ void CenterWindow::edited(QString const &s) {
   if (cc.isEmpty()) {
     output->setText("(none)");
   } else {
-    QString s = "";
     QList<int> ordered;
     ordered = cc.toList();
     qSort(ordered);
-    //    if (ordered.size()>150)
-    //      ordered.resize(150);
+
+    output->clear();
+    QTextCursor tc(output->textCursor());
+    tc.beginEditBlock();
+    QString s = "";
+    
+    bool first = true;
     foreach (int c, ordered) {
-      s += " ";
+      //if (uverse.isCombiner(c))
+      //	continue;
+      if (!first)
+	s += " ";
+      first = false;
+
+      if (uverse.isCombiner(c))
+	s += QChar(0x25fd); // put combiner over a box
+      if (uverse.isModifier(c))
+	s += QChar(0x25fd); // put modifier after a box
       if (c>=65536) {
 	s += QChar(QChar::highSurrogate(c));
 	s += QChar(QChar::lowSurrogate(c));
       } else {
 	s += QChar(c);
       }
+      s += " ";
+      s += QChar(0x200e);
     }
-    output->setText(s.mid(1));
+    tc.insertText(s);
+    QTextBlockFormat tbf = tc.blockFormat();
+    //tbf.setLayoutDirection(Qt::LeftToRight);
+    tc.setBlockFormat(tbf);
+    tc.movePosition(QTextCursor::Start);
+    tc.endEditBlock();
+    
     if (cc.size()==1) {
+      s.replace(" ", "");
+      s.replace(QChar(0x200e), "");
+      if (s[1]==QChar(0x25fd) && s.size()>1)
+	s = s.mid(1); // skip combiner and modifier base boxes
       QApplication::clipboard()->setText(s.mid(1));
       setComment(*cc.begin());
     }
@@ -143,11 +168,13 @@ void CenterWindow::selected() {
   output->copy();
   QClipboard *clip = QApplication::clipboard();
   QString t = clip->text();
-  clip->setText(t); // this cleans it
-  clip->setText(t, QClipboard::Selection); // this doesn't actually affect the selection for double clicks!. I don't know why.
-  itsmine = t; // this is used to reselect after doubleclick. ugly!
+  origclipt = t;
+  newclipt = "";
   int chr = -1;
-  
+  t.replace(" ", "");
+  t.replace(QChar(0x200e), "");
+  if (t.length()>1 && t[0]==QChar(0x25fd))
+    t=t.mid(1);
   if (t.length()==1) {
     chr = t[0].unicode();
   } else if (t.length()==2) {
@@ -160,14 +187,19 @@ void CenterWindow::selected() {
   }
   if (chr>=0) 
     setComment(chr);
+  qDebug() << "clip " << t.length(); 
+  clip->setText(t); // this cleans it
+  clip->setText(t, QClipboard::Selection); // this doesn't actually affect the selection for double clicks!. I don't know why.
+  newclipt = t; // this is used to reselect after doubleclick. ugly!
 }
 
 void CenterWindow::clipinfo() {
   // Ugly hack to prevent "<!--StartFragment-->"
   QClipboard *clip = QApplication::clipboard();
   QString t = clip->text( QClipboard::Selection);
-  if (t==itsmine) {
-    itsmine = "";
+  if (t==origclipt && newclipt!="") {
+    t = newclipt;
+    origclipt = newclipt = "";
     clip->setText(t, QClipboard::Selection);
   }
 }
