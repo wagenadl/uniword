@@ -62,10 +62,10 @@ CenterWindow::CenterWindow(Universe const &uverse,
   setEmptyComment();
   
   QPalette p = palette();
-  p.setColor(QPalette::Button,bg); // this is what our children use
-  p.setColor(QPalette::Window,bg); // this is what our children use
-  p.setColor(QPalette::ButtonText,fg);
-  p.setColor(QPalette::WindowText,fg);
+  p.setColor(QPalette::Button, bg); // this is what our children use
+  p.setColor(QPalette::Window, bg); // this is what our children use
+  p.setColor(QPalette::ButtonText, fg);
+  p.setColor(QPalette::WindowText, fg);
   setPalette(p);
 
   QVBoxLayout *layout = new QVBoxLayout;
@@ -82,7 +82,6 @@ CenterWindow::~CenterWindow() {
 }
 
 void CenterWindow::edited(QString const &s) {
-  
   if (QRegExp("[\\s.]*").exactMatch(s)) {
     output->setText("");
     setEmptyComment();
@@ -97,9 +96,14 @@ void CenterWindow::edited(QString const &s) {
   if (cc.isEmpty()) {
     output->setText("(none)");
   } else {
-    QList<int> ordered;
-    ordered = cc.toList();
+    QVector<int> ordered;
+    ordered.reserve(cc.size());
+    foreach (int c, cc)
+      ordered.push_back(c);
     qSort(ordered);
+    bool toolong = ordered.size()>100;
+    while (ordered.size()>100)
+      ordered.resize(100);
 
     output->clear();
     QTextCursor tc(output->textCursor());
@@ -114,23 +118,48 @@ void CenterWindow::edited(QString const &s) {
 	s += " ";
       first = false;
 
-      if (uverse.isCombiner(c))
-	s += QChar(0x25fd); // put combiner over a box
-      if (uverse.isModifier(c))
-	s += QChar(0x25fd); // put modifier after a box
+      if (uverse.isCombiner(c) || uverse.isModifier(c)) {
+	tc.insertText(s);
+	s = "";
+	QTextCharFormat tf = tc.charFormat();
+	tf.setForeground(QColor("#aaaaaa"));
+	tc.setCharFormat(tf);
+	tc.insertText(QChar(0x25fd)); // put combiner over a box
+	tf.setForeground(QColor("black"));
+	tc.setCharFormat(tf);
+      }
+      if (uverse.isSpace(c)) {
+	tc.insertText(s);
+	s = "";
+	QTextCharFormat tf = tc.charFormat();
+	tf.setFontUnderline(true);
+	tf.setUnderlineColor("#aaaaaa");
+	tc.setCharFormat(tf);
+      }	
+
       if (c>=65536) {
 	s += QChar(QChar::highSurrogate(c));
 	s += QChar(QChar::lowSurrogate(c));
       } else {
 	s += QChar(c);
       }
+
+      if (uverse.isSpace(c)) {
+	tc.insertText(s);
+	s = "";
+	QTextCharFormat tf = tc.charFormat();
+	tf.setFontUnderline(false);
+	tc.setCharFormat(tf);
+      }	
+      
       s += " ";
       s += QChar(0x200e);
     }
+    if (toolong)
+      s += "...";
+    
     tc.insertText(s);
-    QTextBlockFormat tbf = tc.blockFormat();
-    //tbf.setLayoutDirection(Qt::LeftToRight);
-    tc.setBlockFormat(tbf);
+
     tc.movePosition(QTextCursor::Start);
     tc.endEditBlock();
     
@@ -163,13 +192,17 @@ void CenterWindow::selected() {
     return;
   }
   setMultiComment();
+
   if (!copyAv)
     return;
+
   output->copy();
+  
   QClipboard *clip = QApplication::clipboard();
   QString t = clip->text();
   origclipt = t;
   newclipt = "";
+
   int chr = -1;
   t.replace(" ", "");
   t.replace(QChar(0x200e), "");
@@ -187,7 +220,7 @@ void CenterWindow::selected() {
   }
   if (chr>=0) 
     setComment(chr);
-  qDebug() << "clip " << t.length(); 
+
   clip->setText(t); // this cleans it
   clip->setText(t, QClipboard::Selection); // this doesn't actually affect the selection for double clicks!. I don't know why.
   newclipt = t; // this is used to reselect after doubleclick. ugly!

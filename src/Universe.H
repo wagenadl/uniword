@@ -38,10 +38,12 @@ public:
   QSet<int> find(QString const &selector) const;
   QSet<int> all() const;
   QSet<int> refine(QSet<int> const &uverse, QString selector) const;
+  QSet<int> exclude(QSet<int> const &uverse, QString selector) const;
   QString describe(int) const;
   QString getgroups(int) const;
   bool isCombiner(int) const;
   bool isModifier(int) const;
+  bool isSpace(int) const;
 private:
   void addDescription(int, QString);
   void addGroup(int, QString);
@@ -51,6 +53,7 @@ private:
   QMap<int, QStringList> groups;
   QSet<int> combiners;
   QSet<int> modifiers;
+  QSet<int> spaces;
 };
 
 #endif

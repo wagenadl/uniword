@@ -31,8 +31,10 @@ void Universe::add(int c, QString desc) {
     words[c].insert(s.toLower());
     if (s=="COMBINING")
       combiners.insert(c);
-    if (s=="MODIFIER")
+    else if (s=="MODIFIER")
       modifiers.insert(c);
+    else if (s=="SPACE")
+      spaces.insert(c);
   }
   addDescription(c, desc);
 }
@@ -100,10 +102,48 @@ QSet<int> Universe::find(QString const &selector) const {
   return res;
 }
 
+QSet<int> Universe::exclude(QSet<int> const &uverse,
+			     QString selector) const {
+  if (selector == "")
+    return uverse;
+  
+  selector = selector.toLower();
+  QSet<int> res;
+
+  // First, let's exclude all partial matches
+  foreach (int c, uverse) {
+    QSet<QString> const &ww = words[c];
+    bool ok = true;
+    foreach (QString const &w, ww) {
+      if (w.startsWith(selector)) {
+	ok = false;
+	break;
+      }
+    }
+    if (ok)
+      res.insert(c);      
+  }
+
+  if (res.isEmpty()) {
+    // If that makes the result nil, exclude only exact matches
+    foreach (int c, uverse) {
+      QSet<QString> const &ww = words[c];
+      if (!ww.contains(selector))
+	res.insert(c);
+    }
+  }
+  
+  return res;
+}
+ 
+
 QSet<int> Universe::refine(QSet<int> const &uverse,
 			     QString selector) const {
   if (selector == "")
     return uverse;
+  
+  if (selector.startsWith("!"))
+    return exclude(uverse, selector.mid(1));
   
   selector = selector.toLower();
   QSet<int> res;
@@ -135,14 +175,6 @@ QSet<int> Universe::find(QStringList const &selectors) const {
   QSet<int> res = all();
   foreach (QString const &s, selectors)
     res = refine(res, s);
-
-  if (res.size()<0) {
-    qDebug() << "Results:";
-    foreach (int const &c, res) {
-      qDebug() << "  " << c << ": " << QString::number(c,16);
-    }
-  }
-  
   return res;
 }
 
@@ -152,4 +184,8 @@ bool Universe::isCombiner(int c) const {
 
 bool Universe::isModifier(int c) const {
   return modifiers.contains(c);
+}
+
+bool Universe::isSpace(int c) const {
+  return spaces.contains(c);
 }

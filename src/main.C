@@ -109,6 +109,7 @@ int main(int argc, char **argv) {
   addgroups(uverse);
 
   MainWindow mw(uverse);
+  mw.setWindowTitle("Uniword");
   mw.show();
 
   return app.exec();
