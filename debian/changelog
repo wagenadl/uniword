@@ -1,3 +1,9 @@
+uniword (0.1.1-1) unstable; urgency=low
+
+  * Working on packaging recipe
+
+ -- Daniel Wagenaar <daw@caltech.edu>  Wed, 23 May 2012 21:50:00 -0700
+
 uniword (0.1.1) unstable; urgency=low
 
   * Initial release
