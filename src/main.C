@@ -101,6 +101,7 @@ int main(int argc, char **argv) {
   app.setOrganizationName("www.danielwagenaar.net");
   app.setOrganizationDomain("www.danielwagenaar.net");
   app.setApplicationName("Uniword");
+  app.setWindowIcon(QIcon(":/uniword.png"));
   
   Universe uverse;
   addchars(uverse);

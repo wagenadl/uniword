@@ -1,1 +1,3 @@
 uniword usr/bin
+debian/uniword.desktop /usr/share/applications
+debian/uniword.png /usr/share/pixmaps
