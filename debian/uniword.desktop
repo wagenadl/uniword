@@ -6,3 +6,5 @@ Exec=uniword
 Terminal=false
 Type=Application
 Categories=Utility
+Icon=/usr/share/pixmaps/uniword.png
+

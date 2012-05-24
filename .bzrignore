@@ -3,3 +3,6 @@ uniword
 .obj
 .moc
 .rcc
+debian/files
+debian/uniword.debhelper.log
+debian/uniword.substvars
