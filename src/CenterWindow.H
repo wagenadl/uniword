@@ -34,12 +34,11 @@ public:
   QFont const &displayFont() const;
 public slots:
   void setDisplayFont(QFont f);
-private slots:
-  void edited(QString const &s);
   void copyAvailable(bool s);
   void selected();
   void clipinfo();
 private:
+  void useInput(QString const &s, bool definitive);
   void setComment(int c);
   void setEmptyComment();
   void setMultiComment();

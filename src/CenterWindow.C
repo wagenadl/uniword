@@ -36,7 +36,6 @@
 
 #define fg QColor("#000000")
 #define bg QColor("#eeeeee")
-#define MAXGLYPHS 500
 
 CenterWindow::CenterWindow(Universe const &uverse,
 			   QWidget *parent):
@@ -75,14 +74,16 @@ CenterWindow::CenterWindow(Universe const &uverse,
   layout->addWidget(comment);
   this->setLayout(layout);
 
-  connect(input, SIGNAL(textChanged(QString const &)),
-	  SLOT(edited(QString const &)));
+  connect(input, &QLineEdit::textChanged,
+          [this]() { useInput(input->text(), false); });
+  connect(input, &QLineEdit::returnPressed,
+          [this]() { useInput(input->text(), true); });
 }
 
 CenterWindow::~CenterWindow() {
 }
 
-void CenterWindow::edited(QString const &s) {
+void CenterWindow::useInput(QString const &s, bool definitive) {
   if (QRegExp("[\\s.]*").exactMatch(s)) {
     output->setText("");
     setEmptyComment();
@@ -102,9 +103,10 @@ void CenterWindow::edited(QString const &s) {
     foreach (int c, cc)
       ordered.push_back(c);
     qSort(ordered);
+    int MAXGLYPHS = definitive ? 500 : 20;
     bool toolong = ordered.size()>MAXGLYPHS;
     if (toolong)
-      ordered.resize(100);
+      ordered.resize(MAXGLYPHS);
 
     output->clear();
     QTextCursor tc(output->textCursor());
@@ -157,7 +159,7 @@ void CenterWindow::edited(QString const &s) {
       s += QChar(0x200e);
     }
     if (toolong)
-      s += "...";
+      s += "(…)";
     
     tc.insertText(s);
 
