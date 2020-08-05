@@ -18,6 +18,7 @@ CONFIG += resources
 # debug warn_on
 TEMPLATE = app
 TARGET = ../uniword
+QT += widgets gui
 DEPENDPATH += .
 INCLUDEPATH += .
 

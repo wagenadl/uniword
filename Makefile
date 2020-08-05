@@ -15,6 +15,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 all: uniword
+clean:; rm -rf src/.moc src/.obj src/.rcc src/.qmake.stash
 
 TABLES=tables/alias.txt tables/blocks.txt tables/chars.txt tables/groups.txt
 

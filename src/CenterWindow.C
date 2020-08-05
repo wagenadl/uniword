@@ -36,6 +36,7 @@
 
 #define fg QColor("#000000")
 #define bg QColor("#eeeeee")
+#define MAXGLYPHS 500
 
 CenterWindow::CenterWindow(Universe const &uverse,
 			   QWidget *parent):
@@ -101,8 +102,8 @@ void CenterWindow::edited(QString const &s) {
     foreach (int c, cc)
       ordered.push_back(c);
     qSort(ordered);
-    bool toolong = ordered.size()>100;
-    while (ordered.size()>100)
+    bool toolong = ordered.size()>MAXGLYPHS;
+    if (toolong)
       ordered.resize(100);
 
     output->clear();
