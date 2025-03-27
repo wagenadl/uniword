@@ -1,6 +1,13 @@
-# Uniword 0.2.0
-  
-## Keyword-based unicode character selector
+# Uniword 0.2.0 - Keyword-based unicode character selector
+
+## Installation
+
+Binaries for the latest release may be found at 
+[GitHub](https://github.com/wagenadl/uniword/releases/latest).
+
+To compile from source on Linux or Windows, you need Qt and CMake. 
+
+## Usage
 
 To find a unicode character by its name or by any of its aliases,
 type words or parts of words into the text entry field at the top of
