@@ -25,6 +25,6 @@
      <file alias="groups.txt">../tables/groups.txt</file>
      <file>about.html</file>
      <file>help.html</file>
-     <file alias="uniword.png">../debian/uniword.png</file>
+     <file alias="uniword.png">../src/uniword.png</file>
    </qresource>
 </RCC>

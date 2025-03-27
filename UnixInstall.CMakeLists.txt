@@ -1,0 +1,7 @@
+install(TARGETS uniword DESTINATION bin)
+
+
+install(FILES src/uniword.png DESTINATION share/icons/hicolor/apps)
+install(FILES src/uniword.svg DESTINATION share/icons/hicolor/apps)
+install(PROGRAMS src/uniword.desktop DESTINATION share/applications)
+

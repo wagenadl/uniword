@@ -18,7 +18,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "MainWindow.H"
+#include "MainWindow.h"
 
 #include <QSettings>
 #include <QFontDialog>
@@ -30,7 +30,7 @@
 #include <QFile>
 #include <QTextStream>
 
-#include "CenterWindow.H"
+#include "CenterWindow.h"
 
 #include <QDebug>
 

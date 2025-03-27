@@ -1,5 +1,3 @@
-.bzr
-.qmake.stash
-.rcc
-src/Makefile
-uniword
+build
+*~
+

@@ -1,29 +1,29 @@
-#    Uniword: keyword-based unicode character selector
-#    Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Makefile - Part of NotedELN, (C) Daniel Wagenaar 2021
 
-all: uniword
-clean:; rm -rf src/.moc src/.obj src/.rcc src/.qmake.stash
+# This Makefile just documents some generally useful actions.
+# Actual build process is through cmake.
 
-TABLES=tables/alias.txt tables/blocks.txt tables/chars.txt tables/groups.txt
+######################################################################
+# Linux and Mac stuff
+release: prep-release
+	+cmake --build build --config Release
 
-uniword: $(TABLES)
-	( cd src; qmake )
-	make -C src
+prep-release:
+	+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release  
 
-tables/%.txt: UCD/NamesList.txt tools/parseNamesList.pl
-	tools/parseNamesList.pl
+debug: prep-debug
+	+cmake --build build-debug --config Debug
 
-.PHONY: all
+prep-debug:
+	+cmake -S . -B build-debug -DCMAKE_BUILD_TYPE=Debug 
+
+clean:; rm -rf build build-debug
+
+deb:	release
+	(cd build; cpack )
+
+tar:;	git archive -o ../uniword.tar.gz --prefix=uniword/ HEAD
+
+######################################################################
+.PHONY: release prep-release debug prep-debug clean tar deb
+

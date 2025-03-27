@@ -31,8 +31,8 @@
 #include <QTextBlock>
 #include <QTextBlockFormat>
 
-#include "CenterWindow.H"
-#include "Universe.H"
+#include "CenterWindow.h"
+#include "Universe.h"
 
 #define fg QColor("#000000")
 #define bg QColor("#eeeeee")

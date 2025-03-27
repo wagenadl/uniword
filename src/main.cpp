@@ -23,8 +23,8 @@
 #include <QTextStream>
 #include <QDebug>
 
-#include "MainWindow.H"
-#include "Universe.H"
+#include "MainWindow.h"
+#include "Universe.h"
 
 void addchars(Universe &uverse) {
   QFile chars(":/chars.txt");
