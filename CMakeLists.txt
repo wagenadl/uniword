@@ -29,7 +29,7 @@ endif()
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
-find_package(Qt5 COMPONENTS Widgets Svg PrintSupport REQUIRED)
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 ######################################################################
 # Add the executables
