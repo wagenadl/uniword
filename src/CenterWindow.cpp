@@ -1,8 +1,8 @@
-// CenterWindow.C
+// CenterWindow.cpp
 
 /*
     Uniword: keyword-based unicode character selector
-    Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
+    Copyright (C) 2012-2025  Daniel A. Wagenaar <daw@caltech.edu>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,9 +30,11 @@
 #include <QMimeData>
 #include <QTextBlock>
 #include <QTextBlockFormat>
+#include <algorithm>
 
 #include "CenterWindow.h"
 #include "Universe.h"
+#include "OutputWidget.h"
 
 #define fg QColor("#000000")
 #define bg QColor("#eeeeee")
@@ -46,15 +48,14 @@ CenterWindow::CenterWindow(Universe const &uverse,
   input = new QLineEdit;
   input->setFixedHeight(40);
 
-  output = new QTextEdit;
+  output = new OutputWidget;
   output->setReadOnly(true);
   output->setText("");
   output->setAlignment(Qt::AlignLeft | Qt::AlignAbsolute);
-  copyAv = false;
-  connect(output, SIGNAL(copyAvailable(bool)), this, SLOT(copyAvailable(bool)));
-  connect(output, SIGNAL(selectionChanged()), this, SLOT(selected()));
-
-  connect(QApplication::clipboard(), SIGNAL(selectionChanged()), this, SLOT(clipinfo()));
+  connect(output, &QTextEdit::selectionChanged,
+          this, &CenterWindow::selected);
+  connect(output, &OutputWidget::hoverChanged,
+          this, &CenterWindow::hovered);
 
   comment = new QTextEdit;
   comment->setFixedHeight(80);
@@ -102,7 +103,7 @@ void CenterWindow::useInput(QString const &s, bool definitive) {
     ordered.reserve(cc.size());
     foreach (int c, cc)
       ordered.push_back(c);
-    qSort(ordered);
+    std::sort(ordered.begin(), ordered.end());
     int MAXGLYPHS = definitive ? 500 : 20;
     bool toolong = ordered.size()>MAXGLYPHS;
     if (toolong)
@@ -177,16 +178,13 @@ void CenterWindow::useInput(QString const &s, bool definitive) {
   }
 }
 
-void CenterWindow::copyAvailable(bool s) {
-  copyAv = s;
-}
 
 void CenterWindow::setEmptyComment() {
   comment->setHtml("<i>Type some words to select characters.</i>");
 }
 
 void CenterWindow::setMultiComment() {
-  comment->setHtml("<i>Select a single character to see description.</i>");
+  comment->setHtml("");//<i>Hover over a character to see description.</i>");
 }
 
 void CenterWindow::selected() {
@@ -194,18 +192,17 @@ void CenterWindow::selected() {
     setEmptyComment();
     return;
   }
-  setMultiComment();
+  QString t = output->textCursor().selectedText();
+  int chr = extractChar(t);
+  setComment(chr);
+  if (chr > 0) {
+    QApplication::clipboard()->setText(QString(QChar(chr)));
+    QApplication::clipboard()->setText(QString(QChar(chr)),
+                                       QClipboard::Selection);
+  }
+}
 
-  if (!copyAv)
-    return;
-
-  output->copy();
-  
-  QClipboard *clip = QApplication::clipboard();
-  QString t = clip->text();
-  origclipt = t;
-  newclipt = "";
-
+int CenterWindow::extractChar(QString t) {
   int chr = -1;
   t.replace(" ", "");
   t.replace(QChar(0x200e), "");
@@ -221,26 +218,14 @@ void CenterWindow::selected() {
 	+ (s0.unicode()-0xd800)*0x400
 	+ (s1.unicode()-0xdc00);
   }
-  if (chr>=0) 
-    setComment(chr);
-
-  clip->setText(t); // this cleans it
-  clip->setText(t, QClipboard::Selection); // this doesn't actually affect the selection for double clicks!. I don't know why.
-  newclipt = t; // this is used to reselect after doubleclick. ugly!
-}
-
-void CenterWindow::clipinfo() {
-  // Ugly hack to prevent "<!--StartFragment-->"
-  QClipboard *clip = QApplication::clipboard();
-  QString t = clip->text( QClipboard::Selection);
-  if (t==origclipt && newclipt!="") {
-    t = newclipt;
-    origclipt = newclipt = "";
-    clip->setText(t, QClipboard::Selection);
-  }
+  return chr;
 }
   
 void CenterWindow::setComment(int chr) {
+  if (chr < 0) {
+    setMultiComment();
+    return;
+  }
   QString d = uverse.describe(chr);
   QString g = uverse.getgroups(chr);
   QString c = d;
@@ -261,4 +246,9 @@ void CenterWindow::setDisplayFont(QFont f) {
 
 QFont const &CenterWindow::displayFont() const {
   return output->font();
+}
+
+void CenterWindow::hovered(QString s) {
+  int chr = extractChar(s);
+  setComment(chr);
 }

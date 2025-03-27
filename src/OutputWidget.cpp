@@ -1,6 +1,4 @@
-// MainWindow.h
-
-#include <QMainWindow>
+// OutputWidget.cpp
 
 /*
     Uniword: keyword-based unicode character selector
@@ -20,24 +18,22 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef MAINWINDOW_H
+#include "OutputWidget.h"
+#include <QMouseEvent>
 
-#define MAINWINDOW_H
+OutputWidget::OutputWidget(QWidget *parent): QTextEdit(parent) {
+  setMouseTracking(true);
+}
 
-class MainWindow: public QMainWindow {
-  Q_OBJECT;
-public:
-  MainWindow(class Universe &uverse);
-  virtual ~MainWindow();
-public slots:
-  void sAbout();
-  void sHelp();
-  void sFont();
-  void sQuit();
-private:
-  class CenterWindow *cw;
-  QString helpText;
-  QString aboutText;
-};
-
-#endif
+void OutputWidget::mouseMoveEvent(QMouseEvent *e) {
+  QTextEdit::mouseMoveEvent(e);
+  if (e->buttons())
+    return;
+  if (toPlainText().isEmpty())
+    return;
+  if (textCursor().hasSelection())
+    return;
+  QTextCursor cursor = cursorForPosition(e->pos());
+  cursor.movePosition(QTextCursor::Right, QTextCursor::KeepAnchor);
+  emit hoverChanged(cursor.selectedText());
+}

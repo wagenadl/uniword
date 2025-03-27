@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 #    Uniword: keyword-based unicode character selector
-#    Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
+#    Copyright (C) 2012-2025  Daniel A. Wagenaar <daw@caltech.edu>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by

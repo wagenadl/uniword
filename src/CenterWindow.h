@@ -1,8 +1,8 @@
-// CenterWindow.H
+// CenterWindow.h
 
 /*
     Uniword: keyword-based unicode character selector
-    Copyright (C) 2012  Daniel A. Wagenaar <daw@caltech.edu>
+    Copyright (C) 2012-2025  Daniel A. Wagenaar <daw@caltech.edu>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -34,21 +34,19 @@ public:
   QFont const &displayFont() const;
 public slots:
   void setDisplayFont(QFont f);
-  void copyAvailable(bool s);
   void selected();
-  void clipinfo();
+  void hovered(QString);
 private:
   void useInput(QString const &s, bool definitive);
   void setComment(int c);
   void setEmptyComment();
   void setMultiComment();
+  int extractChar(QString);
 private:
-  class QTextEdit *output;
+  class OutputWidget *output;
   class QLineEdit *input;
   class QTextEdit *comment;
   Universe const &uverse;
-  bool copyAv;
-  QString origclipt, newclipt;
 };
 
 #endif

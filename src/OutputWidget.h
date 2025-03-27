@@ -1,6 +1,4 @@
-// MainWindow.h
-
-#include <QMainWindow>
+// OutputWidget.h
 
 /*
     Uniword: keyword-based unicode character selector
@@ -20,24 +18,20 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef MAINWINDOW_H
+#ifndef OUTPUTWIDGET_H
 
-#define MAINWINDOW_H
+#define OUTPUTWIDGET_H
 
-class MainWindow: public QMainWindow {
+#include <QTextEdit>
+
+class OutputWidget: public QTextEdit {
   Q_OBJECT;
 public:
-  MainWindow(class Universe &uverse);
-  virtual ~MainWindow();
-public slots:
-  void sAbout();
-  void sHelp();
-  void sFont();
-  void sQuit();
-private:
-  class CenterWindow *cw;
-  QString helpText;
-  QString aboutText;
+  OutputWidget(QWidget *parent=0);
+signals:
+  void hoverChanged(QString);
+public:
+  void mouseMoveEvent(QMouseEvent *);
 };
 
 #endif

@@ -12,8 +12,8 @@ cmake_minimum_required(VERSION 3.11.0)
 
 ######################################################################
 # Set the project name and version
-project(Uniword VERSION 0.2.4)
-set(CMAKE_PROJECT_HOMEPAGE_URL "http://danielwagenaar.net/uniword")
+project(Uniword VERSION 0.2.0)
+set(CMAKE_PROJECT_HOMEPAGE_URL "http://github.com/wagenadl/uniword")
 
 ######################################################################
 # Specify the C++ standard [must be done _before_ adding executable!]
@@ -36,6 +36,7 @@ find_package(Qt5 COMPONENTS Widgets Svg PrintSupport REQUIRED)
 add_executable(uniword WIN32 MACOSX_BUNDLE src/main.cpp)
 target_sources(uniword PRIVATE src/MainWindow.cpp)
 target_sources(uniword PRIVATE src/CenterWindow.cpp)
+target_sources(uniword PRIVATE src/OutputWidget.cpp)
 target_sources(uniword PRIVATE src/Universe.cpp)
 target_sources(uniword PRIVATE src/uniword.qrc )
 
