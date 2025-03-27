@@ -17,6 +17,8 @@
 0007c0-0007ff NKo
 000800-00083f Samaritan
 000840-00085f Mandaic
+000860-00086f Syriac Supplement
+000870-00089f Arabic Extended-B
 0008a0-0008ff Arabic Extended-A
 000900-00097f Devanagari
 000980-0009ff Bengali
@@ -53,11 +55,14 @@
 0019e0-0019ff Khmer Symbols
 001a00-001a1f Buginese
 001a20-001aaf Tai Tham
+001ab0-001aff Combining Diacritical Marks Extended
 001b00-001b7f Balinese
 001b80-001bbf Sundanese
 001bc0-001bff Batak
 001c00-001c4f Lepcha
 001c50-001c7f Ol Chiki
+001c80-001c8f Cyrillic Extended-C
+001c90-001cbf Georgian Extended
 001cc0-001ccf Sundanese Supplement
 001cd0-001cff Vedic Extensions
 001d00-001d7f Phonetic Extensions
@@ -111,9 +116,9 @@
 0031f0-0031ff Katakana Phonetic Extensions
 003200-0032ff Enclosed CJK Letters and Months
 003300-0033ff CJK Compatibility
-003400-004db5 CJK Unified Ideographs Extension A
+003400-004dbf CJK Unified Ideographs Extension A
 004dc0-004dff Yijing Hexagram Symbols
-004e00-009fcc CJK Unified Ideographs
+004e00-009fff CJK Unified Ideographs
 00a000-00a48f Yi Syllables
 00a490-00a4cf Yi Radicals
 00a4d0-00a4ff Lisu
@@ -131,11 +136,14 @@
 00a930-00a95f Rejang
 00a960-00a97f Hangul Jamo Extended-A
 00a980-00a9df Javanese
+00a9e0-00a9ff Myanmar Extended-B
 00aa00-00aa5f Cham
 00aa60-00aa7f Myanmar Extended-A
 00aa80-00aadf Tai Viet
 00aae0-00aaff Meetei Mayek Extensions
 00ab00-00ab2f Ethiopic Extended-A
+00ab30-00ab6f Latin Extended-E
+00ab70-00abbf Cherokee Supplement
 00abc0-00abff Meetei Mayek
 00ac00-00d7a3 Hangul Syllables
 00d7b0-00d7ff Hangul Jamo Extended-B
@@ -160,44 +168,142 @@
 0101d0-0101ff Phaistos Disc
 010280-01029f Lycian
 0102a0-0102df Carian
+0102e0-0102ff Coptic Epact Numbers
 010300-01032f Old Italic
 010330-01034f Gothic
+010350-01037f Old Permic
 010380-01039f Ugaritic
 0103a0-0103df Old Persian
 010400-01044f Deseret
 010450-01047f Shavian
 010480-0104af Osmanya
+0104b0-0104ff Osage
+010500-01052f Elbasan
+010530-01056f Caucasian Albanian
+010570-0105bf Vithkuqi
+0105c0-0105ff Todhri
+010600-01077f Linear A
+010780-0107bf Latin Extended-F
 010800-01083f Cypriot Syllabary
 010840-01085f Imperial Aramaic
+010860-01087f Palmyrene
+010880-0108af Nabataean
+0108e0-0108ff Hatran
 010900-01091f Phoenician
 010920-01093f Lydian
 010980-01099f Meroitic Hieroglyphs
 0109a0-0109ff Meroitic Cursive
 010a00-010a5f Kharoshthi
 010a60-010a7f Old South Arabian
+010a80-010a9f Old North Arabian
+010ac0-010aff Manichaean
 010b00-010b3f Avestan
 010b40-010b5f Inscriptional Parthian
 010b60-010b7f Inscriptional Pahlavi
+010b80-010baf Psalter Pahlavi
 010c00-010c4f Old Turkic
+010c80-010cff Old Hungarian
+010d00-010d3f Hanifi Rohingya
+010d40-010d8f Garay
 010e60-010e7f Rumi Numeral Symbols
+010e80-010ebf Yezidi
+010ec0-010eff Arabic Extended-C
+010f00-010f2f Old Sogdian
+010f30-010f6f Sogdian
+010f70-010faf Old Uyghur
+010fb0-010fdf Chorasmian
+010fe0-010fff Elymaic
 011000-01107f Brahmi
 011080-0110cf Kaithi
 0110d0-0110ff Sora Sompeng
 011100-01114f Chakma
+011150-01117f Mahajani
 011180-0111df Sharada
+0111e0-0111ff Sinhala Archaic Numbers
+011200-01124f Khojki
+011280-0112af Multani
+0112b0-0112ff Khudawadi
+011300-01137f Grantha
+011380-0113ff Tulu-Tigalari
+011400-01147f Newa
+011480-0114df Tirhuta
+011580-0115ff Siddham
+011600-01165f Modi
+011660-01167f Mongolian Supplement
 011680-0116cf Takri
+0116d0-0116ff Myanmar Extended-C
+011700-01174f Ahom
+011800-01184f Dogra
+0118a0-0118ff Warang Citi
+011900-01195f Dives Akuru
+0119a0-0119ff Nandinagari
+011a00-011a4f Zanabazar Square
+011a50-011aaf Soyombo
+011ab0-011abf Unified Canadian Aboriginal Syllabics Extended-A
+011ac0-011aff Pau Cin Hau
+011b00-011b5f Devanagari Extended-A
+011bc0-011bff Sunuwar
+011c00-011c6f Bhaiksuki
+011c70-011cbf Marchen
+011d00-011d5f Masaram Gondi
+011d60-011daf Gunjala Gondi
+011ee0-011eff Makasar
+011f00-011f5f Kawi
+011fb0-011fbf Lisu Supplement
+011fc0-011fff Tamil Supplement
 012000-0123ff Cuneiform
 012400-01247f Cuneiform Numbers and Punctuation
+012480-01254f Early Dynastic Cuneiform
+012f90-012fff Cypro-Minoan
 013000-01342f Egyptian Hieroglyphs
+013430-01345f Egyptian Hieroglyph Format Controls
+013460-0143ff Egyptian Hieroglyphs Extended-A
+014400-01467f Anatolian Hieroglyphs
+016100-01613f Gurung Khema
 016800-016a3f Bamum Supplement
+016a40-016a6f Mro
+016a70-016acf Tangsa
+016ad0-016aff Bassa Vah
+016b00-016b8f Pahawh Hmong
+016d40-016d7f Kirat Rai
+016e40-016e9f Medefaidrin
 016f00-016f9f Miao
+016fe0-016fff Ideographic Symbols and Punctuation
+017000-0187f7 Tangut
+018800-018aff Tangut Components
+018b00-018cff Khitan Small Script
+018d00-018d08 Tangut Supplement
+01aff0-01afff Kana Extended-B
 01b000-01b0ff Kana Supplement
+01b100-01b12f Kana Extended-A
+01b130-01b16f Small Kana Extension
+01b170-01b2ff Nushu
+01bc00-01bc9f Duployan
+01bca0-01bcaf Shorthand Format Controls
+01cc00-01cebf Symbols for Legacy Computing Supplement
+01cf00-01cfcf Znamenny Musical Notation
 01d000-01d0ff Byzantine Musical Symbols
 01d100-01d1ff Musical Symbols
 01d200-01d24f Ancient Greek Musical Notation
+01d2c0-01d2df Kaktovik Numerals
+01d2e0-01d2ff Mayan Numerals
 01d300-01d35f Tai Xuan Jing Symbols
 01d360-01d37f Counting Rod Numerals
 01d400-01d7ff Mathematical Alphanumeric Symbols
+01d800-01daaf Sutton SignWriting
+01df00-01dfff Latin Extended-G
+01e000-01e02f Glagolitic Supplement
+01e030-01e08f Cyrillic Extended-D
+01e100-01e14f Nyiakeng Puachue Hmong
+01e290-01e2bf Toto
+01e2c0-01e2ff Wancho
+01e4d0-01e4ff Nag Mundari
+01e5d0-01e5ff Ol Onal
+01e7e0-01e7ff Ethiopic Extended-B
+01e800-01e8df Mende Kikakui
+01e900-01e95f Adlam
+01ec70-01ecbf Indic Siyaq Numbers
+01ed00-01ed4f Ottoman Siyaq Numbers
 01ee00-01eeff Arabic Mathematical Alphabetic Symbols
 01f000-01f02f Mahjong Tiles
 01f030-01f09f Domino Tiles
@@ -206,11 +312,23 @@
 01f200-01f2ff Enclosed Ideographic Supplement
 01f300-01f5ff Miscellaneous Symbols and Pictographs
 01f600-01f64f Emoticons
+01f650-01f67f Ornamental Dingbats
 01f680-01f6ff Transport and Map Symbols
 01f700-01f77f Alchemical Symbols
-020000-02a6d6 CJK Unified Ideographs Extension B
-02a700-02b734 CJK Unified Ideographs Extension C
+01f780-01f7ff Geometric Shapes Extended
+01f800-01f8ff Supplemental Arrows-C
+01f900-01f9ff Supplemental Symbols and Pictographs
+01fa00-01fa6f Chess Symbols
+01fa70-01faff Symbols and Pictographs Extended-A
+01fb00-01fbff Symbols for Legacy Computing
+020000-02a6df CJK Unified Ideographs Extension B
+02a700-02b739 CJK Unified Ideographs Extension C
 02b740-02b81d CJK Unified Ideographs Extension D
+02b820-02cea1 CJK Unified Ideographs Extension E
+02ceb0-02ebe0 CJK Unified Ideographs Extension F
+02ebf0-02ee5d CJK Unified Ideographs Extension I
 02f800-02fa1f CJK Compatibility Ideographs Supplement
+030000-03134a CJK Unified Ideographs Extension G
+031350-0323af CJK Unified Ideographs Extension H
 0e0000-0e007f Tags
 0e0100-0e01ef Variation Selectors Supplement

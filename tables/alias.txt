@@ -1,23 +1,26 @@
 000021 factorial; bang
-000023 pound sign, hash, crosshatch, octothorpe
-000024 milreis, escudo
-000027 apostrophe-quote; APL quote
+000022 double quote
+000023 pound sign; hashtag, hash; crosshatch, octothorpe
+000024 milréis, escudo
+000026 and
+000027 apostrophe-quote; single quote; APL quote
 000028 opening parenthesis
 000029 closing parenthesis
 00002a star
-00002c decimal separator
-00002d hyphen or minus sign
+00002c the use as decimal or thousands separator is locale dependent
+00002d hyphen, dash; minus sign
 00002e period, dot, decimal point
-00002f slash, virgule
-000040 at sign
+00002f slash, forward slash, virgule
+000040 at sign; arroba
 00005b opening square bracket
 00005c backslash
 00005d closing square bracket
 00005f spacing underscore
+000060 backtick, backquote
 00007b opening curly bracket; left brace
-00007c vertical bar
+00007c vertical bar, pipe
 00007d closing curly bracket; right brace
-0000a3 pound sterling, Irish punt, Italian lira, Turkish lira, etc.
+0000a3 pound sterling, Irish punt, lira, etc.
 0000a5 yuan sign
 0000a6 broken vertical bar; parted rule
 0000ab left guillemet; chevrons
@@ -25,6 +28,7 @@
 0000ad discretionary hyphen
 0000ae registered trade mark sign
 0000af overline, APL overbar
+0000b1 biquintile
 0000b2 squared
 0000b3 cubed
 0000b6 paragraph sign
@@ -36,15 +40,17 @@
 0000d8 o slash
 0000df Eszett
 0000e6 latin small ligature ae; ash
+0000f7 obelus
 0000f8 o slash
 000130 i dot
 000149 latin small letter apostrophe n
 00014b engma, angma
 000153 ethel
 00018d reversed Polish-hook o
-00018e turned e
-000190 epsilon
+00018e turned capital e
+000190 capital epsilon
 000192 script f; Florin currency symbol; function symbol
+000195 hwair
 000197 barred i, i bar
 00019a barred l
 00019b barred lambda, lambda bar
@@ -54,12 +60,13 @@
 0001bf wen
 0001c0 pipe
 0001c1 double pipe
-0001c2 double-barred pipe; palatoalveolar click
-0001c3 latin letter exclamation mark; 
+0001c2 double-barred pipe
+0001c3 latin letter exclamation mark
 0001f7 wen
 000251 latin small letter script a
 000256 d retroflex hook
 00025b epsilon
+00025c reversed epsilon
 00025e closed reversed epsilon
 000264 latin small letter baby gamma
 000268 barred i, i bar
@@ -67,7 +74,7 @@
 00027f long leg turned iota
 00028b latin small letter script v
 00028c caret, wedge
-000292 dram
+000292 dram sign
 000295 reversed glottal stop
 000298 bullseye
 00029a closed epsilon
@@ -90,6 +97,7 @@
 000328 nasal hook
 000332 underline, underscore
 000333 double underline, double underscore
+000336 strikethrough
 000337 short slash overlay
 000338 long slash overlay
 00033e yerik
@@ -150,7 +158,8 @@
 0005f2 tsvey yudn
 000640 kashida
 000657 ulta pesh
-0006c0 arabic letter hamzah on ha; izafet
+0006a9 kaf mashkula
+0006c0 arabic letter hamzah on ha
 0006e1 Arabic jazm
 00070f SAM
 00081c fatha al-nida
@@ -174,11 +183,13 @@
 00083e rest
 000840 a
 000845 u
+000847 pharyngeal hu
 000849 i
 000856 di
 0008aa bottya-reh
 0008ab nota-wa
 0008ac bottya-yeh
+0008cc sign of waqf
 0008f0 successive fathatan
 0008f1 successive dammatan
 0008f2 successive kasratan
@@ -191,9 +202,14 @@
 000952 Vedic tone anudatta
 000964 purna viram
 000965 deergh viram
+000980 siddham, siddhirastu
 0009ac Bengali va, wa
 0009cd hasant
-0009f1 bengali letter va with lower diagonal
+0009f0 Assamese letter ra
+0009f1 Assamese letter wa; bengali letter va with lower diagonal
+0009f2 taka
+0009f3 Bangladeshi taka
+0009fa ishvar; svargiya
 000a05 aira
 000a3c pairin bindi
 000a3e kanna
@@ -210,17 +226,21 @@
 000b5d ddha
 000b5f ya
 000b83 aytham
-000bf3 naal
+000baa maa
+000bcd pulli
+000bf3 naal, naali/padi; pillaiyaar suli
 000bf4 maatham
 000bf5 varudam
 000bf6 patru
-000bf7 varavu
+000bf7 eduppu
 000bf8 merpadi
 000bf9 rupai
-000bfa enn
+000bfa enn, niluvai
 000c01 arasunna
 000c02 sunna
 000c4d halant
+000c77 siddhirastu
+000c84 siddhirastu
 000d1a cha
 000d1b chha
 000d1e nha
@@ -237,7 +257,20 @@
 000d36 soft sha
 000d37 sha
 000d3d praslesham
-000d4d chandrakkala; vowel half-u
+000d4d candrakkala; vowel half-u
+000d58 arakaani
+000d59 aramaa
+000d5a muunnukaani
+000d5b orumaa
+000d5c rantumaa
+000d5d muunnumaa
+000d5e naalumaa
+000d73 kaal
+000d74 ara
+000d75 mukkaal
+000d76 maakaani
+000d77 arakkaal
+000d78 muntaani
 000d82 anusvara
 000d83 visarga
 000d85 sinhala letter a
@@ -358,6 +391,7 @@
 000ec4 mai may
 000f0b tsek
 000f0d shey
+000f1f deka dena
 000f65 reversed sha
 000f71 a-chung
 000f7e anusvara
@@ -377,7 +411,6 @@
 000fd7 gyung drung nang -khor bzhi mig can
 000fd8 gyung drung phyi -khor bzhi mig can
 001037 aukmyit
-001039 killer
 00103a killer
 001100 G
 001101 GG
@@ -445,19 +478,18 @@
 0011c0 T
 0011c1 P
 0011c2 H
-0011ec yesieung-kiyeok
-0011ed yesieung-ssangkiyeok
-0011ee ssangyesieung
-0011ef yesieung-khieukh
+00171f Zambales ra
 0017c6 srak am; anusvara
 0017c7 srak ah; visarga
+00191d jnya
 001aa3 courtyard
 001aa4 oyster
 001aa5 flower
+001ac6 superscript octothorp
 001b00 ardhacandra
 001b01 candrabindu
 001b02 anusvara
-001b03 repha
+001b03 final r
 001b04 visarga
 001b05 a
 001b06 aa
@@ -512,8 +544,10 @@
 001b5e danda
 001b5f double danda
 001b60 line-breaking hyphen
+001b7d end of text
+001b7e end of text
 001b80 anusvara
-001b81 repha
+001b81 final r
 001b82 visarga
 001ba1 subjoined ya
 001ba2 subjoined ra
@@ -527,6 +561,7 @@
 001baa virama
 001bac subjoined ma
 001bad subjoined wa
+001bba gemination mark
 001be7 kebereten
 001be8 ketolongen
 001be9 talinga
@@ -574,6 +609,7 @@
 001cf0 vaidika anusvaara ttha-sadrisha
 001cf1 vaidika anusvaara ubhayato mukha
 001cf2 vaidika jihvaamuuliiya upadhmaaniiya
+001cf7 vaidika saamagaana atikrama
 002001 mutton quad
 002002 nut
 002003 mutton
@@ -588,7 +624,7 @@
 00201d double comma quotation mark
 00201e low double comma quotation mark
 00201f double reversed comma quotation mark
-002020 obelisk, obelus, long cross
+002020 obelisk, long cross, oblong cross
 002021 diesis, double obelisk
 002022 black small circle
 002026 three dot leader
@@ -604,11 +640,13 @@
 00203f Greek enotikon
 002040 z notation sequence concatenation
 002044 solidus
-002052 abz�glich
+002052 abzüglich
 002055 phul, puspika
 002059 Greek pentonkion; quincunx
 00205d Epidaurean acrophonic symbol three
 002063 invisible comma
+0020aa shekel
+0020b1 Filipino peso sign
 0020db third derivative
 0020dc fourth derivative
 0020dd JIS composition circle; Cyrillic combining ten thousands sign
@@ -616,13 +654,15 @@
 0020e7 actuarial bend
 0020e9 contraction operator
 0020eb long double slash overlay
+002101 aux soins
 002102 the set of complex numbers
-002103 degrees Centigrade
+002103 degrees centigrade
 002104 clone
 00210a real number symbol
 00210b Hamiltonian operator
 00210c Hilbert space
 00210e height, specific enthalpy, ...
+00210f reduced Planck constant, Dirac constant
 002111 imaginary part
 002112 Laplace transform
 002113 mathematical symbol 'ell'; liter
@@ -694,6 +734,7 @@
 002211 summation sign
 002218 composite function; APL jot
 00221a radical sign
+00221f with
 002222 angle arc
 002223 such that; APL stile
 002227 wedge, conjunction
@@ -720,6 +761,7 @@
 002296 symmetric difference
 002297 tensor product; vector pointing into page
 002299 direct product; vector pointing out of page
+00229c NoDerivatives
 0022a2 turnstile; proves, implies, yields; reducible
 0022a3 reverse turnstile; non-theorem, does not yield
 0022a4 top
@@ -759,7 +801,17 @@
 0023b0 left moustache
 0023b1 right moustache
 0023e9 fast forward
-0023ea fast rewind
+0023ea rewind, fast backwards
+0023ed skip to the end or next file/track/chapter
+0023ee skip to the start or previous file/track/chapter
+0023ef play/pause toggle
+0023f4 reverse, back
+0023f5 forward
+0023f6 increase
+0023f7 decrease
+0023f8 pause
+0023f9 stop
+0023fa record
 002445 unique asterisk
 002446 transit
 002447 amount
@@ -782,6 +834,7 @@
 00253c Videotex Mosaic DG 24
 00253f Videotex Mosaic DG 13
 002588 solid
+002592 speckles fill, dotted fill
 0025a0 moding mark
 0025a1 quadrature; alchemical symbol for salt
 0025aa square bullet
@@ -799,7 +852,7 @@
 002602 rainy weather
 002603 snowy weather
 002609 alchemical symbol for gold
-00260a alchemical symbol for sublimate
+00260a alchemical symbol for sublimation
 00260b alchemical symbol for purify
 00260c alchemical symbol for day
 002613 St. Andrew's Cross
@@ -808,8 +861,9 @@
 00261e fist
 002620 poison
 002627 Constantine's cross, Christogram
+002629 simple cross potent
 00262b symbol of iran
-00262c Gurmukhi khanda
+00262c khanda
 002630 qian2
 002631 dui4
 002632 li2
@@ -822,7 +876,7 @@
 00263c compass
 00263d alchemical symbol for silver
 00263e alchemical symbol for silver
-00263f alchemical symbol for quicksilver
+00263f alchemical symbol for quicksilver; intersexuality
 002640 Venus; alchemical symbol for copper
 002641 alchemical symbol for antimony
 002642 Mars; alchemical symbol for iron
@@ -830,13 +884,15 @@
 002644 alchemical symbol for lead
 002646 alchemical symbol for bismuth/tinglass
 00264d minim
-00264f scorpio; minim, drop
+00264f Scorpio; minim, drop
 002665 valentine
 002669 crotchet
 00266a quaver
 00266b beamed quavers
 00266c beamed semiquavers
 00266f z notation infix bag count
+00267e non-acid paper
+00267f accessible place
 002692 mining, working day
 002693 nautical term, harbor
 002694 military term, battleground , killed in action
@@ -849,12 +905,12 @@
 00269e someone speaking
 00269f background speaking
 0026a1 thunder; lightning symbol
-0026a2 lesbianism
+0026a2 female homosexuality
 0026a3 male homosexuality
-0026a4 bisexuality
-0026a5 transgendered sexuality; hermaphrodite
-0026a6 transgendered sexuality; alchemical symbol for iron or crocus of iron
-0026a7 transgendered sexuality
+0026a4 heterosexuality
+0026a5 intersex, androgynous; hermaphroditic
+0026a6 transgender; alchemical symbol for iron or crocus of iron
+0026a7 transgender
 0026a8 alchemical symbol for iron
 0026a9 alchemical symbol for iron
 0026aa asexuality, sexless, genderless; engaged, betrothed
@@ -897,10 +953,10 @@
 0026fd petrol station, gas station
 0026fe drive-in restaurant
 0026ff Japanese self-defence force site
+002709 sealed envelope
 00270a rock in Rock, Paper, Scissors game
 00270b paper in Rock, Paper, Scissors game
 00270c scissors in Rock, Paper, Scissors game
-002736 sextile
 00273a starburst
 002749 jack
 00274b turbofan
@@ -945,6 +1001,7 @@
 0029dc ISOtech entity &iinfin;
 0029e0 D'Alembertian
 0029e6 tautological equivalent
+0029e7 record mark
 0029f4 colon right arrow
 0029f9 z notation schema hiding
 002a07 merge
@@ -968,8 +1025,35 @@
 002b55 basic symbol for speed limit
 002b56 prefectural office
 002b57 municipal office
-002b58 town or village office
+002b58 town or village office; power off symbol
 002b59 police station
+002b70 left tab
+002b71 up tab
+002b72 right tab
+002b73 down tab
+002b76 home
+002b78 end
+002b7b page up
+002b7d page down
+002b94 loop
+002bb8 caps lock
+002bb9 escape
+002bba pair of bishops
+002bbb bishops of opposite colour
+002bbc bishops of the same colour
+002bd1 query
+002bde true black moon Lilith
+002bec fast cursor left
+002bed fast cursor up
+002bee fast cursor right
+002bef fast cursor down
+002bf9 with compensation for the material
+002bfa united pawns
+002bfb separated pawns
+002bfc doubled pawns
+002bfd passed pawn
+002bfe without
+002c6d capital script a
 002d40 Tuareg yab
 002d53 Tuareg yaw
 002d58 Adrar yaj
@@ -981,10 +1065,12 @@
 002e18 gnaborretni
 002e2e punctus percontativus
 002e3a omission dash
+002e4a virgula suspensiva
 00301a left abstract syntax bracket
 00301b right abstract syntax bracket
 00302e single dot Bangjeom
 00302f double dot Bangjeom
+003036 symbol for type B electronics
 003057 SHI
 003058 JI
 003061 CHI
@@ -1015,8 +1101,16 @@
 00324f speed limit 80 km/h
 003280 maru-iti, symbol of unification
 00337f kabusiki-gaisya
+00a729 tezh digraph
 00a792 Cambrian symbol
+00a7bd egyptological yod
+00a7c8 tau gallicum
+00a7f5 H dimidié
+00a7fb filia
+00a7fc puella
+00a7fd mulier, matrona
 00a806 halant, virama
+00a82c killer
 00a8e0 vaidika saamasvara anka shuunya
 00a8e1 vaidika saamasvara anka eka udaatta
 00a8e2 vaidika saamasvara anka dvi svarita
@@ -1044,6 +1138,7 @@
 00a8f8 vaidika pushpikaa
 00a8fa vaidika trutikaa
 00a8fb shirorekhaa
+00a8fc siddhirastu
 00a947 kaluan
 00a948 kamitan
 00a949 kamica
@@ -1053,9 +1148,9 @@
 00a94f katulang
 00a950 duo deatas
 00a951 kajunjung
-00a980 ardhacandra
+00a980 candrabindu
 00a981 anusvara
-00a982 repha
+00a982 final r
 00a983 visarga
 00a989 vocalic r
 00a98a vocalic l
@@ -1077,14 +1172,13 @@
 00a9b0 ssa
 00a9b3 nukta
 00a9b4 aa
-00a9b5 o
 00a9b6 i
 00a9b7 ii
 00a9b8 u
 00a9b9 uu
 00a9ba e
 00a9bb ai
-00a9bc ae
+00a9bc ĕ
 00a9bd vocalic r
 00a9be medial ya
 00a9bf medial ra
@@ -1095,6 +1189,7 @@
 00aadc one
 00aaf0 danda
 00aaf1 question mark
+00ab40 latin small letter o reversed-schwa
 00abc0 ka
 00abc1 sa
 00abc2 la
@@ -1147,7 +1242,9 @@
 00abf7 taret
 00abf8 nipal
 00abf9 mapal
-00feff BYTE ORDER MARK , ZWNBSP
+00fe0e text variation selector
+00fe0f emoji variation selector
+00feff BOM, ZWNBSP
 01000e ideogram B129 flour
 010018 ideogram B109 ox
 01001b ideogram B030 figs
@@ -1163,6 +1260,7 @@
 0100a4 cheese
 0100c9 pugio
 0100cb "gupio", inverted sword
+0101a0 rho-cross, staurogram
 010a3f halant
 010a60 heh
 010a61 lam
@@ -1191,59 +1289,575 @@
 010a7a yeh
 010a7b theh
 010a7c zah
-011100 caanaphupudaa
-011101 ekaphudaa
-011102 dviphudaa
-011103 pichapujhaa aa
-011104 delabhaangagaa i
-011105 bacacu u
-011106 lejaubaa e
-011107 cucyaangyaa kaa
-011108 grajaangyaa khaa
-011109 caandyaa gaa
-01110a tinaddaalyaa ghaa
-01110b cilaama ngaa
-01110c dvibhalyaa caa
-01110d majaraa chaa
-01110e dvipadalaa haa
-01110f uraauraa jhaa
-011110 silaacyaa nyaa
-011111 dviyaadaat ttaa
-011112 phudaadviyaat tthaa
-011113 aadudaangaat ddaa
-011114 lejabharaat ddhaa
-011115 pettttuyaa nnaa
-011116 ghangadaat taa
-011117 jagadaat thaa
-011118 dolaniit daa
-011119 talamuyaat dhaa
-01111a phaarabaanyaa naa
-01111b paalyaa paa
-01111c ubaraphudaa phaa
-01111d ubaramuyaa baa
-01111e ciraddaalyaa bhaa
-01111f bugatpadalaa maa
-011120 cimayyaa yyaa
-011121 jilyaa yaa
-011122 dvidaayyaa raa
-011123 talamuyaa laa
-011124 bajhonyaa waa
-011125 bhudibukyaa saa
-011126 ubaramuyaa haa
-011127 ubaratulyaa a
-011128 bahryaa i
-011129 baaniiphadaa ii
-01112a ekattaana u
-01112b dvittaana uu
-01112c ekaara e
-01112d delabhaanga ai
-01112e okaara o
-01112f aukaara au
-011130 oikaara oi
-011140 phulacihna
-011141 ekacilyaa
-011142 dvicilyaa
-011143 pujhaar
+010c81 Á
+010c82 B
+010c84 C
+010c86 Cs
+010c87 D
+010c8a Ë
+010c8b É
+010c8c F
+010c8d G
+010c8e Gy
+010c8f H
+010c91 Í
+010c92 J
+010c93 K
+010c96 L
+010c97 Ly
+010c98 M
+010c99 N
+010c9a Ny
+010c9b O
+010c9c Ó
+010c9d Ö
+010c9e Ö
+010c9f Ő
+010ca0 P
+010ca2 R
+010ca4 S
+010ca5 Sz
+010ca6 T
+010ca8 Ty
+010cab Ú
+010cac Ü
+010cad Ü, Ű
+010cae V
+010caf Z
+010cb0 Zs
+010cc1 á
+010cc2 b
+010cc4 c
+010cc6 cs
+010cc7 d
+010cca ë
+010ccb é
+010ccc f
+010ccd g
+010cce gy
+010ccf h
+010cd1 í
+010cd2 j
+010cd3 k
+010cd6 l
+010cd7 ly
+010cd8 m
+010cd9 n
+010cda ny
+010cdc ó
+010cdd ö
+010cde ö
+010cdf ő
+010ce0 p
+010ce2 r
+010ce4 s
+010ce5 sz
+010ce6 t
+010ce8 ty
+010ceb ú
+010cec ü
+010ced ü, ű
+010cee v
+010cef z
+010cf0 zs
+010d1a gan
+010d1b nayya
+010d1d aa-for
+010d1e i-for
+010d1f u-for
+010d20 e-for
+010d21 o-for
+010f44 hooked resh
+010f81 hooked resh
+0111db siddhirastu
+011293 tra
+01133b vindu
+011442 tutisaalaa
+011443 milaaphuti
+011444 sinhaphuti
+011445 liphuti
+011447 sulaa
+011448 baadipu
+01144b dipu
+01144d jhaasu
+01144e thaayjaayekaa
+011450 guli
+011451 chi
+011452 nasi
+011453 swa
+011454 pi
+011455 njaa
+011456 khu
+011457 nhasa
+011458 cyaa
+011459 gu
+01145b jaayekaa
+01145d tansaa
+0114c2 halant
+0114c5 vedic anusvara
+0115c1 siddhirastu
+01163f halant
+01193d sukun
+011941 repha
+011aa2 cintamani, candamani
+011fc0 munthiri
+011fc1 araikkaani
+011fc2 kaani
+011fc3 kaal viisam
+011fc4 arai maa
+011fc5 arai viisam
+011fc6 mukkaani
+011fc7 mukkaal viisam
+011fc8 maa
+011fc9 viisam/maakaani
+011fca viisam/maakaani
+011fcb irumaa
+011fcc araikkaal
+011fcd mummaa
+011fce muuviisam/mummaamukkaani
+011fcf naangu maa
+011fd0 kaal
+011fd1 arai
+011fd2 arai
+011fd3 mukkaal
+011fda marakkaal
+011fe3 veeli
+011fe4 nansey
+011fe5 punsey
+011fe6 nilam
+011fe7 uppalam
+011fe8 varavu
+011fe9 enn
+011fea naalathu
+011feb silvaanam/sillarai
+011fec poga
+011fed aaga
+011fee vasam
+011fef muthal
+011ff0 et cetera
+011ff1 et cetera
+012326 kalam gunû
+013430 sign separator: subordination
+013431 sign separator: juxtaposition
+014400 ego
+014401 ego2
+014403 mons2
+014405 adorare
+014406 edere
+014407 bibere
+014408 amplecti
+014409 caput
+01440a caput+scalprum
+01440c statua
+01440e prae; logosyllabic pari
+01440f domina
+014410 magnus.domina
+014411 rex
+014412 magnus.rex
+014413 syllabic á
+014415 heros
+014416 loqui
+014418 lis
+014419 oculus
+01441a frons
+01441b versus
+01441c libare
+01441d fortis
+01441e syllabic tá
+014420 ligare, pugnus+pugnus
+014421 bracchium
+014423 post
+014424 syllabic na
+014425 lituus+na
+014428 pugnus
+014429 pugnus+x
+01442b capere; syllabic tà
+01442c syllabic tà
+01442d capere2.capere2; syllabic ta-x?
+01442e capere2
+014430 infans, filius, frater
+014431 filia
+014432 rex.infans, rex.filius
+014433 rex.filia
+014434 magnus.filia
+014437 syllabic a+tá
+01443a manus.culter
+01443b manus+culter, ensis
+01443d syllabic nì
+01443e syllabic ká
+01443f infra, sub; syllabic ká
+014440 cum
+014441 manus
+014444 longus, manus+minus?
+014447 ponere
+014448 dare; syllabic pi
+014449 syllabic pi
+01444a mandare, dare.dare
+01444b mandare2
+01444f super; logosyllabic sara/i
+014452 audire, auris+tu+mi
+014457 ala
+014458 femina, mater
+014459 Sarma
+01445a Sarma2
+01445b crus; syllabic ta6
+01445c crus+flumen
+01445d crus2; syllabic nà
+01445e genuflectere
+01445f crus.crus
+014462 syllabic tu
+014463 pes; syllabic ti
+014464 pes.scala.rotae
+014466 pes2
+014468 pes2.pes2
+014469 pes2.pes
+01446a leo, bestia
+01446b leo2
+01446c canis
+01446d canis2
+01446e equus
+01446f asinus; syllabic ta
+014470 syllabic ta
+014471 asinus2
+014472 asinus2a
+014473 cervus; syllabic rú
+014474 cervus2; syllabic rú
+014475 cervus3; syllabic rú
+014476 capra; syllabic sà
+014477 syllabic sà
+014478 capra2; syllabic sà
+014479 capra2a; syllabic sà
+01447a bos; syllabic u
+01447b bos; syllabic u
+01447c bos2; syllabic u
+01447e bos+mi; syllabic mu; logosyllabic muwa
+01447f syllabic mu; logosyllabic muwa
+014480 bos.mi; syllabic mu; logosyllabic muwa
+014481 bos2.mi; syllabic mu; logosyllabic muwa
+014482 cornu; sú
+014483 vitellus; syllabic ma-x
+014484 ovis; syllabic ma
+014485 syllabic ma
+014486 ovis2; syllabic ma
+014487 ovis3
+014488 lingere; syllabic za4
+01448a lituus+u
+01448b lepus; logosyllabic tapa
+01448c lepus2; logosyllabic tapa
+014491 gryllus
+014492 sphinx
+014496 syllabic lí
+014497 ungula; syllabic li-x
+01449a avis; zi4
+01449c avis3
+01449d avis5
+01449e avis2
+01449f aquila, avis4; syllabic ara/i
+0144a0 syllabic ara/i
+0144a1 avis-x
+0144a4 libatio
+0144a5 piscis
+0144af Janus
+0144b2 Telipinu
+0144b4 syllabic nu
+0144bb vitis; syllabic wi
+0144c0 bonus; syllabic wà/ì
+0144c1 syllabic wá/í
+0144c7 syllabic ta/i5, lá/í
+0144c8 hastarius
+0144c9 syllabic si
+0144ca lingua; syllabic la
+0144cb syllabic la+la
+0144cc lingua+clavus
+0144cd syllabic la+ra+a
+0144ce hordeum; syllabic hwi-x
+0144d0 panis; syllabic pa-x
+0144d1 caelum
+0144d9 sol2
+0144da sol
+0144db oriens
+0144dc luna
+0144df Hatti; syllabic há
+0144e0 Hatti+li, Hattusili; logosyllabic há-li
+0144e2 tonitrus
+0144e3 fulgur
+0144e4 terra, locus; syllabic wa/i6
+0144e5 via+terra.scalprum
+0144e6 via+terra+scalprum
+0144e7 via+terra
+0144e9 syllabic wa/i5
+0144ec mons; syllabic wa/i5
+0144ed leo+mons.tu+leo
+0144ef syllabic i, i
+0144f0 syllabic i+ra/i, ri+i
+0144f1 syllabic ia
+0144f3 flumen
+0144f5 syllabic ní
+0144f6 fons
+0144f7 syllabic ha
+0144f8 fines; syllabic arha
+0144f9 fines+ha, arha
+0144fe via
+014500 syllabic sa6
+014501 syllabic ha? pa?
+014502 urbs
+014503 Ishuwa
+014504 urbs+ra/i?+li, urbs+ra/i?-li
+014505 urbs+li, urbs-li, Mursili
+014506 regio; syllabic tu4
+014507 syllabic mí.regio
+014509 castrum
+01450d turris?
+01450e murus?
+01450f porta
+014511 porta2
+014513 syllabic ki-x
+014515 cubitum
+014516 aedificium
+014517 vacuus, aedificium+minus
+014518 aedificare, aedificium.ponere
+014519 domus
+01451a delere, domus+minus
+01451b deus.domus
+01451c magnus.domus
+01451d domus+x
+01451e domus+scala
+014520 eunuchus2
+014521 horreum
+014523 argentum
+01452a podium
+01452c pes.regio
+01452d stele, lapis+scalprum
+01452e lapis
+01452f scalprum
+014530 exercitus
+014533 scutum
+014537 frater2
+014538 iudex.la, iudex+la
+014539 syllabic li
+01453b malleus; syllabic wa/i9
+01453c ascia
+01453e logosyllabic tuzzi
+014540 iaculum; syllabic zu?; logosyllabic zuwa
+014541 syllabic wa/i7
+014543 currus
+014544 auriga
+014545 auriga2
+014546 syllabic hara/i
+014547 syllabic lì
+014548 rota; logosyllabic hala/i
+01454a thronus, mensa
+01454b thronus, mensa2; Sarpa
+01454c sol2.thronus/mensa
+01454d mons.mensa; thronus
+01454f thronus2
+014550 solium; syllabic í
+014551 syllabic iá
+014552 nepos
+014553 lectus
+014555 syllabic sara/i
+014556 syllabic mà
+014557 fusus
+014558 syllabic hí
+014559 syllabic hu
+01455b crux
+01455c crux2
+014560 vir; syllabic zí
+014561 syllabic ha-x
+014562 syllabic kar
+014563 syllabic sa7
+014565 Teshub
+014566 syllabic ta/i4, la/i
+014569 purus
+01456c syllabic tú
+01456d scriba; syllabic tù
+01456e sigillum; syllabic sa5
+01456f syllabic pu
+014570 relative; syllabic kwi/a
+014572 capere+scalprum
+014573 avus
+014574 negative
+014575 negative2; syllabic ná
+014576 negative3
+014578 syllabic pa
+014579 syllabic zá
+01457a annus, pithos.scutella, pithos; syllabic zì
+01457b syllabic zì
+01457c syllabic zà
+01457d syllabic za-x
+01457e pithos
+01457f culter
+014581 annus+annus
+014582 vas
+014584 pithos
+014585 contractus
+014586 urceus
+014587 poculum
+014588 syllabic hú
+014590 sacerdos
+014593 dies
+014596 deus
+014598 syllabic má
+014599 magnus; syllabic ur
+01459a syllabic u
+01459b syllabic mu
+01459d omnis
+01459e logosyllabic tala
+01459f malus
+0145a0 malus2
+0145a1 vita
+0145a2 bonus2; syllabic su
+0145a3 iustitia, iudex
+0145a4 iudex+ra/i, tara/i-x
+0145a5 sacerdos2
+0145a9 syllabic zi, zi/a
+0145aa syllabic za
+0145ab lituus
+0145ac occidens; syllabic ià
+0145ad one; unus; syllabic sa8
+0145ae minus
+0145af mori, vir2.minus
+0145b0 lignum
+0145b2 personal determinative
+0145b3 two
+0145b4 two
+0145b5 vir2; word divider
+0145b6 vir2a
+0145b7 servus; syllabic mì
+0145b8 three; tara/i
+0145b9 tara/i
+0145ba dominus
+0145bb four; syllabic mi
+0145bc five
+0145bd eight
+0145bf nine; syllabic nú
+0145c1 ten; decem
+0145c3 hundred; centum
+0145c4 thousand; mille
+0145c6 scutella; syllabic sa4
+0145c8 animal
+0145d0 syllabic ni
+0145d1 syllabic ru
+0145d2 syllabic hi
+0145d4 syllabic sa
+0145d6 syllabic sa-x
+0145d8 syllabic mí; logosyllabic urhi
+0145da syllabic us
+0145db panis.scutella
+0145dc syllabic ku
+0145e2 syllabic tana
+0145e3 omnis2; syllabic pú
+0145e5 syllabic zu?
+0145e6 syllabic sá
+0145e7 syllabic ka
+0145e8 syllabic a-x?
+0145eb pastor
+0145ec syllabic wa/i
+0145f2 syllabic la, li, lu
+0145f3 syllabic ki
+0145f4 syllabic ni-x
+0145f5 syllabic sù?, zú?
+0145f7 syllabic a; end of a word
+0145f8 a+ra/i, ra+a
+0145f9 logosyllabic huru
+0145fd syllabic la-x
+0145fe syllabic sí?
+014605 syllabic ma-x?
+01460d twelve
+014611 eunuchus
+014614 flammae?
+01461d falx?
+01461f syllabic tí
+01462e syllabic hana
+014630 currere; syllabic hwi/a
+014640 propheta?, cornu+caput
+014641 princeps
+014642 Güterbock G195
+014643 aper
+014644 tì
+014645 lingua+x
+016a4a i
+016a5d o
+016b00 keem
+016b01 kee
+016b02 kim
+016b03 ki
+016b04 kaum
+016b05 kau
+016b06 kum
+016b07 ke
+016b08 kem
+016b0a kaim
+016b0b kai
+016b0f kaw
+016b10 kuam
+016b11 kua
+016b12 kom
+016b13 kog
+016b15 kia
+016b16 kam
+016b18 kwm
+016b1a kaam
+016b5b caum
+016b5c pua
+016b5d vam
+016b5e roob
+016b5f neev
+016b60 ruav
+016b61 tas
+016b64 year
+016b65 month
+016b66 month
+016b67 date
+016b68 day
+016b69 waning moon
+016b6a waxing moon
+016b6b season
+016b6c earth
+016b6d urgent
+016b6e facts
+016b6f received
+016b70 come
+016b71 go
+016b72 smooth
+016b73 fraction
+016b74 do not open
+016b75 do not touch
+016b76 give freely
+016b77 stop
+016b7d Cheng
+016b7e Yeng
+016b7f Lee
+016b80 Lor
+016b81 Xiong
+016b82 Kong
+016b83 Her
+016b84 Moua
+016b85 Thao
+016b86 Chang
+016b87 Pha
+016b88 Khang
+016b89 Hang
+016b8a Vang
+016b8b Fang
+016b8c Yang
+016b8d Chue
+016b8e Kw
+016b8f Vue
+01bca2 Romanian affix -tsion-; Sloan contracted ending oo/o + ZWSP
+01bca3 Sloan contracted ending uh/au/aui + ZWSP
+01cf33 ottyazhka
+01cf3b sokolik
+01cf54 kryuk klyuchevoy
+01cf62 golubchik nepostoyanny
+01cf66 vrakhia nepostoyannaya
+01cf6a vrakhia klyuchevaya nepostoyannaya
+01cf75 skameytsa klyuchevaya
+01cf85 litso
+01cf94 strela polukryzhevaya
+01cfa6 strela gromomrachnaya s kryzhem
+01cfb1 osoka nepostoyannaya
+01cfbd strela kryukovaya gromomrachnaya s kryzhem
 01d13a double whole-rest, breve rest
 01d13b semibreve rest
 01d13c minim rest
@@ -1281,6 +1895,26 @@
 01d516 Septuagint, Greek Old Testament
 01d6a4 \imath
 01d6a5 \jmath
+01e130 som thwb
+01e131 som thwm
+01e132 som thwj
+01e133 som thwv
+01e134 som thws
+01e135 som thwg
+01e136 som thwd
+01e137 oov
+01e138 pes
+01e139 khab theeb
+01e13a khuam luas
+01e13b poos
+01e13d khu saim
+01e2ff rupee
+01ec9e 1 lakh; 100,000
+01ec9f 2 lakh; 200,000
+01eca1 1 crore; 10 million; 100 lakh
+01eca2 2 crore; 20 million; 200 lakh
+01ed1c thousands multiplier
+01ed2e meretten, merre
 01f004 hongzhong
 01f005 qingfa
 01f006 baiban
@@ -1294,8 +1928,11 @@
 01f02a baida
 01f0ab valet, Bube, Unter, Page, fante; page of swords
 01f0ac chevalier, Ober, Ritter, cavall, cavaliere; knight of swords
-01f0ad dame, Dame, K�nigin, regina; queen of swords
-01f0ae roi, K�nig, re; king of swords
+01f0ad dame, Dame, Königin, regina; queen of swords
+01f0ae roi, König, re; king of swords
+01f10d no rights reserved
+01f10e share alike
+01f10f non commercial
 01f12b compact disc, single disc record
 01f12c disc record
 01f130 Anreisetag
@@ -1318,12 +1955,16 @@
 01f15b light rail
 01f15c metro
 01f15f parking space
-01f161 Rastst�tte
+01f161 Raststätte
 01f162 Stadtbahn
 01f163 Tankstelle
 01f164 underground rail
 01f16a marque de commerce
-01f16b marque d�pos�e
+01f16b marque déposée
+01f16c marca registrada
+01f16d Creative Commons license
+01f16e public domain
+01f16f attribution, credit
 01f170 blood type A
 01f171 blood type B
 01f172 centre, city centre
@@ -1348,6 +1989,13 @@
 01f198 search, hunt for missing person
 01f199 new information, update
 01f19a versus
+01f1a5 data
+01f1a6 hybrid cast
+01f1a7 high dynamic range
+01f1a8 high resolution
+01f1aa super high vision
+01f1ab ultra-high definition
+01f1ac video on demand
 01f200 and others
 01f201 here sign
 01f202 service sign
@@ -1394,6 +2042,7 @@
 01f238 application sign
 01f239 discount sign
 01f23a in business sign
+01f23b program delivery over network
 01f240 home run
 01f241 triple
 01f242 double
@@ -1406,8 +2055,21 @@
 01f250 advantage sign
 01f251 accept sign
 01f300 typhoon, hurricane
+01f30a tsunami, tidal wave
 01f313 half moon
 01f314 waxing moon
+01f321 temperature, warm
+01f322 droplet
+01f323 sunny
+01f324 mostly sunny
+01f325 mostly cloudy
+01f326 showers
+01f327 rain
+01f328 snow, snow showers
+01f329 lightning, thunderstorm
+01f32a tornado, twister
+01f32c wind
+01f336 hot, spicy
 01f33c daisy
 01f346 eggplant
 01f354 fast food place
@@ -1419,11 +2081,23 @@
 01f36a biscuit
 01f373 frying pan, cooking utensil
 01f374 restaurant, meal
+01f378 lounge
 01f37b cheers
+01f37d dining
 01f383 Hallowe'en
 01f385 Santa Claus
 01f38a congratulations
 01f38b tanabata tree with wishing papers
+01f393 mortarboard, education
+01f394 favorite
+01f395 occasion
+01f398 midi, midi keyboard, master keyboard with plugs
+01f399 microphone
+01f39a level control
+01f39b audio control
+01f39c musical performance; music, musical background
+01f39e film clip
+01f39f ticket
 01f3a0 amusement park
 01f3a1 amusement park
 01f3a3 fishing
@@ -1434,30 +2108,52 @@
 01f3a8 art
 01f3a9 drama, performing arts, theater
 01f3aa event
+01f3ac film
+01f3ad theater masks, theater
 01f3ae video game controller
 01f3af archery target, hitting the target
+01f3b1 magic 8-ball
 01f3b4 flower cards
 01f3b5 music, being in good mood
 01f3b6 dancing notes, mood, melody
+01f3bd ekiden
 01f3be tennis
 01f3bf skiing
 01f3c0 basketball
 01f3c1 motor sports
 01f3c3 running, marathon, track and fields
 01f3c4 surfing
+01f3cb health
+01f3cd motorcycle
+01f3ce race car
+01f3d5 camping site
+01f3d7 under construction
+01f3d8 town
+01f3d9 skyline, city
+01f3da derelict site
+01f3db public building
+01f3dd island
 01f3e1 home, house with yard
 01f3e7 ATM
 01f3ed industrial production site; date of production
 01f3ee japanese izakaya restaurant
+01f3f3 flag
+01f3f7 price, price tag
+01f3f9 archery
 01f404 beef
+01f40e equestrian sports
 01f413 cock
 01f414 hen; poultry
 01f416 pork
 01f41e ladybird, ladybug, coccinellids
+01f422 tortoise, terrapin
+01f43f animal, critter
+01f441 sight
 01f44a punch
 01f45f runner, sneaker, tennis shoe
 01f464 guest account
 01f465 accounts
+01f46a rated for family
 01f485 manicure, nail care
 01f48b lips
 01f48d jewelry
@@ -1481,11 +2177,15 @@
 01f4eb mailbox containing mail
 01f4ee mailbox for sending mail
 01f4f6 cellular reception
+01f4f9 video
+01f4fd movies
+01f4fe stereo
 01f500 shuffle
 01f501 repeat
 01f502 repeat one item over
 01f503 reload
 01f504 reload
+01f508 left speaker
 01f50a sound
 01f50d search
 01f50e get more details
@@ -1496,12 +2196,84 @@
 01f524 English input
 01f526 flashlight
 01f52a Japanese kitchen knife
+01f52b handgun, revolver
 01f53c play arrow up
 01f53d play arrow down
+01f53e circle shadow down
+01f546 cross outline
+01f54a peace
+01f54e hanukiah
+01f56b sound off
+01f56c sound on
+01f570 clock
+01f573 portable hole
+01f574 jump
+01f575 investigate
+01f576 cool
+01f57c fax
+01f57d telephone handset
+01f580 modem
+01f581 cellular phone
+01f583 mail
+01f584 e-mail
+01f585 send message
+01f587 links
+01f588 marker
+01f589 pencil
+01f58a ballpoint pen
+01f58b fountain pen
+01f58c brush
+01f58d crayon
+01f590 halt
+01f596 Vulcan salute
+01f5a5 tower computer
+01f5a7 computer network
+01f5a9 calculator
+01f5aa disk
+01f5ae keyboard
+01f5b2 ballpoint
+01f5b3 personal computer
+01f5b5 monitor
+01f5b8 compact disc
+01f5bb graphic document
+01f5bc art
+01f5bd frames
+01f5be no frames, no picture
+01f5c0 directory
+01f5c2 index
+01f5c3 archive
+01f5d1 trashcan
+01f5d2 note, empty calendar
+01f5d3 calendar, day 1
+01f5d7 overlapping offset windows
+01f5d8 refresh
+01f5d9 close
+01f5dd encryption
+01f5de news
+01f5df classified
+01f5e0 finance
+01f5e1 rated for violence; hate
+01f5e2 rated for sex; kiss
+01f5e3 rated for strong language
+01f5ea chat
+01f5eb conference
+01f5ee shout left
+01f5ef shout right
+01f5f0 new
+01f5f1 updated
+01f5f2 lightning bolt
+01f5f3 vote
+01f5f4 x mark
+01f5f8 check
 01f64c banzai!
+01f66a fourfold knot ornament
+01f66b inverse fourfold knot ornament
+01f670 italic ampersand lowercase
+01f675 italic ampersand
 01f686 intercity train
 01f687 subway, underground train
 01f689 train, subway station
+01f6a2 cruise line vacation
 01f6a8 rotating beacon
 01f6a9 location information
 01f6b6 walking
@@ -1509,6 +2281,30 @@
 01f6ba woman symbol; women's restroom
 01f6bb man and woman symbol with divider; unisex restroom
 01f6bc baby on board, baby changing station
+01f6c6 caution
+01f6c8 information
+01f6cb furniture, lifestyles
+01f6cc hotel, guestrooms
+01f6cd shopping
+01f6ce reception, services
+01f6d1 stop sign
+01f6d2 shopping cart
+01f6e0 tools, repair facility
+01f6e1 US road interstate highway
+01f6e2 commodities
+01f6e4 railroad
+01f6e5 boat
+01f6e6 military airport
+01f6e7 commercial airport
+01f6e8 airfield
+01f6eb departures
+01f6ec arrivals
+01f6f1 fire
+01f6f2 train
+01f6f3 cruise line vacation
+01f6f7 sledge, toboggan
+01f6f8 UFO
+01f6fa tuk-tuk, remorque
 01f707 balneum arenae
 01f708 spiritus vini
 01f70a crucible; acid; distill; atrament; vitriol; red sulfur; borax; wine; alkali salt; mercurius vivus, quick silver
@@ -1520,7 +2316,7 @@
 01f71f regulus martis, scoria from refining stibnite/antimony with iron
 01f723 crocus veneris, aes ustum
 01f725 crocus of copper, crocus veneris, lapis haematites
-01f728 aes viride, copper subacetate; early astronomical symbol for earth
+01f728 aes viride, copper subacetate; astronomical symbol for earth
 01f72b stibnite
 01f72d cinnabar
 01f730 antimony metal
@@ -1552,3 +2348,64 @@
 01f771 mensis
 01f772 drachma semis
 01f773 uncia semis
+01f774 pars fortunae
+01f790 heavy white square
+01f7c8 navigate
+01f923 rofl, rotfl
+01f926 frustration, disbelief
+01f927 Gesundheit
+01f936 Mrs. Claus
+01f938 gymnastics
+01f93a fencing
+01f93c wrestling
+01f942 celebration, formal toasting
+01f943 whisky
+01f946 marksmanship, shooting, hunting
+01f947 gold medal
+01f948 silver medal
+01f949 bronze medal
+01f94a boxing
+01f94b judo, karate, taekwondo
+01f952 pickle
+01f956 French bread
+01f958 paella, casserole
+01f959 döner kebab, falafel, gyro, shawarma
+01f95a chicken egg
+01f95b milk
+01f95e hotcakes, crêpes, blini
+01f95f potsticker, gyooza, jiaozi, pierogi, empanada
+01f961 take-away box, oyster pail
+01f962 kuaizi, hashi, jeotgarak
+01f969 porkchop, chop, steak
+01f996 Tyrannosaurus rex
+01f9d5 woman's headscarf, hijab
+01f9d6 sauna, steam room
+01f9d8 yoga, meditation
+01f9d9 wizard, witch, sorcerer, sorceress
+01f9dc mermaid, merman
+01f9e2 baseball cap
+01fa1f white grasshopper
+01fa22 white nightrider
+01fa25 black grasshopper
+01fa28 black nightrider
+01fa2b neutral grasshopper
+01fa2e neutral nightrider
+01fa4e amazon, terror, omnipotent queen, superqueen
+01fa4f chancellor, marshall, empress
+01fa50 cardinal, princess
+01fa60 hóng shuài
+01fa61 hóng shì
+01fa62 hóng xiàng
+01fa63 hóng mǎ
+01fa64 hóng jū
+01fa65 hóng pào
+01fa66 hóng bīng
+01fa67 hēi jiàng
+01fa68 hēi shì
+01fa69 hēi xiàng
+01fa6a hēi mǎ
+01fa6b hēi jū
+01fa6c hēi pào
+01fa6d hēi zú
+01fa74 flip flop
+01faaa ID
