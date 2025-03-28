@@ -22,16 +22,39 @@
 
 #define OUTPUTWIDGET_H
 
-#include <QTextEdit>
+#include <QGraphicsView>
+#include <QList>
 
-class OutputWidget: public QTextEdit {
+class OutputWidget: public QGraphicsView {
   Q_OBJECT;
 public:
-  OutputWidget(QWidget *parent=0);
+  OutputWidget(class Universe const &uverse, QWidget *parent=0);
+  virtual ~OutputWidget();
+  void resizeEvent(QResizeEvent *) override;
+  QFont const &font() const { return font_; }
+  void mousePressEvent(QMouseEvent *) override;
+  void mouseReleaseEvent(QMouseEvent *) override;
+  void mouseMoveEvent(QMouseEvent *) override;
+public slots:
+  void clear() { setTiles(QList<int>()); }
+  void setTiles(QList<int>, bool ellipses=false);
+  void setFont(QFont);
 signals:
-  void hoverChanged(QString);
-public:
-  void mouseMoveEvent(QMouseEvent *);
+  void hovered(int index);
+  void selected(QList<int> indices);
+private:
+  void setTileText(int index, int character);
+  void relayout();
+  int indexAt(QPoint);
+private:
+  class QGraphicsScene *scene;
+  QList<class QGraphicsTextItem *> tiles;
+  class QGraphicsRectItem *marker;
+  QSize tilesize;
+  Universe const &uverse;
+  QFont font_;
+  int pressidx;
 };
+
 
 #endif

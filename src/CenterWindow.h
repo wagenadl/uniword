@@ -34,19 +34,20 @@ public:
   QFont const &displayFont() const;
 public slots:
   void setDisplayFont(QFont f);
-  void selected();
-  void hovered(QString);
+  void select(QList<int>);
+  void hover(int);
 private:
   void useInput(QString const &s, bool definitive);
   void setComment(int c);
   void setEmptyComment();
   void setMultiComment();
-  int extractChar(QString);
+  int extractChar(int index);
 private:
   class OutputWidget *output;
   class QLineEdit *input;
   class QTextEdit *comment;
   Universe const &uverse;
+  QList<int> options;
 };
 
 #endif
