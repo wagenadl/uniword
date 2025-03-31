@@ -34,6 +34,8 @@ public slots:
   void sHelp();
   void sFont();
   void sQuit();
+  void sMissing(bool);
+  void sMerging(bool);
 private:
   class CenterWindow *cw;
   QString helpText;
