@@ -42,10 +42,22 @@ MainWindow::MainWindow(Universe &uverse) {
   QMenu *mView = new QMenu("View", this);
   QMenu *mHelp = new QMenu("Help", this);
 
-  connect(mFile->addAction("Quit"), SIGNAL(triggered(bool)), SLOT(sQuit()));
-  connect(mView->addAction("Font..."), SIGNAL(triggered(bool)), SLOT(sFont()));
-  connect(mHelp->addAction("About"), SIGNAL(triggered(bool)), SLOT(sAbout()));
-  connect(mHelp->addAction("Contents"), SIGNAL(triggered(bool)), SLOT(sHelp()));
+  connect(mFile->addAction("Quit"), &QAction::triggered, this, &MainWindow::sQuit);
+  connect(mView->addAction("Font..."), &QAction::triggered, this, &MainWindow::sFont);
+  QAction *a;
+  a = mView->addAction("Show glyphs imported from substitute fonts");
+  a->setCheckable(true);
+  a->setChecked(false);
+  connect(a, &QAction::triggered, this, &MainWindow::sMerging);
+  cw->setMerging(false);
+  a = mView->addAction("Show codepoints without any available glyph");
+  a->setCheckable(true);
+  a->setChecked(false);
+  connect(a, &QAction::triggered, this, &MainWindow::sMissing);
+  cw->setExclude(true);
+   
+  connect(mHelp->addAction("About"), &QAction::triggered, this, &MainWindow::sAbout);
+  connect(mHelp->addAction("Contents"), &QAction::triggered, this, &MainWindow::sHelp);
 
   menuBar()->addMenu(mFile);
   menuBar()->addMenu(mView);
@@ -94,4 +106,13 @@ void MainWindow::sFont() {
 
 void MainWindow::sQuit() {
   QApplication::quit();
+}
+
+void MainWindow::sMissing(bool x) {
+  cw->setExclude(!x);
+}
+
+
+void MainWindow::sMerging(bool x) {
+  cw->setMerging(x);
 }

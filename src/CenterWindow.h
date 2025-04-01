@@ -37,6 +37,8 @@ public slots:
   void select(QList<int>);
   void hover(int);
   void recount();
+  void setExclude(bool);
+  void setMerging(bool);
 private:
   void useInput(QString const &s);
   void setComment(int c);
@@ -50,6 +52,8 @@ private:
   Universe const &uverse;
   QList<int> options;
   bool definitive;
+  bool includemissing;
+  bool allowmerging;
 };
 
 #endif

@@ -45,6 +45,8 @@ CenterWindow::CenterWindow(Universe const &uverse,
   uverse(uverse) {
   resize(300,280);
 
+  includemissing = false;
+  allowmerging = false;
   input = new QLineEdit;
   input->setFixedHeight(40);
 
@@ -101,11 +103,15 @@ void CenterWindow::useInput(QString const &s) {
     return;
   }
 
-  foreach (int c, cc)
-    options.push_back(c);
-  
-  std::sort(options.begin(), options.end());
+  QFontMetrics fm(displayFont());
+
   int MAXGLYPHS = definitive ? 500 : output->fittableGlyphs() - 2;
+  QList<int> chars = cc.values();
+  std::sort(chars.begin(), chars.end());
+  for (int c: chars) 
+    if (options.size() <= MAXGLYPHS && (includemissing || fm.inFontUcs4(c)))
+      options << c;
+
   bool toolong = options.size()>MAXGLYPHS;
   if (toolong) 
     while (options.size() > MAXGLYPHS)
@@ -181,6 +187,10 @@ void CenterWindow::setComment(int chr) {
 }
 
 void CenterWindow::setDisplayFont(QFont f) {
+  f.setStyleStrategy(QFont::StyleStrategy(QFont::PreferDefault
+                                          | (allowmerging ? 0 : QFont::NoFontMerging)
+                                          | QFont::PreferQuality
+                                          | QFont::PreferNoShaping));
   output->setFont(f);
 }
 
@@ -193,4 +203,21 @@ void CenterWindow::hover(int index) {
     setComment(options[index]);
   else
     setMultiComment();
+}
+
+void CenterWindow::setExclude(bool x) {
+  bool incl = !x;
+  if (incl != includemissing) {
+    includemissing = incl;
+    useInput(input->text());
+  }
+}
+
+
+void CenterWindow::setMerging(bool x) {
+  if (x != allowmerging) {
+    allowmerging = x;
+    setDisplayFont(displayFont());
+    useInput(input->text());
+  }
 }
