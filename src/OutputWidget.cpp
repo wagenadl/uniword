@@ -18,7 +18,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <QDebug>
 #include "OutputWidget.h"
+#include <QApplication>
 #include <QTextDocument>
 #include <QTextCursor>
 #include <QMouseEvent>
@@ -31,13 +33,17 @@ OutputWidget::OutputWidget(Universe const &uverse, QWidget *parent):
   setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
   scene = new QGraphicsScene(QRectF(0, 0, 10, 10));
+  setAlignment(Qt::AlignLeft | Qt::AlignTop);
+  columns = 8;
+  minrows = 3;
   setScene(scene);
-  tilesize = QSize(32, 32);
+  setFont(QFont());
   marker = new QGraphicsRectItem();
   marker->setBrush(QColor(220, 220, 220));
   marker->setPen(QPen(Qt::NoPen));
   scene->addItem(marker);
   marker->hide();
+  //  resize((columns+0.5)*tilesize.width(), 3.5*tilesize.height());
   relayout();
 }
 
@@ -49,13 +55,22 @@ OutputWidget::~OutputWidget() {
 
 void OutputWidget::resizeEvent(QResizeEvent *e) {
   QGraphicsView::resizeEvent(e);
+  columns = int(viewport()->size().width()/(tilesize.width() + .01) + 0.3);
+  if (columns < 4)
+    columns = 4;
   relayout();
+  emit resized();
 }
 
-void OutputWidget::setTiles(QList<int> characters, bool ellipses) {
-    marker->hide();
+void OutputWidget::clear() {
+   setTiles(QList<int>());
+}
+
+void OutputWidget::setTiles(QList<int> characters, bool ellipsis) {
+  minrows = 1;
+  marker->hide();
  
-  int length = characters.size() + (ellipses ? 1 : 0);
+  int length = characters.size() + (ellipsis ? 1 : 0);
   while (tiles.size() > length)
     delete tiles.takeLast();
   while (tiles.size() < length) {
@@ -66,7 +81,7 @@ void OutputWidget::setTiles(QList<int> characters, bool ellipses) {
   }
   for (int k=0; k<characters.size(); k++) 
     setTileText(k, characters[k]);
-  if (ellipses)
+  if (ellipsis)
     tiles[length-1]->setHtml("(…)");
   relayout();
   emit selected(QList<int>());
@@ -101,7 +116,6 @@ void OutputWidget::setTileText(int index, int character) {
   
 
 void OutputWidget::relayout() {
-  int columns = 8;
   for (int k=0; k<tiles.size(); k++) {
     int x = k % columns;
     int y = k / columns;
@@ -111,19 +125,20 @@ void OutputWidget::relayout() {
     tiles[k]->setPos(x, y);
   }
   int rows = (tiles.size() + columns - 1) / columns;
-  if (rows < 3)
-    rows = 3;
-  setSceneRect(QRectF(0, 0, columns*tilesize.width(),
-                      rows*tilesize.height()));
+  if (rows < minrows)
+    rows = minrows;
+  setSceneRect(QRectF(0, 0, (columns+0.2)*tilesize.width(),
+                      (rows+0.2)*tilesize.height()));
+  setTransform(QTransform());
 }
 
 void OutputWidget::setFont(QFont f) {
+  QFontMetrics fm(f);
+  QSize s = fm.boundingRect("[W]").size();
+  tilesize = QSize(s.width(), 10*s.height()/9);
   font_ = f;
   for (auto tile: tiles)
     tile->setFont(f);
-  QFontMetrics fm(f);
-  QSize s = fm.boundingRect("[W]").size();
-  tilesize = s + QSize(4, 8);
   relayout();
 }
 
@@ -137,12 +152,15 @@ int OutputWidget::indexAt(QPoint p) {
 }
 
 void OutputWidget::mousePressEvent(QMouseEvent *e) {
+  QGraphicsView::mousePressEvent(e);
   pressidx = indexAt(e->pos());
   if (pressidx >= 0)
     emit selected(QList<int>{pressidx});
+  e->accept();
 }
 
 void OutputWidget::mouseReleaseEvent(QMouseEvent *e) {
+  QGraphicsView::mouseReleaseEvent(e);
   int relidx = indexAt(e->pos());
   if (relidx >=0 && pressidx >=0 && relidx != pressidx) {
     QList<int> indices;
@@ -154,6 +172,7 @@ void OutputWidget::mouseReleaseEvent(QMouseEvent *e) {
         indices << k;
     emit selected(indices);
   }
+  e->accept();
 }
 
 void OutputWidget::mouseMoveEvent(QMouseEvent *e) {
@@ -161,11 +180,23 @@ void OutputWidget::mouseMoveEvent(QMouseEvent *e) {
   if (idx < 0) {
     marker->hide();
   } else {
-    marker->setRect(QRectF(QPointF((idx%8)*tilesize.width(),
-                                   (idx/8)*tilesize.height()),
-                           QSizeF(tilesize.width()*2/3,
+    marker->setRect(QRectF(QPointF((idx%columns)*tilesize.width(),
+                                   (idx/columns)*tilesize.height()),
+                           QSizeF(tilesize.width()*2./3,
                                   tilesize.height())));
     marker->show();
   }
   emit hovered(idx); // even -1
+}
+
+void OutputWidget::mouseDoubleClickEvent(QMouseEvent *) {
+  qDebug() << "double click";
+  emit quit();
+}
+
+int OutputWidget::fittableGlyphs() const {
+  int rows = int(viewport()->height() / (tilesize.height()+.01) - 0.2);
+  if (rows < minrows)
+    rows = minrows;
+  return rows * columns;
 }

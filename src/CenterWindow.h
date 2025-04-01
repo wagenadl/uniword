@@ -36,8 +36,9 @@ public slots:
   void setDisplayFont(QFont f);
   void select(QList<int>);
   void hover(int);
+  void recount();
 private:
-  void useInput(QString const &s, bool definitive);
+  void useInput(QString const &s);
   void setComment(int c);
   void setEmptyComment();
   void setMultiComment();
@@ -48,6 +49,7 @@ private:
   class QTextEdit *comment;
   Universe const &uverse;
   QList<int> options;
+  bool definitive;
 };
 
 #endif

@@ -49,11 +49,14 @@ CenterWindow::CenterWindow(Universe const &uverse,
   input->setFixedHeight(40);
 
   output = new OutputWidget(uverse);
-  output->clear();
   connect(output, &OutputWidget::selected,
           this, &CenterWindow::select);
   connect(output, &OutputWidget::hovered,
           this, &CenterWindow::hover);
+  connect(output, &OutputWidget::quit,
+          this, []() { qDebug() << "??"; QApplication::quit(); });
+  connect(output, &OutputWidget::resized,
+          this, &CenterWindow::recount);
 
   comment = new QTextEdit;
   comment->setFixedHeight(80);
@@ -74,15 +77,15 @@ CenterWindow::CenterWindow(Universe const &uverse,
   this->setLayout(layout);
 
   connect(input, &QLineEdit::textChanged,
-          [this]() { useInput(input->text(), false); });
+          [this]() { definitive=false; useInput(input->text()); });
   connect(input, &QLineEdit::returnPressed,
-          [this]() { useInput(input->text(), true); });
+          [this]() { definitive=true; useInput(input->text()); });
 }
 
 CenterWindow::~CenterWindow() {
 }
 
-void CenterWindow::useInput(QString const &s, bool definitive) {
+void CenterWindow::useInput(QString const &s) {
   options.clear();  
   if (QRegExp("[\\s.]*").exactMatch(s)) {
     output->clear();
@@ -102,7 +105,7 @@ void CenterWindow::useInput(QString const &s, bool definitive) {
     options.push_back(c);
   
   std::sort(options.begin(), options.end());
-  int MAXGLYPHS = definitive ? 500 : 22;
+  int MAXGLYPHS = definitive ? 500 : output->fittableGlyphs() - 2;
   bool toolong = options.size()>MAXGLYPHS;
   if (toolong) 
     while (options.size() > MAXGLYPHS)
@@ -122,6 +125,11 @@ void CenterWindow::setMultiComment() {
   comment->setHtml("");//<i>Hover over a character to see description.</i>");
 }
 
+void CenterWindow::recount() {
+  if (!definitive)
+    useInput(input->text());    
+}  
+
 void CenterWindow::select(QList<int> indices) {
   if (indices.isEmpty()) {
     // setEmptyComment();
@@ -129,6 +137,13 @@ void CenterWindow::select(QList<int> indices) {
   }
   QString text = "";
   bool one = indices.size() == 1;
+  qDebug() << one << indices[0] << options.size();
+  if (one && indices[0]==options.size()) {
+    // ellipsis clicked
+    definitive = true;
+    useInput(input->text());    
+    return;
+  }
   for (int idx: indices) {
     if (idx >=0 && idx < options.size()) {
       int c = options[idx];

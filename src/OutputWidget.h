@@ -30,18 +30,23 @@ class OutputWidget: public QGraphicsView {
 public:
   OutputWidget(class Universe const &uverse, QWidget *parent=0);
   virtual ~OutputWidget();
-  void resizeEvent(QResizeEvent *) override;
   QFont const &font() const { return font_; }
+  int fittableGlyphs() const;
+public:
+  void resizeEvent(QResizeEvent *) override;
   void mousePressEvent(QMouseEvent *) override;
   void mouseReleaseEvent(QMouseEvent *) override;
   void mouseMoveEvent(QMouseEvent *) override;
+  void mouseDoubleClickEvent(QMouseEvent *) override;
 public slots:
-  void clear() { setTiles(QList<int>()); }
-  void setTiles(QList<int>, bool ellipses=false);
+  void clear();
+  void setTiles(QList<int>, bool ellipsis=false);
   void setFont(QFont);
 signals:
   void hovered(int index);
   void selected(QList<int> indices);
+  void quit();
+  void resized();
 private:
   void setTileText(int index, int character);
   void relayout();
@@ -54,6 +59,8 @@ private:
   Universe const &uverse;
   QFont font_;
   int pressidx;
+  int columns;
+  int minrows;
 };
 
 
